@@ -8,7 +8,7 @@
 function config($key = '')
 {
     $config = [
-        'name' => 'Simple PHP Website',
+        'name' => 'Cinematic Explorer',
         'pretty_uri' => false,
         'site_url' => 'https://web-project-team-gao.herokuapp.com/',
         'nav_menu' => [
