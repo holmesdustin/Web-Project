@@ -17,7 +17,7 @@
 
     <!-- Header -->
     <header id="header">
-        <a class="logo"><?php site_name()?></a>
+        <a class="logo"><strong><?php site_name()?></strong></a>
         <nav>
             <a href="#menu">Menu</a>
         </nav>
