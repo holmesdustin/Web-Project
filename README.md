@@ -25,7 +25,7 @@ All images courtesy of Unsplash (https://unsplash.com).
 - Jay Mantri (https://unsplash.com/photos/TFyi0QOx08c)
 - Caleb George (https://unsplash.com/photos/URmkfvtK3Qw)
 
-# Bootstrap Template License
+# Website Template License
 
 - Creative Commons Attribution 3.0 Unported (http://creativecommons.org/licenses/by/3.0)
 
