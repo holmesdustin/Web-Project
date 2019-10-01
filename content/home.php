@@ -1,7 +1,11 @@
 <!-- Banner -->
 <section id="banner">
 	<div class="inner">
-		<input class="form-control" type="text" placeholder="Search" aria-label="Search">
+		<form class="form-inline active-cyan-3 active-cyan-4">
+			<i class="fas fa-search" aria-hidden="true"></i>
+			<input class="form-control form-control-sm ml-3 w-75" type="text" placeholder="Search" aria-label="Search">
+		</form>
+		<br><br>
 		<h1>OMDb Movie Search Engine<br>
 			created by Team Gao</h1>
 		<ul class="actions">
