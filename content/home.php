@@ -1,8 +1,8 @@
 <!-- Banner -->
 <section id="banner">
 		<div class="inner">
-			<h1>This is Binary, a free and fully responsive<br />
-				website template by <a href="https://templated.co">TEMPLATED</a></h1>
+			<h1>Cinematic Explorer - OMDb Movie Search Engine<br>
+			Serve-Side Web Project created by Team Gao</h1>
 			<ul class="actions">
 				<li><a href="#one" class="button alt scrolly big">Continue</a></li>
 			</ul>
