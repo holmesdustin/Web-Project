@@ -1,12 +1,10 @@
 <!-- Banner -->
 <section id="banner">
 	<div class="inner">
-		<div class="input-group md-form form-sm form-1 pl-0">
-			<div class="input-group-prepend">
-				<span class="input-group-text cyan lighten-2" id="basic-text1"><i class="fas fa-search text-white" aria-hidden="true"></i></span>
-			</div>
-			<input class="form-control my-0 py-1" type="text" placeholder="Search" aria-label="Search">
-		</div>
+		<form class="form-inline md-form mr-auto mb-4">
+			<input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+			<button class="btn btn-outline-warning btn-rounded btn-sm my-0" type="submit">Search</button>
+		</form>
 		<br><br>
 		<h1>OMDb Movie Search Engine<br>
 			created by Team Gao</h1>
