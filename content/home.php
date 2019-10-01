@@ -2,8 +2,8 @@
 <section id="banner">
 	<div class="inner">
 		<form class="form-inline md-form mr-auto mb-4 container">
-			<input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-			<button class="btn btn-outline-warning btn-rounded btn-sm my-0" type="submit">Search</button>
+			<input class="form-control mr-sm-2 container" type="text" placeholder="Search" aria-label="Search">
+			<button class="btn btn-outline-warning btn-rounded btn-sm my-0 container" type="submit">Search</button>
 		</form>
 		<br><br>
 		<h1>OMDb Movie Search Engine<br>
