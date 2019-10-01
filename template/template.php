@@ -16,7 +16,7 @@
     <!-- Header -->
     <header id="header">
         <a class="logo"><strong><?php site_name() ?></strong></a>
-        <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+    
         <nav>
             <a href="#menu">Menu</a>
         </nav>
