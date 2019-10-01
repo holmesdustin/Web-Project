@@ -1,8 +1,8 @@
 <!-- Banner -->
 <section id="banner">
 		<div class="inner">
-			<h1>Cinematic Explorer - OMDb Movie Search Engine</br>
-			Serve-Side Web Project created by Team Gao</h1>
+			<h1>OMDb Movie Search Engine<br>
+			created by Team Gao</h1>
 			<ul class="actions">
 				<li><a href="#one" class="button alt scrolly big">Continue</a></li>
 			</ul>
