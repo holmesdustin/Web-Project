@@ -17,20 +17,17 @@
 <!-- One -->
 <article id="one" class="post style1">
 	<div class="image">
-		<img src="images/pic14.jpg" alt="" data-position="75% center" />
+		<img src="https://m.media-amazon.com/images/M/MV5BMTczNTI2ODUwOF5BMl5BanBnXkFtZTcwMTU0NTIzMw@@._V1_SX300.jpg" alt="" data-position="75% center" />
 	</div>
 	<div class="content">
 		<div class="inner">
 			<header>
-				<h2><a href="generic.html">Ipsum lorem sed magna</a></h2>
-				<p class="info">3 days ago by <a href="#">Jane Doe</a></p>
+				<h2><a href="generic.html">Iron Man</a></h2>
+				<p class="info">2008</p>
 			</header>
-			<p>Nullam posuere erat vel placerat rutrum. Praesent ac consectetur dui, et congue quam. Donec aliquam
-				lacinia condimentum. Integer porta massa sapien, commodo sodales diam suscipit vitae. Aliquam quis
-				felis sed urna semper semper. Phasellus eu scelerisque mi. Vivamus aliquam nisl libero, sit amet
-				scelerisque ligula laoreet vel.</p>
+			<p>After being held captive in an Afghan cave, billionaire engineer Tony Stark creates a unique weaponized suit of armor to fight evil.</p>
 			<ul class="actions">
-				<li><a href="generic.html" class="button alt">Read More</a></li>
+				<li><a href="#" class="button alt">Read More</a></li>
 			</ul>
 		</div>
 		<div class="postnav">
