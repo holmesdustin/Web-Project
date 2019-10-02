@@ -1,15 +1,11 @@
 <!-- Banner -->
 <section id="banner">
-	<div class="inner">
-		<form class="form-inline md-form mr-auto mb-4 container">
-			<input class="form-control mr-sm-2 container" type="text" placeholder="Search" aria-label="Search">
-			<button class="btn btn-outline-warning btn-rounded btn-sm my-0" type="submit">Search</button>
-		</form>
-		<br><br>
+	<div class="inner">	
 		<h1>OMDb Movie Search Engine<br>
 			created by Team Gao</h1>
 		<ul class="actions">
-			<li><a href="#one" class="button alt scrolly big">Continue</a></li>
+			<li><input class="form-control mr-sm-2 container" type="text" placeholder="Search Something Here..." aria-label="Search"></li>
+			<li><a href="#one" class="button alt scrolly big">Search</a></li>
 		</ul>
 	</div>
 </section>
