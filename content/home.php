@@ -22,7 +22,7 @@
 	<div class="content">
 		<div class="inner">
 			<header>
-				<h2><a href="generic.html">Iron Man</a></h2>
+				<h2>Iron Man</h2>
 				<p class="info">2008</p>
 			</header>
 			<p>After being held captive in an Afghan cave, billionaire engineer Tony Stark creates a unique weaponized suit of armor to fight evil.</p>
