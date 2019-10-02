@@ -3655,8 +3655,8 @@ body {
 #banner input[type="email"],
 #banner select,
 #banner textarea {
-	background: rgba(255, 255, 255, 0.075);
-	border-color: rgba(255, 255, 255, 0.25);
+	background: rgba(99, 89, 89, 0.075);
+	border-color: rgba(73, 63, 63, 0.25);
 }
 
 #banner input[type="text"]:focus,
@@ -3664,12 +3664,12 @@ body {
 #banner input[type="email"]:focus,
 #banner select:focus,
 #banner textarea:focus {
-	border-color: #fff;
-	box-shadow: 0 0 0 1px #fff;
+	border-color: rgb(82, 75, 75);
+	box-shadow: 0 0 0 1px rgb(70, 74, 85);
 }
 
 #banner .select-wrapper:before {
-	color: rgba(255, 255, 255, 0.25);
+	color: rgba(63, 54, 54, 0.25);
 }
 
 #banner input[type="checkbox"]+label,
