@@ -3306,7 +3306,10 @@
 
 	#banner {
 		background-image: url("../images/bg_1.jpg");
-		color: rgba(255, 255, 255, 0.75);
+		background-color: #3498db;
+		background-position: center;
+		background-size: cover;
+		color: black;
 		text-align: center;
 		cursor: default;
 		padding: 10em 4em 9em 4em;
