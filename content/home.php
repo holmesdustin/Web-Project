@@ -6,7 +6,7 @@
 		<input type="text" placeholder="Title, Keyword..." aria-label="Search">
 		<br><br>
 		<ul class="actions">
-			<li><a href="#one" class="button alt scrolly big">Search</a></li>
+			<li><a href="#one" class="button alt scrolly">Search</a></li>
 		</ul>
 	</div>
 </section>
