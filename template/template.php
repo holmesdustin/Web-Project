@@ -8,7 +8,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="template/assets/css/main.css" />
-    
+     <script src="https://kit.fontawesome.com/404832b999.js" crossorigin="anonymous"></script>
+
+
 </head>
 
 <body>
@@ -16,9 +18,10 @@
     <!-- Header -->
     <header id="header">
         <a class="logo"><strong><?php site_name() ?></strong></a>
-    
+
         <nav>
             <a href="#menu">Menu</a>
+            <i class="fas fa-film"></i>
         </nav>
     </header>
 
@@ -52,9 +55,10 @@
     <script src="template/assets/js/skel.min.js"></script>
     <script src="template/assets/js/util.js"></script>
     <script src="template/assets/js/main.js"></script>
+
     <script>
         $("#button").click(function() {
-            
+
             $.ajax({
                 type: 'post',
                 url: '../includes/functions.php',
@@ -72,7 +76,7 @@
             return false;
         });
     </script>
-    
+
 
 </body>
 
