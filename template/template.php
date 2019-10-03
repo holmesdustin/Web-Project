@@ -55,7 +55,7 @@
     <script src="template/assets/js/skel.min.js"></script>
     <script src="template/assets/js/util.js"></script>
     <script src="template/assets/js/main.js"></script>
-   
+
     <script>
         $("#button").click(function() {
 
