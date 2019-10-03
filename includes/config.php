@@ -9,7 +9,7 @@ function config($key = '')
 {
     $config = [
         'name' => 'Cinematic Explorer',
-        'icon' => '<i class="fas fa-film"></i>'
+        'icon' => '<i class="fas fa-film"></i>',
         'pretty_uri' => false,
         'site_url' => 'https://web-project-team-gao.herokuapp.com/',
         'nav_menu' => [
