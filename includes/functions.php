@@ -22,12 +22,30 @@ function searchByKeyword()
     $result_num = sizeof($response["Search"]);
     for ($x = 0; $x < $result_num; $x++) {
         echo $response["Search"][$x]["Title"] . "<br>";
+        getDetailsByID($response["Search"][$x]["imdbID"]);
+        echo "=======================<br>";
     }
     curl_close($handle);
     
 
 }
-
+function getDetailsByID($id)
+{
+    $url = "http://www.omdbapi.com/?apikey=2b352ccb&i=" . $id;
+    $handle = curl_init();
+    curl_setopt($handle, CURLOPT_URL, $url);
+    curl_setopt_array(
+        $handle,
+        array(
+            CURLOPT_URL => $url,
+            CURLOPT_RETURNTRANSFER => true
+        )
+    );
+    $output = curl_exec($handle);
+    $response = json_decode($output, true);
+    echo "Year: " . $response["Year"] . "<br>";
+    echo "Plot: " . $response["Plot"] . "<br>";
+}
 /**
  * Displays site name.
  */
@@ -63,9 +81,9 @@ function nav_menu()
         $class = '';
         if (isset($_SERVER['QUERY_STRING'])) {
             $class = str_replace('page=', '', $_SERVER['QUERY_STRING']) == $uri ? 'active' : '';
-        }
+        } 
         $url = config('site_url') . '/' . (config('pretty_uri') || $uri == '' ? '' : '?page=') . $uri;
-        $nav_menu .= '<li class="nav-item ' . $class . '"> <a href="' . $url . '" icon="' . $icon . '" title="' . $name . '" class="nav-link ' . '">' . $name . '</a>' . '</li>';
+        $nav_menu .= '<li class="nav-item ' . $class . '"> <a href="' . $url . '" title="' . $name . '" class="nav-link ' . '">' . $name . '</a>' . '</li>';
     }
     echo trim($nav_menu);
 }
@@ -104,5 +122,3 @@ function init()
 {
     require config('template_path') . '/template.php';
 }
-
-?>
