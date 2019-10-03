@@ -49,6 +49,7 @@ function getDetailsByID($id)
     $response = json_decode($output, true);
     echo "Year: " . $response["Year"] . "<br>";
     echo "Plot: " . $response["Plot"] . "<br>";
+    echo "Poster: " . $response["Poster"] . "<br>";
 }
 /**
  * Displays site name.
