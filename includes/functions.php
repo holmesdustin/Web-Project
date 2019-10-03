@@ -29,6 +29,9 @@ function searchByKeyword()
     
 
 }
+/*
+ * This function is used for more detail about the movie by searching its imdbID
+*/
 function getDetailsByID($id)
 {
     $url = "http://www.omdbapi.com/?apikey=2b352ccb&i=" . $id;
