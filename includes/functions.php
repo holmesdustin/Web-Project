@@ -19,8 +19,13 @@ function searchByKeyword()
     );
     $output = curl_exec($handle);
     $response = json_decode($output, true);
+    $result_num = sizeof($response["Search"]);
+    for ($x = 0; $x < $result_num; $x++) {
+        echo $response["Search"][$x]["Title"] . "<br>";
+    }
     curl_close($handle);
-    echo $response;
+    
+
 }
 
 /**
