@@ -10,10 +10,8 @@
         <h2>We are <strong>Team Gao</strong></h2>
         <h4>Team members:</h4>
         <ul>
-            <li>Yujing Gao</li>
-            <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-            <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-            <li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+            <li>Yujing Gao <a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a> <a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+
             <li>Caleb Corbin</li>
             <li>Dustin Holmes</li>
             <li>Johnathan Stadtmueller</li>
