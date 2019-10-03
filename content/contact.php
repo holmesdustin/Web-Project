@@ -10,11 +10,11 @@
         <h2>We are <strong>Team Gao</strong></h2>
         <h4>Team members:</h4>
         <ul>
-            <li>Yujing Gao &nbsp &nbsp &nbsp<a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a> <a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+            <li>Yujing Gao <br><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a> <a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
 
-            <li>Caleb Corbin  &nbsp &nbsp &nbsp<a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a> <a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-            <li>Dustin Holmes  &nbsp &nbsp &nbsp<a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a> <a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-            <li>Johnathan Stadtmueller &nbsp &nbsp &nbsp <a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a> <a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+            <li>Caleb Corbin  <br><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a> <a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+            <li>Dustin Holmes  <br><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a> <a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+            <li>Johnathan Stadtmueller <br><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a> <a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
         </ul>
     </div>
 </section>
