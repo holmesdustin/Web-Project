@@ -60,7 +60,7 @@ function nav_menu()
             $class = str_replace('page=', '', $_SERVER['QUERY_STRING']) == $uri ? 'active' : '';
         } 
         $url = config('site_url') . '/' . (config('pretty_uri') || $uri == '' ? '' : '?page=') . $uri;
-        $nav_menu .= '<li class="nav-item ' . $class . '"> <a href="' . $url . '" title="' . $name . '" class="nav-link ' . '">' . $name . '</a>' . '</li>';
+        $nav_menu .= '<li class="nav-item ' . $class . '"> <a href="' . $url . '" title="' . $name . '" icon="' . $icon . '" class="nav-link ' . '">' . $name . '</a>' . '</li>';
     }
     echo trim($nav_menu);
 }
