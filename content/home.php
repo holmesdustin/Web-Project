@@ -3,7 +3,7 @@
 	<div class="inner">
 		<h1>OMDb Movie Search Engine<br>
 			created by Team Gao</h1>
-		<input type="text" placeholder="Title, Keyword..." aria-label="Search">
+		<input id="inputKey" type="text" placeholder="Title, Keyword..." aria-label="Search">
 		<br><br>
 		<ul class="actions">
 			<li><a id="button" href="#one" class="button alt scrolly">Search</a></li>

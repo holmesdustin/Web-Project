@@ -1,13 +1,14 @@
 <?php
 if (isset($_POST["search"])) {
-    searchByKeyword();
+    searchByKeyword($_POST["search"]);
 };
 /**
  * This Function is used to get search result from a specific URL
  */
-function searchByKeyword()
+function searchByKeyword($keyword)
 {
-    $url = "http://www.omdbapi.com/?apikey=2b352ccb&s=iron+man";
+    $keyword = str_replace(" ", "+", $keyword);
+    $url = "http://www.omdbapi.com/?apikey=2b352ccb&s=" . $keyword;
     $handle = curl_init();
     curl_setopt($handle, CURLOPT_URL, $url);
     curl_setopt_array(

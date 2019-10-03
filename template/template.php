@@ -58,12 +58,12 @@
 
     <script>
         $("#button").click(function() {
-
+            var keyword = $("#inputKey").val();
             $.ajax({
                 type: 'post',
                 url: '../includes/functions.php',
                 data: {
-                    "search": true
+                    "search": keyword
                 },
                 dataType: "HTML",
                 success: function(result) {
