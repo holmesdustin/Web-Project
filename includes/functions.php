@@ -1,4 +1,27 @@
 <?php
+if (isset($_POST["search"])) {
+    searchByKeyword();
+};
+/**
+ * This Function is used to get search result from a specific URL
+ */
+function searchByKeyword()
+{
+    $url = "http://www.omdbapi.com/?apikey=2b352ccb&s=iron+man";
+    $handle = curl_init();
+    curl_setopt($handle, CURLOPT_URL, $url);
+    curl_setopt_array(
+        $handle,
+        array(
+            CURLOPT_URL => $url,
+            CURLOPT_RETURNTRANSFER => true
+        )
+    );
+    $output = curl_exec($handle);
+    $response = json_decode($output, true);
+    curl_close($handle);
+    echo $response;
+}
 
 /**
  * Displays site name.

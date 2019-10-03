@@ -52,6 +52,26 @@
     <script src="template/assets/js/skel.min.js"></script>
     <script src="template/assets/js/util.js"></script>
     <script src="template/assets/js/main.js"></script>
+    <script>
+        $("#button").click(function() {
+            
+            $.ajax({
+                type: 'post',
+                url: '../includes/functions.php',
+                data: {
+                    "search": true
+                },
+                dataType: "HTML",
+                success: function(result) {
+                    $("#one").html(result);
+                },
+                error: function() {
+                    alert("Failed to get result");
+                }
+            });
+            return false;
+        });
+    </script>
     
 
 </body>
