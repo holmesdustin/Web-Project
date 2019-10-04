@@ -8,6 +8,7 @@ if (isset($_POST["search"])) {
 function searchByKeyword($keyword)
 {
     require('config.php');
+    $keyword = trim($keyword); //Strip whitespace (or other characters) from the beginning and end of a string
     $keyword = str_replace(" ", "+", $keyword);
     $url = "http://www.omdbapi.com/?apikey=" . config('api_key') . "&s=" . $keyword;
     $handle = curl_init();
