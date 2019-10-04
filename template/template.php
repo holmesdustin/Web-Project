@@ -67,7 +67,7 @@
                 },
                 dataType: "HTML",
                 success: function(result) {
-                    $("#one").html(result);
+                    $("#result_showed").html(result);
                 },
                 error: function() {
                     alert("Failed to get result");
