@@ -51,7 +51,7 @@
             </div>
 
             <div class="col-xs-12 col-sm-6 col-lg-3">
-                <div class="card" style="border-radius: 20px;">
+                <div class="card" style="border-radius: 20px, 20px, 0px, 0px;">
                     <img class="card-img-top" style="border-radius: 20px;" src="https://media.istockphoto.com/photos/christmas-lights-defocused-background-bokeh-gold-blue-picture-id877684562?k=6&m=877684562&s=612x612&w=0&h=-WOtRrbuLnM_GlnDT7sw22w-8vZz8aPFasiVgxSG_eY=" alt="Johnathan Stadtmueller BG">
                     <div class="card-body">
                         <h5 class="card-title">Johnathan Stadtmueller</h5>
