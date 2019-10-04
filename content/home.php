@@ -11,6 +11,4 @@
 	</div>
 </section>
 
-
-
 <div id="result_showed" class="row container-fluid relative"></div>
