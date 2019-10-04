@@ -23,9 +23,14 @@ function searchByKeyword($keyword)
     $response = json_decode($output, true);
     $result_num = sizeof($response["Search"]);
     for ($x = 0; $x < $result_num; $x++) {
-        echo $response["Search"][$x]["Title"] . "<br>";
+        echo '<div class="col-xs-12 col-sm-6 col-lg-3">';
+        echo '<div class="card" style="width: 100%;">';
         getDetailsByID($response["Search"][$x]["imdbID"]);
-        echo "=======================<br>";
+			
+		echo '<a href="#" class="btn btn-primary">Read More</a>';
+		echo '</div>';
+		echo '</div>';
+	    echo '</div>';
     }
     curl_close($handle);
     
@@ -48,9 +53,10 @@ function getDetailsByID($id)
     );
     $output = curl_exec($handle);
     $response = json_decode($output, true);
-    echo "Year: " . $response["Year"] . "<br>";
-    echo "Plot: " . $response["Plot"] . "<br>";
-    echo "Poster: " . $response["Poster"] . "<br>";
+    echo '<img class="card-img-top img-fluid rounded" src="' . $response["Poster"] . '" alt="Poster of Movie">';
+	echo '<div class="card-body">';
+	echo '<h5 class="card-title">' . $response["Title"]. ' - '. $response["Year"] . '</h5>';
+	echo '<p class="card-text">' . $response["Plot"] . '</p>';
 }
 /**
  * Displays site name.
