@@ -6,10 +6,7 @@
 
 <section id="main">
     <div class="inner">
-        <header>
-            <p class="info">Updated just now by <a href="#">Team Gao</a></p>
-        </header>
-        <h4>Team members:</h4>
+        <h4>Contact Us via Social Media:</h4>
         <ul>
             <li>Yujing Gao <br>
                 <a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a>
