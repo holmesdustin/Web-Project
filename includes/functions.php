@@ -7,9 +7,9 @@ if (isset($_POST["search"])) {
  */
 function searchByKeyword($keyword)
 {
+    require('config.php');
     $keyword = str_replace(" ", "+", $keyword);
-    $url = "http://www.omdbapi.com/?apikey=" . config("api_key") . "&s=" . $keyword;
-    echo "test for url: " . $url;
+    $url = "http://www.omdbapi.com/?apikey=" . config('api_key') . "&s=" . $keyword;
     $handle = curl_init();
     curl_setopt($handle, CURLOPT_URL, $url);
     curl_setopt_array(
@@ -59,6 +59,7 @@ function site_name()
 {
     echo config('name');
 }
+
 
 /**
  * Displays site url provided in conig.
