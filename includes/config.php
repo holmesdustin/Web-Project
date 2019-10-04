@@ -18,7 +18,8 @@ function config($key = '')
         ],
         'template_path' => 'template',
         'content_path' => 'content',
-        'version' => 'v3.0',
+        'version' => 'October 3rd, 2019',
+        'api_key' => '2b352ccb',
     ];
     return isset($config[$key]) ? $config[$key] : null;
 }

@@ -8,7 +8,8 @@ if (isset($_POST["search"])) {
 function searchByKeyword($keyword)
 {
     $keyword = str_replace(" ", "+", $keyword);
-    $url = "http://www.omdbapi.com/?apikey=2b352ccb&s=" . $keyword;
+    $url = "http://www.omdbapi.com/?apikey=" . config("api_key") . "&s=" . $keyword;
+    echo "test for url: " . $url;
     $handle = curl_init();
     curl_setopt($handle, CURLOPT_URL, $url);
     curl_setopt_array(
@@ -35,7 +36,7 @@ function searchByKeyword($keyword)
 */
 function getDetailsByID($id)
 {
-    $url = "http://www.omdbapi.com/?apikey=2b352ccb&i=" . $id;
+    $url = "http://www.omdbapi.com/?apikey=" . config('api_key') . "&i=" . $id;
     $handle = curl_init();
     curl_setopt($handle, CURLOPT_URL, $url);
     curl_setopt_array(
