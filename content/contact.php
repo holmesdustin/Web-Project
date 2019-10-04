@@ -77,19 +77,21 @@
                     <div class="form-row">
                         <div class="col-md-4 mb-3">
                             <label for="validationDefault01">First name</label>
-                            <input type="text" class="form-control" id="validationDefault01" placeholder="First name" value="Mark" required>
+                            <input type="text" class="form-control" id="validationDefault01" placeholder="First name" required>
                         </div>
                         <div class="col-md-4 mb-3">
                             <label for="validationDefault02">Last name</label>
-                            <input type="text" class="form-control" id="validationDefault02" placeholder="Last name" value="Otto" required>
+                            <input type="text" class="form-control" id="validationDefault02" placeholder="Last name" required>
                         </div>
                         <div class="col-md-4 mb-3">
                             <label for="validationDefaultUsername">Username</label>
                             <div class="input-group">
+                                <input type="text" class="form-control" id="validationDefaultUsername" placeholder="Username" aria-describedby="inputGroupPrepend2" required>
                                 <div class="input-group-prepend">
                                     <span class="input-group-text" id="inputGroupPrepend2">@</span>
                                 </div>
-                                <input type="text" class="form-control" id="validationDefaultUsername" placeholder="Username" aria-describedby="inputGroupPrepend2" required>
+                                <input type="text" class="form-control" placeholder="teamgao.org" aria-describedby="inputGroupPrepend2" required>
+
                             </div>
                         </div>
                     </div>
