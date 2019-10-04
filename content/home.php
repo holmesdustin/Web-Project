@@ -6,11 +6,11 @@
 		<input id="inputKey" type="text" placeholder="Title, Keyword..." aria-label="Search">
 		<br><br>
 		<ul class="actions">
-			<li><a id="button" href="#one" class="button alt scrolly">Search</a></li>
+			<li><a id="button" href="#result_showed" class="button alt scrolly">Search</a></li>
 		</ul>
 	</div>
 </section>
 
-<div id="result_showed" class="row container-fluid relative">
-	
-</div>
+
+
+<div id="result_showed" class="row container-fluid relative"></div>
