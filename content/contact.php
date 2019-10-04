@@ -14,12 +14,10 @@
                     <div class="card-body">
                         <h5 class="card-title">Yujing Gao</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <div class="container">
-                            <a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a>
-                            <a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a>
-                            <a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a>
-                            <a href="#" class="icon fa-github"><span class="label">Github</span></a>
-                        </div>
+                        <a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a>
+                        <a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a>
+                        <a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a>
+                        <a href="#" class="icon fa-github"><span class="label">Github</span></a>
                     </div>
                 </div>
             </div>
