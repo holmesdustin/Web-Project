@@ -6,7 +6,7 @@
 
 <section id="main">
     <div class="inner">
-        <h4>Contact Us via Social Media:</h4>
+        <p class="junbotron" style="background-color: white">Contact us via Social Media:</p>
         <div class="row container-fluid relative">
             <div class="col-xs-12 col-sm-6 col-lg-3">
                 <div class="card" style="100%; border-radius: 20px">
@@ -83,5 +83,6 @@
                 </div>
             </div>
         </div>
+        <p class="junbotron" style="background-color: white">Contact us via Submitting Form :</p>
     </div>
 </section>
