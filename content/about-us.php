@@ -1,11 +1,16 @@
+<section id="banner">
+    <div class="inner">
+        <h1>About Us</h1>
+    </div>
+</section>
+
 <section id="main">
     <div class="inner">
         <div class="image fit">
             <img src="images/pic11.jpg" alt="" />
         </div>
         <header>
-            <h1>About Us</h1>
-            <p class="info">Updated just now by <a href="#">Team Gao</a></p>
+            <p class="info">Updated on Oct 04, 2019 by <a href="#">Team Gao</a></p>
         </header>
         <h2>We are <strong>Team Gao</strong></h2>
         <h4>Team members:</h4>
