@@ -80,52 +80,54 @@
                 <h3 class="junbotron" style="background-color: white">Contact us via Submitting Form :</h3>
             </div>
             <div class="col-xs-12 col-sm-12 col-lg-12">
-                <form style="width: 100%;">
-                    <div class="form-row">
-                        <div class="col-md-3 mb-3">
-                            <label for="validationDefault01">First name</label>
-                            <input type="text" class="form-control" id="validationDefault01" placeholder="First name" required>
-                        </div>
-                        <div class="col-md-3 mb-3">
-                            <label for="validationDefault02">Last name</label>
-                            <input type="text" class="form-control" id="validationDefault02" placeholder="Last name" required>
-                        </div>
-                        <div class="col-md-6 mb-3">
-                            <label for="validationDefaultUsername">Email</label>
-                            <div class="input-group">
-                                <input type="text" class="form-control" id="validationDefaultUsername" placeholder="Username" aria-describedby="inputGroupPrepend2" required>
-                                <div class="input-group-prepend">
-                                    <span class="input-group-text" id="inputGroupPrepend2">@</span>
-                                </div>
-                                <input type="text" class="form-control" placeholder="teamgao.org" aria-describedby="inputGroupPrepend2" required>
+                <div class="card" style="border-radius: 20px;">
+                    <form style="width: 100%;">
+                        <div class="form-row">
+                            <div class="col-md-3 mb-3">
+                                <label for="validationDefault01">First name</label>
+                                <input type="text" class="form-control" id="validationDefault01" placeholder="First name" required>
+                            </div>
+                            <div class="col-md-3 mb-3">
+                                <label for="validationDefault02">Last name</label>
+                                <input type="text" class="form-control" id="validationDefault02" placeholder="Last name" required>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label for="validationDefaultUsername">Email</label>
+                                <div class="input-group">
+                                    <input type="text" class="form-control" id="validationDefaultUsername" placeholder="Username" aria-describedby="inputGroupPrepend2" required>
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text" id="inputGroupPrepend2">@</span>
+                                    </div>
+                                    <input type="text" class="form-control" placeholder="teamgao.org" aria-describedby="inputGroupPrepend2" required>
 
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="form-row">
-                        <div class="col-md-6 mb-3">
-                            <label for="validationDefault03">City</label>
-                            <input type="text" class="form-control" id="validationDefault03" placeholder="City" required>
+                        <div class="form-row">
+                            <div class="col-md-6 mb-3">
+                                <label for="validationDefault03">City</label>
+                                <input type="text" class="form-control" id="validationDefault03" placeholder="City" required>
+                            </div>
+                            <div class="col-md-3 mb-3">
+                                <label for="validationDefault04">State</label>
+                                <input type="text" class="form-control" id="validationDefault04" placeholder="State" required>
+                            </div>
+                            <div class="col-md-3 mb-3">
+                                <label for="validationDefault05">Zip</label>
+                                <input type="text" class="form-control" id="validationDefault05" placeholder="Zip" required>
+                            </div>
                         </div>
-                        <div class="col-md-3 mb-3">
-                            <label for="validationDefault04">State</label>
-                            <input type="text" class="form-control" id="validationDefault04" placeholder="State" required>
+                        <div class="form-group">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                                <label class="form-check-label" for="invalidCheck2">
+                                    Agree to terms and conditions
+                                </label>
+                            </div>
                         </div>
-                        <div class="col-md-3 mb-3">
-                            <label for="validationDefault05">Zip</label>
-                            <input type="text" class="form-control" id="validationDefault05" placeholder="Zip" required>
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
-                            <label class="form-check-label" for="invalidCheck2">
-                                Agree to terms and conditions
-                            </label>
-                        </div>
-                    </div>
-                    <button class="btn btn-primary" type="submit">Submit form</button>
-                </form>
+                        <button class="btn btn-primary" type="submit">Submit form</button>
+                    </form>
+                </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-lg-12">
                 <br>
