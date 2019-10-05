@@ -58,8 +58,26 @@ function getDetailsByID($id)
     $response = json_decode($output, true);
     echo '<img class="card-img-top img-fluid rounded" src="' . ($response["Poster"] == 'N/A' ? '../template/assets/images/nopicture.jpg': $response["Poster"]) . '" alt="Poster of Movie">';
 	echo '<div class="card-body">';
-	echo '<h5 class="card-title">' . $response["Title"]. ' - '. $response["Year"] . '</h5>';
-	echo '<p class="card-text">' . $response["Plot"] . '</p>';
+    echo '<h5 class="card-title">' . $response["Title"]. ' - '. $response["Year"] . '</h5>';
+    $plot = $response["Plot"];
+    
+	echo '<p class="card-text">' . formatPlot($plot) . '</p>';
+}
+
+/**
+ * Make the plot length consistent to beatify the card
+ *
+ * @return string
+ */
+function formatPlot($plot)
+{
+    $lengthOfPlot = strlen($plot);
+    while ($lengthOfPlot < 150)
+    {
+        $plot = $plot . ' ';
+    }
+    $plotBrief = $lengthOfPlot > 150 ? substr($plot, 0, 150) . ' ...' : $plot;
+    return $plotBrief;
 }
 /**
  * Displays site name.
