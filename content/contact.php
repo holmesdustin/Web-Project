@@ -15,10 +15,10 @@
                     <div class="card-body">
                         <h5 class="card-title">Yujing Gao</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="icon fa-twitter fa-sm"><span class="label">Twitter</span></a>
-                        <a href="#" class="icon fa-facebook fa-2x"><span class="label">Facebook</span></a>
-                        <a href="#" class="icon fa-instagram fa-3x"><span class="label">Instagram</span></a>
-                        <a href="#" class="icon fa-github"><span class="label">Github</span></a>
+                        <a href="#" class="icon fa-twitter fa-lg"><span class="label">Twitter</span></a>
+                        <a href="#" class="icon fa-facebook fa-lg"><span class="label">Facebook</span></a>
+                        <a href="#" class="icon fa-instagram fa-lg"><span class="label">Instagram</span></a>
+                        <a href="#" class="icon fa-github fa-lg"><span class="label">Github</span></a>
                     </div>
                 </div>
                 <br>
@@ -32,10 +32,10 @@
                     <div class="card-body">
                         <h5 class="card-title">Caleb Corbin</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a>
-                        <a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a>
-                        <a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a>
-                        <a href="#" class="icon fa-github"><span class="label">Github</span></a>
+                        <a href="#" class="icon fa-twitter fa-lg"><span class="label">Twitter</span></a>
+                        <a href="#" class="icon fa-facebook fa-lg"><span class="label">Facebook</span></a>
+                        <a href="#" class="icon fa-instagram fa-lg"><span class="label">Instagram</span></a>
+                        <a href="#" class="icon fa-github fa-lg"><span class="label">Github</span></a>
                     </div>
                 </div>
                 <br>
@@ -49,10 +49,10 @@
                     <div class="card-body">
                         <h5 class="card-title">Dustin Holmes</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a>
-                        <a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a>
-                        <a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a>
-                        <a href="#" class="icon fa-github"><span class="label">Github</span></a>
+                        <a href="#" class="icon fa-twitter fa-lg"><span class="label">Twitter</span></a>
+                        <a href="#" class="icon fa-facebook fa-lg"><span class="label">Facebook</span></a>
+                        <a href="#" class="icon fa-instagram fa-lg"><span class="label">Instagram</span></a>
+                        <a href="#" class="icon fa-github fa-lg"><span class="label">Github</span></a>
                     </div>
                 </div>
                 <br>
@@ -66,10 +66,10 @@
                     <div class="card-body">
                         <h5 class="card-title">Johnathan Stadtmueller</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a>
-                        <a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a>
-                        <a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a>
-                        <a href="#" class="icon fa-github"><span class="label">Github</span></a>
+                        <a href="#" class="icon fa-twitter fa-lg"><span class="label">Twitter</span></a>
+                        <a href="#" class="icon fa-facebook fa-lg"><span class="label">Facebook</span></a>
+                        <a href="#" class="icon fa-instagram fa-lg"><span class="label">Instagram</span></a>
+                        <a href="#" class="icon fa-github fa-lg"><span class="label">Github</span></a>
                     </div>
                 </div>
                 <br>
