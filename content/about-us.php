@@ -6,9 +6,6 @@
 
 <section id="main">
     <div class="inner">
-        <div class="image fit">
-            <img src="images/pic11.jpg" alt="" />
-        </div>
         <header>
             <p class="info">Updated on Oct 04, 2019 by <a href="#">Team Gao</a></p>
         </header>

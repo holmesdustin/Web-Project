@@ -14,11 +14,11 @@
                     <img class="card-img-top" style="border-radius: 20px 20px 0px 0px;" src="https://cdn.pixabay.com/photo/2016/11/29/05/45/astronomy-1867616__340.jpg" alt="Yujing Gao BG">
                     <div class="card-body">
                         <h4 class="card-title">Yujing Gao</h5>
-                        <p class="card-text">Programmer<br>Team Gao 2019</p>
-                        <a href="#" class="icon fa-twitter fa-2x"><span class="label">Twitter</span></a>&nbsp; &nbsp;
-                        <a href="#" class="icon fa-facebook fa-2x"><span class="label">Facebook</span></a>&nbsp; &nbsp;
-                        <a href="#" class="icon fa-instagram fa-2x"><span class="label">Instagram</span></a>&nbsp; &nbsp;
-                        <a href="#" class="icon fa-github fa-2x"><span class="label">Github</span></a>&nbsp; &nbsp;
+                            <p class="card-text">Programmer<br>Team Gao 2019</p>
+                            <a href="#" class="icon fa-twitter fa-2x"><span class="label">Twitter</span></a>&nbsp; &nbsp;
+                            <a href="#" class="icon fa-facebook fa-2x"><span class="label">Facebook</span></a>&nbsp; &nbsp;
+                            <a href="#" class="icon fa-instagram fa-2x"><span class="label">Instagram</span></a>&nbsp; &nbsp;
+                            <a href="#" class="icon fa-github fa-2x"><span class="label">Github</span></a>&nbsp; &nbsp;
                     </div>
                 </div>
                 <br>
@@ -31,11 +31,11 @@
                     <img class="card-img-top" style="border-radius: 20px 20px 0px 0px;" src="https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Caleb Corbin BG">
                     <div class="card-body">
                         <h4 class="card-title">Caleb Corbin</h5>
-                        <p class="card-text">Vice-President<br>Team Gao 2019</p>
-                        <a href="#" class="icon fa-twitter fa-2x"><span class="label">Twitter</span></a>&nbsp; &nbsp;
-                        <a href="#" class="icon fa-facebook fa-2x"><span class="label">Facebook</span></a>&nbsp; &nbsp;
-                        <a href="#" class="icon fa-instagram fa-2x"><span class="label">Instagram</span></a>&nbsp; &nbsp;
-                        <a href="#" class="icon fa-github fa-2x"><span class="label">Github</span></a>&nbsp; &nbsp;
+                            <p class="card-text">Vice-President<br>Team Gao 2019</p>
+                            <a href="#" class="icon fa-twitter fa-2x"><span class="label">Twitter</span></a>&nbsp; &nbsp;
+                            <a href="#" class="icon fa-facebook fa-2x"><span class="label">Facebook</span></a>&nbsp; &nbsp;
+                            <a href="#" class="icon fa-instagram fa-2x"><span class="label">Instagram</span></a>&nbsp; &nbsp;
+                            <a href="#" class="icon fa-github fa-2x"><span class="label">Github</span></a>&nbsp; &nbsp;
                     </div>
                 </div>
                 <br>
@@ -48,11 +48,11 @@
                     <img class="card-img-top" style="border-radius: 20px 20px 0px 0px;" src="https://images.pexels.com/photos/949587/pexels-photo-949587.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Dustin Holmes BG">
                     <div class="card-body">
                         <h4 class="card-title">Dustin Holmes</h5>
-                        <p class="card-text">President<br>Team Gao 2019</p>
-                        <a href="#" class="icon fa-twitter fa-2x"><span class="label">Twitter</span></a> &nbsp; &nbsp;
-                        <a href="#" class="icon fa-facebook fa-2x"><span class="label">Facebook</span></a> &nbsp; &nbsp;
-                        <a href="#" class="icon fa-instagram fa-2x"><span class="label">Instagram</span></a> &nbsp; &nbsp;
-                        <a href="#" class="icon fa-github fa-2x"><span class="label">Github</span></a> &nbsp; &nbsp;
+                            <p class="card-text">President<br>Team Gao 2019</p>
+                            <a href="#" class="icon fa-twitter fa-2x"><span class="label">Twitter</span></a> &nbsp; &nbsp;
+                            <a href="#" class="icon fa-facebook fa-2x"><span class="label">Facebook</span></a> &nbsp; &nbsp;
+                            <a href="#" class="icon fa-instagram fa-2x"><span class="label">Instagram</span></a> &nbsp; &nbsp;
+                            <a href="#" class="icon fa-github fa-2x"><span class="label">Github</span></a> &nbsp; &nbsp;
                     </div>
                 </div>
                 <br>
@@ -65,11 +65,11 @@
                     <img class="card-img-top" style="border-radius: 20px 20px 0px 0px;" src="https://media.istockphoto.com/photos/christmas-lights-defocused-background-bokeh-gold-blue-picture-id877684562?k=6&m=877684562&s=612x612&w=0&h=-WOtRrbuLnM_GlnDT7sw22w-8vZz8aPFasiVgxSG_eY=" alt="Johnathan Stadtmueller BG">
                     <div class="card-body">
                         <h4 class="card-title">J. Stadtmueller</h5>
-                        <p class="card-text">Designer<br>Team Gao 2019</p>
-                        <a href="#" class="icon fa-twitter fa-2x"><span class="label">Twitter</span></a>&nbsp; &nbsp;
-                        <a href="#" class="icon fa-facebook fa-2x"><span class="label">Facebook</span></a>&nbsp; &nbsp;
-                        <a href="#" class="icon fa-instagram fa-2x"><span class="label">Instagram</span></a>&nbsp; &nbsp;
-                        <a href="#" class="icon fa-github fa-2x"><span class="label">Github</span></a>&nbsp; &nbsp;
+                            <p class="card-text">Designer<br>Team Gao 2019</p>
+                            <a href="#" class="icon fa-twitter fa-2x"><span class="label">Twitter</span></a>&nbsp; &nbsp;
+                            <a href="#" class="icon fa-facebook fa-2x"><span class="label">Facebook</span></a>&nbsp; &nbsp;
+                            <a href="#" class="icon fa-instagram fa-2x"><span class="label">Instagram</span></a>&nbsp; &nbsp;
+                            <a href="#" class="icon fa-github fa-2x"><span class="label">Github</span></a>&nbsp; &nbsp;
                     </div>
                 </div>
                 <br>
@@ -105,18 +105,8 @@
                             </div>
                         </div>
                         <div class="form-row">
-                            <div class="col-md-6 mb-3">
-                                <label for="validationDefault03">City</label>
-                                <input type="text" class="form-control" id="validationDefault03" placeholder="City" required>
-                            </div>
-                            <div class="col-md-3 mb-3">
-                                <label for="validationDefault04">State</label>
-                                <input type="text" class="form-control" id="validationDefault04" placeholder="State" required>
-                            </div>
-                            <div class="col-md-3 mb-3">
-                                <label for="validationDefault05">Zip</label>
-                                <input type="text" class="form-control" id="validationDefault05" placeholder="Zip" required>
-                            </div>
+                            <label for="validationDefault03">Message</label>
+                            <input type="textarea" class="form-control" id="validationDefault03" placeholder="Why are you contacting us?" required>
                         </div>
                         <div class="form-group">
                             <div class="form-check">
@@ -126,7 +116,7 @@
                                 </label>
                             </div>
                         </div>
-                        <button class="btn btn-primary" type="submit">Submit form</button>
+                        <button class="btn btn-primary" type="submit">Submit Form</button>
                     </form>
                 </div>
             </div>
@@ -143,7 +133,7 @@
                     </div>
                     <div class="card-body">
                         <blockquote class="blockquote mb-0">
-                            <p>Team Gao is the best team ever!</p>
+                            <p>Never hesitate to contact us!</p>
                             <footer class="blockquote-footer">Yujing Gao</footer>
                         </blockquote>
                     </div>
