@@ -56,7 +56,7 @@ function getDetailsByID($id)
     );
     $output = curl_exec($handle);
     $response = json_decode($output, true);
-    echo '<img class="card-img-top img-fluid" style="height: 70%; width: auto; border-radius: 20px 20px 0px 0px;" src="' . ($response["Poster"] == 'N/A' ? '../template/assets/images/nopicture.jpg': $response["Poster"]) . '" alt="Poster of Movie">';
+    echo '<img class="card-img-top img-fluid" style="height: 70%; width: auto; border-radius: 20px 20px 0px 0px;" src="' . ($response["Poster"] == 'N/A' ? '../template/assets/images/nopicture.JPG': $response["Poster"]) . '" alt="Poster of Movie">';
 	echo '<div class="card-body">';
     echo '<h5 class="card-title">' . $response["Title"]. ' - '. $response["Year"] . '</h5>';
     $plot = $response["Plot"];
