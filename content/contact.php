@@ -104,9 +104,9 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="form-row">
+                        <div class="form-group">
                             <label for="validationDefault03">Message</label>
-                            <input type="textarea" class="form-control" id="validationDefault03" placeholder="Why are you contacting us?" required>
+                            <textarea class="form-control" id="validationDefault03" placeholder="Why are you contacting us?" required><textarea>
                         </div>
                         <div class="form-group">
                             <div class="form-check">
