@@ -81,7 +81,7 @@
             </div>
             <div class="col-xs-12 col-sm-12 col-lg-12">
                 <div class="card p-4" style="border-radius: 20px;">
-                    <form style="width: 100%;">
+                    <form  class="text-center" style="width: 100%;">
                         <div class="form-row">
                             <div class="col-md-3 mb-3">
                                 <label for="validationDefault01">First name</label>
