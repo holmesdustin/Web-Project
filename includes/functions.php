@@ -23,19 +23,18 @@ function searchByKeyword($keyword)
     $output = curl_exec($handle);
     $response = json_decode($output, true);
     $result_num = sizeof($response["Search"]);
+    echo '<div class="col-xs-12 col-sm-12 col-lg-12"><br><hr class="my-4"><br></div>'; // add a line to seperate search bar and result content
     for ($x = 0; $x < $result_num; $x++) {
         //echo $x % 4 == 0 ? '<div class="col-xs-12 col-sm-12 col-lg-12"><br><hr class="my-4"><br></div>' : ''; // add break lines 
         echo '<div class="col-xs-12 col-sm-6 col-lg-3">';
         echo '<div class="card" style="width: 100%;">';
         getDetailsByID($response["Search"][$x]["imdbID"]);
-			
 		echo '<a href="#" class="btn btn-primary">Read More</a>';
 		echo '</div>';
         echo '</div>';
         echo '<br><hr class="my-4"><br>';
         echo '</div>';
     }
-    echo '<div class="col-xs-12 col-sm-12 col-lg-12"><br><hr class="my-4"><br></div>'; // add break lines 
     curl_close($handle);
     
 
