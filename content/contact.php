@@ -80,7 +80,7 @@
                 <h3 class="junbotron" style="background-color: white">Contact us via Submitting Form :</h3>
             </div>
             <div class="col-xs-12 col-sm-12 col-lg-12">
-                <div class="card" style="border-radius: 20px;">
+                <div class="card p-2" style="border-radius: 20px;">
                     <form style="width: 100%;">
                         <div class="form-row">
                             <div class="col-md-3 mb-3">
