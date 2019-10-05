@@ -10,4 +10,4 @@
 		</ul>
 	</div>
 </section>
-<div id="result_showed" class="row container-fluid relative"></div>
+<div id="result_showed" class="container-fluid relative row"></div>

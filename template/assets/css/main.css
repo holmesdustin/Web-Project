@@ -239,6 +239,11 @@
 		text-align: right;
 	}
 
+	.container-fluid {
+		margin-right: auto;
+		margin-left: auto;
+	}
+
 	input, select, textarea {
 		color: #555;
 	}
