@@ -13,12 +13,12 @@
                 <div class="card text-center" style="border-radius: 20px;">
                     <img class="card-img-top" style="border-radius: 20px 20px 0px 0px;" src="https://cdn.pixabay.com/photo/2016/11/29/05/45/astronomy-1867616__340.jpg" alt="Yujing Gao BG">
                     <div class="card-body">
-                        <h5 class="card-title">Yujing Gao</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="icon fa-twitter fa-lg"><span class="label">Twitter</span></a>
-                        <a href="#" class="icon fa-facebook fa-lg"><span class="label">Facebook</span></a>
-                        <a href="#" class="icon fa-instagram fa-lg"><span class="label">Instagram</span></a>
-                        <a href="#" class="icon fa-github fa-lg"><span class="label">Github</span></a>
+                        <h4 class="card-title">Yujing Gao</h5>
+                        <p class="card-text">Programmer<br>Team Gao 2019</p>
+                        <a href="#" class="icon fa-twitter fa-2x"><span class="label">Twitter</span></a>&nbsp; &nbsp;
+                        <a href="#" class="icon fa-facebook fa-2x"><span class="label">Facebook</span></a>&nbsp; &nbsp;
+                        <a href="#" class="icon fa-instagram fa-2x"><span class="label">Instagram</span></a>&nbsp; &nbsp;
+                        <a href="#" class="icon fa-github fa-2x"><span class="label">Github</span></a>&nbsp; &nbsp;
                     </div>
                 </div>
                 <br>
@@ -30,12 +30,12 @@
                 <div class="card text-center" style="border-radius: 20px;">
                     <img class="card-img-top" style="border-radius: 20px 20px 0px 0px;" src="https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Caleb Corbin BG">
                     <div class="card-body">
-                        <h5 class="card-title">Caleb Corbin</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="icon fa-twitter fa-lg"><span class="label">Twitter</span></a>
-                        <a href="#" class="icon fa-facebook fa-lg"><span class="label">Facebook</span></a>
-                        <a href="#" class="icon fa-instagram fa-lg"><span class="label">Instagram</span></a>
-                        <a href="#" class="icon fa-github fa-lg"><span class="label">Github</span></a>
+                        <h4 class="card-title">Caleb Corbin</h5>
+                        <p class="card-text">Vice-President<br>Team Gao 2019</p>
+                        <a href="#" class="icon fa-twitter fa-2x"><span class="label">Twitter</span></a>&nbsp; &nbsp;
+                        <a href="#" class="icon fa-facebook fa-2x"><span class="label">Facebook</span></a>&nbsp; &nbsp;
+                        <a href="#" class="icon fa-instagram fa-2x"><span class="label">Instagram</span></a>&nbsp; &nbsp;
+                        <a href="#" class="icon fa-github fa-2x"><span class="label">Github</span></a>&nbsp; &nbsp;
                     </div>
                 </div>
                 <br>
@@ -47,12 +47,12 @@
                 <div class="card text-center" style="border-radius: 20px;">
                     <img class="card-img-top" style="border-radius: 20px 20px 0px 0px;" src="https://images.pexels.com/photos/949587/pexels-photo-949587.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Dustin Holmes BG">
                     <div class="card-body">
-                        <h5 class="card-title">Dustin Holmes</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="icon fa-twitter fa-lg"><span class="label">Twitter</span></a>
-                        <a href="#" class="icon fa-facebook fa-lg"><span class="label">Facebook</span></a>
-                        <a href="#" class="icon fa-instagram fa-lg"><span class="label">Instagram</span></a>
-                        <a href="#" class="icon fa-github fa-lg"><span class="label">Github</span></a>
+                        <h4 class="card-title">Dustin Holmes</h5>
+                        <p class="card-text">President<br>Team Gao 2019</p>
+                        <a href="#" class="icon fa-twitter fa-2x"><span class="label">Twitter</span></a> &nbsp; &nbsp;
+                        <a href="#" class="icon fa-facebook fa-2x"><span class="label">Facebook</span></a> &nbsp; &nbsp;
+                        <a href="#" class="icon fa-instagram fa-2x"><span class="label">Instagram</span></a> &nbsp; &nbsp;
+                        <a href="#" class="icon fa-github fa-2x"><span class="label">Github</span></a> &nbsp; &nbsp;
                     </div>
                 </div>
                 <br>
@@ -64,12 +64,12 @@
                 <div class="card text-center" style="border-radius: 20px;">
                     <img class="card-img-top" style="border-radius: 20px 20px 0px 0px;" src="https://media.istockphoto.com/photos/christmas-lights-defocused-background-bokeh-gold-blue-picture-id877684562?k=6&m=877684562&s=612x612&w=0&h=-WOtRrbuLnM_GlnDT7sw22w-8vZz8aPFasiVgxSG_eY=" alt="Johnathan Stadtmueller BG">
                     <div class="card-body">
-                        <h5 class="card-title">Johnathan Stadtmueller</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="icon fa-twitter fa-lg"><span class="label">Twitter</span></a>
-                        <a href="#" class="icon fa-facebook fa-lg"><span class="label">Facebook</span></a>
-                        <a href="#" class="icon fa-instagram fa-lg"><span class="label">Instagram</span></a>
-                        <a href="#" class="icon fa-github fa-lg"><span class="label">Github</span></a>
+                        <h4 class="card-title">Johnathan Stadtmueller</h5>
+                        <p class="card-text">Designer<br>Team Gao 2019</p>
+                        <a href="#" class="icon fa-twitter fa-2x"><span class="label">Twitter</span></a>&nbsp; &nbsp;
+                        <a href="#" class="icon fa-facebook fa-2x"><span class="label">Facebook</span></a>&nbsp; &nbsp;
+                        <a href="#" class="icon fa-instagram fa-2x"><span class="label">Instagram</span></a>&nbsp; &nbsp;
+                        <a href="#" class="icon fa-github fa-2x"><span class="label">Github</span></a>&nbsp; &nbsp;
                     </div>
                 </div>
                 <br>
