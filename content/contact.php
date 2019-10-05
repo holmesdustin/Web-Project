@@ -20,6 +20,9 @@
                         <a href="#" class="icon fa-github"><span class="label">Github</span></a>
                     </div>
                 </div>
+                <br>
+                <hr class="my-4">
+                <br>
             </div>
 
             <div class="col-xs-12 col-sm-6 col-lg-3">
@@ -34,6 +37,9 @@
                         <a href="#" class="icon fa-github"><span class="label">Github</span></a>
                     </div>
                 </div>
+                <br>
+                <hr class="my-4">
+                <br>
             </div>
 
             <div class="col-xs-12 col-sm-6 col-lg-3">
@@ -48,6 +54,9 @@
                         <a href="#" class="icon fa-github"><span class="label">Github</span></a>
                     </div>
                 </div>
+                <br>
+                <hr class="my-4">
+                <br>
             </div>
 
             <div class="col-xs-12 col-sm-6 col-lg-3">
@@ -62,11 +71,9 @@
                         <a href="#" class="icon fa-github"><span class="label">Github</span></a>
                     </div>
                 </div>
-            </div>
-
-            <div class="col-xs-12 col-sm-12 col-lg-12">
                 <br>
-                <hr class="my-4"><br>
+                <hr class="my-4">
+                <br>
             </div>
 
             <div class="col-xs-12 col-sm-12 col-lg-12">
@@ -122,7 +129,8 @@
             </div>
             <div class="col-xs-12 col-sm-12 col-lg-12">
                 <br>
-                <hr class="my-4"><br>
+                <hr class="my-4">
+                <br>
             </div>
 
             <div class="col-xs-12 col-sm-12 col-lg-12">
