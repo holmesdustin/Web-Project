@@ -64,7 +64,7 @@
                 <div class="card text-center" style="border-radius: 20px;">
                     <img class="card-img-top" style="border-radius: 20px 20px 0px 0px;" src="https://media.istockphoto.com/photos/christmas-lights-defocused-background-bokeh-gold-blue-picture-id877684562?k=6&m=877684562&s=612x612&w=0&h=-WOtRrbuLnM_GlnDT7sw22w-8vZz8aPFasiVgxSG_eY=" alt="Johnathan Stadtmueller BG">
                     <div class="card-body">
-                        <h4 class="card-title">Johnathan Stadtmueller</h5>
+                        <h4 class="card-title">J. Stadtmueller</h5>
                         <p class="card-text">Designer<br>Team Gao 2019</p>
                         <a href="#" class="icon fa-twitter fa-2x"><span class="label">Twitter</span></a>&nbsp; &nbsp;
                         <a href="#" class="icon fa-facebook fa-2x"><span class="label">Facebook</span></a>&nbsp; &nbsp;
