@@ -9,7 +9,6 @@
         <br>
         <hr class="my-4">
         <br>
-        <h3 class="junbotron" style="background-color: white">Join Team Gao with Halloween Specials:</h3>
     </div>
     <div class="col-xs-12 col-sm-12 col-lg-12">
         <div class="bd-example">
@@ -19,23 +18,23 @@
                     <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
                     <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
                 </ol>
-                <div class="carousel-inner">
+                <div class="carousel-inner px-md-4">
                     <div class="carousel-item active">
-                        <img src="https://www.history.com/.image/t_share/MTU3ODc5MDc5OTg4MTEwNjY1/halloween-hero-1.jpg" class="d-block w-100" alt="...">
+                        <img src="https://wallpaperaccess.com/full/1102367.jpg" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block">
                             <h5>Halloween - 1978</h5>
                             <p></p>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="https://bloody-disgusting.com/wp-content/uploads/2015/10/Screen-Shot-2015-10-21-at-7.43.15-PM.png" class="d-block w-100" alt="...">
+                        <img src="https://wallup.net/wp-content/uploads/2019/07/24/257981-trick-r-treat-horror-thriller-dark-halloween-movie-film.jpg" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block">
                             <h5>Hocus Pocus - 1993</h5>
                             <p></p>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="https://mutts.com/wp-content/uploads/2018/10/halloween-lrg-1200x550.jpg" class="d-block w-100" alt="...">
+                        <img src="http://getwallpapers.com/wallpaper/full/6/2/9/83885.jpg" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block">
                             <h5>Hotel Transylvania - 2012</h5>
                             <p></p>
