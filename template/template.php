@@ -14,7 +14,7 @@
 <body>
     <!-- Header -->
     <header id="header">
-        <a class="logo" href="../content/home.php"><i class="fas fa-film fa-lg"></i><strong>&nbsp<?php site_name() ?></strong></a>
+        <a class="logo" href="../index.php"><i class="fas fa-film fa-lg"></i><strong>&nbsp<?php site_name() ?></strong></a>
 
         <nav>
             <a href="#menu">Menu</a>
