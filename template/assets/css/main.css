@@ -147,8 +147,8 @@ body {
 /* Gao Defined*/
 
 #particles-js {
-	width: 75%;
-	height: 50%;
+	width: 100%;
+	height: 25%;
 	background-color: #1c1c1c;
 	background-image: url('');
 	background-size: cover;
