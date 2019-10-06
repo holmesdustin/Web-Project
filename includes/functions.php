@@ -22,19 +22,29 @@ function searchByKeyword($keyword)
     );
     $output = curl_exec($handle);
     $response = json_decode($output, true);
-    $result_num = sizeof($response["Search"]);
     echo '<div class="col-xs-12 col-sm-12 col-lg-12"><br><hr class="my-4"><br></div>'; // add a line to seperate search bar and result content
-    for ($x = 0; $x < $result_num; $x++) {
-        //echo $x % 4 == 0 ? '<div class="col-xs-12 col-sm-12 col-lg-12"><br><hr class="my-4"><br></div>' : ''; // add break lines 
-        echo '<div class="col-xs-12 col-sm-6 col-lg-3">';
-        echo '<div class="card text-center" style="width: 100%; height: 90%; border-radius: 20px;">';
-        getDetailsByID($response["Search"][$x]["imdbID"]);
-		echo '<a href="#" class="btn btn-primary">Read More</a>';
-		echo '</div>';
-        echo '</div>';
-        echo '<br><hr class="my-4"><br>';
-        echo '</div>';
+    if ($response['Response'] == 'False')
+    {
+        echo '<div class="col-xs-12 col-sm-12 col-lg-12"><h4 class="text-center">Sorry, we couldn\'t find any result on the keyword: \'' . $keyword .'\'.</h4></div>';
+        echo '<div class="col-xs-12 col-sm-12 col-lg-12"><hr class="my-4"><br></div>'; // add a line to seperate search bar and result content
+    }else{
+        $result_num = sizeof($response["Search"]);
+    
+        for ($x = 0; $x < $result_num; $x++) {
+            //echo $x % 4 == 0 ? '<div class="col-xs-12 col-sm-12 col-lg-12"><br><hr class="my-4"><br></div>' : ''; // add break lines 
+            echo '<div class="col-xs-12 col-sm-6 col-lg-3">';
+            echo '<div class="card text-center" style="width: 100%; height: 90%; border-radius: 20px;">';
+            getDetailsByID($response["Search"][$x]["imdbID"]);
+            echo '<a href="#" class="btn btn-primary">Read More</a>';
+            echo '</div>';
+            echo '</div>';
+            echo '<br><hr class="my-4"><br>';
+            echo '</div>';
+        }
+
+        echo '<div class="col-xs-12 col-sm-12 col-lg-12"><p class="text-center">You\'ve reached the end of results.</p><br></div>';
     }
+    
     curl_close($handle);
     
 
