@@ -65,6 +65,9 @@
                 },
                 dataType: "HTML",
                 success: function(result) {
+                    $('html, body').animate({
+                        scrollTop: $("#result_showed").offset().top
+                    }, 1000);
                     $("#result_showed").html(result);
                 },
                 error: function() {
