@@ -9,12 +9,13 @@
     <div class="inner">
         <div class="row container-fluid relative">
             <div class="col-xs-12 col-sm-12 col-lg-12">
-                <div id="particles-js text-center">Team Gao</div>
+               
             </div>
         </div>
     </div>
 </section>
 
+<div id="particles-js text-center">Team Gao</div>
 
 
 <section id="main">
