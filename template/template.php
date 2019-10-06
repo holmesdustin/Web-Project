@@ -3,6 +3,7 @@
 <html lang="en">
 
 <head>
+    <script src="https://kit.fontawesome.com/65af02a589.js" crossorigin="anonymous"></script>
     <title><?php page_title(); ?> | <?php site_name(); ?></title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -17,7 +18,7 @@
 
         <nav>
             <a href="#menu">Menu</a>
-            
+
         </nav>
     </header>
 

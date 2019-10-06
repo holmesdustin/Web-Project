@@ -1,6 +1,6 @@
 <section id="banner">
     <div class="inner">
-        <h1>Trending</h1>
+        <h1><i class="fas fa-ghost fa-lg"></i>&nbsp;&nbsp;Trending</h1>
     </div>
 </section>
 
