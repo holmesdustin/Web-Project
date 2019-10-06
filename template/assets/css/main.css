@@ -318,9 +318,6 @@
 		cursor: pointer;
 		display: inline-block;
 		font-weight: 700;
-		height: 3em;
-		line-height: 3em;
-		padding: 0 2.5em;
 		text-align: center;
 		text-decoration: none;
 		white-space: nowrap;
@@ -409,7 +406,7 @@
 	input[type="button"],
 	button,
 	.button {
-		background-color: #1abc9c;
+		background-color: transparent;
 		color: #fff !important;
 	}
 
@@ -501,6 +498,14 @@
 		margin: 0 0 1em 0;
 	}
 
+	button{
+		border: solid 1px;
+		border-radius: 0px 20px 20px 0px;
+		padding: 0 1em;
+		color: inherit;
+		border-left: transparent;
+	}
+
 	input[type="text"],
 	input[type="password"],
 	input[type="email"],
@@ -510,8 +515,8 @@
 		-webkit-appearance: none;
 		-ms-appearance: none;
 		appearance: none;
-		border-radius: 20px;
-		border: none;
+		border-radius: 20px 0px 0px 20px;
+		border-right: transparent;
 		border: solid 1px;
 		color: inherit;
 		display: block;
@@ -1829,15 +1834,7 @@
 		padding: 10em 4em 9em 4em;
 	}
 
-		#banner input, #banner select, #banner textarea {
-			color: #fff;
-		}
-
-		#banner a {
-			color: #fff;
-		}
-
-		#banner strong, #banner b {
+		#banner input, #banner select, #banner textarea, #banner button {
 			color: #fff;
 		}
 
@@ -1845,99 +1842,15 @@
 			color: #fff;
 		}
 
-		#banner blockquote {
-			border-left-color: rgba(255, 255, 255, 0.25);
-		}
-
-		#banner code {
-			background: rgba(255, 255, 255, 0.075);
-			border-color: rgba(255, 255, 255, 0.25);
-		}
-
-		#banner hr {
-			border-bottom-color: rgba(255, 255, 255, 0.25);
-		}
-
 		#banner .box {
 			border-color: rgba(255, 255, 255, 0.25);
-		}
-
-		#banner input[type="submit"],
-		#banner input[type="reset"],
-		#banner input[type="button"],
-		#banner button,
-		#banner .button {
-			background-color: #1abc9c;
-			color: #fff !important;
-		}
-
-			#banner input[type="submit"]:hover,
-			#banner input[type="reset"]:hover,
-			#banner input[type="button"]:hover,
-			#banner button:hover,
-			#banner .button:hover {
-				background-color: #1dd2af;
-			}
-
-			#banner input[type="submit"]:active,
-			#banner input[type="reset"]:active,
-			#banner input[type="button"]:active,
-			#banner button:active,
-			#banner .button:active {
-				background-color: #17a689;
-			}
-
-			#banner input[type="submit"].alt,
-			#banner input[type="reset"].alt,
-			#banner input[type="button"].alt,
-			#banner button.alt,
-			#banner .button.alt {
-				background-color: transparent;
-				box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.25);
-				color: #fff !important;
-			}
-
-				#banner input[type="submit"].alt:hover,
-				#banner input[type="reset"].alt:hover,
-				#banner input[type="button"].alt:hover,
-				#banner button.alt:hover,
-				#banner .button.alt:hover {
-					background-color: rgba(255, 255, 255, 0.075);
-				}
-
-				#banner input[type="submit"].alt:active,
-				#banner input[type="reset"].alt:active,
-				#banner input[type="button"].alt:active,
-				#banner button.alt:active,
-				#banner .button.alt:active {
-					background-color: rgba(255, 255, 255, 0.2);
-				}
-
-				#banner input[type="submit"].alt.icon:before,
-				#banner input[type="reset"].alt.icon:before,
-				#banner input[type="button"].alt.icon:before,
-				#banner button.alt.icon:before,
-				#banner .button.alt.icon:before {
-					color: rgba(255, 255, 255, 0.5);
-				}
-
-			#banner input[type="submit"].special,
-			#banner input[type="reset"].special,
-			#banner input[type="button"].special,
-			#banner button.special,
-			#banner .button.special {
-				background-color: #fff;
-				color: #3498db !important;
-			}
-
-		#banner label {
-			color: #fff;
 		}
 
 		#banner input[type="text"],
 		#banner input[type="password"],
 		#banner input[type="email"],
 		#banner select,
+		#banner button,
 		#banner textarea {
 			background: rgba(255, 255, 255, 0.075);
 			border-color: rgba(255, 255, 255, 0.25);
@@ -1946,6 +1859,7 @@
 			#banner input[type="text"]:focus,
 			#banner input[type="password"]:focus,
 			#banner input[type="email"]:focus,
+			#banner button:focus,
 			#banner select:focus,
 			#banner textarea:focus {
 				border-color: #fff;
@@ -1956,41 +1870,11 @@
 			color: rgba(255, 255, 255, 0.25);
 		}
 
-		#banner input[type="checkbox"] + label,
-		#banner input[type="radio"] + label {
-			color: rgba(255, 255, 255, 0.75);
-		}
-
-			#banner input[type="checkbox"] + label:before,
-			#banner input[type="radio"] + label:before {
-				background: rgba(255, 255, 255, 0.075);
-				border-color: rgba(255, 255, 255, 0.25);
-			}
-
-		#banner input[type="checkbox"]:checked + label:before,
-		#banner input[type="radio"]:checked + label:before {
-			background-color: #fff;
-			border-color: #fff;
-			color: #3498db;
-		}
-
-		#banner input[type="checkbox"]:focus + label:before,
-		#banner input[type="radio"]:focus + label:before {
-			border-color: #fff;
-			box-shadow: 0 0 0 1px #fff;
-		}
 
 		#banner ::-webkit-input-placeholder {
 			color: rgba(255, 255, 255, 0.5) !important;
 		}
 
-		#banner :-moz-placeholder {
-			color: rgba(255, 255, 255, 0.5) !important;
-		}
-
-		#banner ::-moz-placeholder {
-			color: rgba(255, 255, 255, 0.5) !important;
-		}
 
 		#banner :-ms-input-placeholder {
 			color: rgba(255, 255, 255, 0.5) !important;
@@ -2000,9 +1884,7 @@
 			color: rgba(255, 255, 255, 0.5) !important;
 		}
 
-		#banner ul.alt li {
-			border-top-color: rgba(255, 255, 255, 0.25);
-		}
+		
 
 		#banner header p {
 			color: rgba(255, 255, 255, 0.5);
