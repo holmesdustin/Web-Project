@@ -101,16 +101,19 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="form-group">
-                            <label for="validationDefault03">Message</label>
-                            <textarea id="validationDefault03" placeholder="Why are you contacting us?" required> </textarea>
+                        <div class="form-row">
+                            <div class="col-md-12 mb-3">
+                                <label for="validationDefault03">Message</label>
+                                <textarea class="form-control" id="validationDefault03" placeholder="Why are you contacting us?" required> </textarea></div>
                         </div>
-                        <div class="form-group">
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
-                                <label class="form-check-label" for="invalidCheck2">
-                                    Agree to terms and conditions
-                                </label>
+                        <div class="form-row">
+                            <div class="col-md-12 mb-3">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                                    <label class="form-check-label" for="invalidCheck2">
+                                        I Am Not A Robot
+                                    </label>
+                                </div>
                             </div>
                         </div>
                         <button class="btn btn-primary" type="submit">Submit Form</button>
