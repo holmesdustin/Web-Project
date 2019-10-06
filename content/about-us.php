@@ -9,7 +9,7 @@
     <div class="inner">
         <div class="row container-fluid relative">
             <div class="col-xs-12 col-sm-12 col-lg-12">
-                <div id="particles-js text-center"><h2 class="junbotron" style="color: white;">We are <strong>Team Gao</strong></h2></div>
+                <div id="particles-js text-center">Team Gao</div>
             </div>
         </div>
     </div>
