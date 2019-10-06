@@ -4,13 +4,13 @@
     </div>
 </section>
 
-<div class="row container-fluid relative">
+<div class="row container-fluid relative justify-content-center">
     <div class="col-xs-12 col-sm-12 col-lg-12">
         <br>
         <hr class="my-4">
         <br>
     </div>
-    <div class="col-xs-12 col-sm-12 col-lg-6 justify-content-center">
+    <div class="col-xs-12 col-sm-12 col-lg-8">
         <div class="bd-example">
             <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
