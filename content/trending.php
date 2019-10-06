@@ -11,48 +11,51 @@
         <br>
         <h3 class="junbotron" style="background-color: white">Join Team Gao with Halloween Specials:</h3>
     </div>
-</div>
-
-<div class="bd-example">
-    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="https://www.history.com/.image/t_share/MTU3ODc5MDc5OTg4MTEwNjY1/halloween-hero-1.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Halloween - 1978</h5>
-                    <p>Fifteen years after murdering his sister on Halloween night 1963, Michael Myers escapes from a mental hospital and returns to the small town of Haddonfield, Illinois to kill again.</p>
+    <div class="col-xs-12 col-sm-12 col-lg-12">
+        <div class="bd-example">
+            <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://www.history.com/.image/t_share/MTU3ODc5MDc5OTg4MTEwNjY1/halloween-hero-1.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Halloween - 1978</h5>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://bloody-disgusting.com/wp-content/uploads/2015/10/Screen-Shot-2015-10-21-at-7.43.15-PM.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Hocus Pocus - 1993</h5>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://mutts.com/wp-content/uploads/2018/10/halloween-lrg-1200x550.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Hotel Transylvania - 2012</h5>
+                            <p></p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="carousel-item">
-                <img src="https://bloody-disgusting.com/wp-content/uploads/2015/10/Screen-Shot-2015-10-21-at-7.43.15-PM.png" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Hocus Pocus - 1993</h5>
-                    <p>A curious youngster moves to Salem, where he struggles to fit in before awakening a trio of diabolical witches that were executed in the 17th century.</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="https://mutts.com/wp-content/uploads/2018/10/halloween-lrg-1200x550.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Hotel Transylvania - 2012</h5>
-                    <p>Dracula, who operates a high-end resort away from the human world, goes into overprotective mode when a boy discovers the resort and falls for the count's teenaged daughter.</p>
-                </div>
+                <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
             </div>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
     </div>
 </div>
+
+
 
 <div class="row container-fluid relative">
     <div class="col-xs-12 col-sm-12 col-lg-12">
