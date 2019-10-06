@@ -4,21 +4,10 @@
     </div>
 </section>
 
+<div id="particles-js"></div>
 
 <section id="main">
-    <div class="inner">
-        <div class="row container-fluid relative">
-            <div class="col-xs-12 col-sm-12 col-lg-12">
-                <div id="particles-js"></div>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-
-<section id="main">
-    <div class="inner">
+    <div class="inner" style="background-color: #1c1c1c; color: white;">
         <header>
             <p class="info">Updated on Oct 04, 2019 by <a href="#">Team Gao</a></p>
         </header>
@@ -32,3 +21,5 @@
         </ul>
     </div>
 </section>
+
+<div id="particles-js"></div>
