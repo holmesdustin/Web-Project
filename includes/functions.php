@@ -117,8 +117,8 @@ function nav_menu()
             $class = str_replace('page=', '', $_SERVER['QUERY_STRING']) == $uri ? 'active' : '';
         } 
         $url = config('site_url') . '/' . (config('pretty_uri') || $uri == '' ? '' : '?page=') . $uri;
-        $icon = $name == 'Trending' ? '<i class="fab fa-hotjar"></i>' : $name == 'About Us' ? '<i class="fas fa-users"></i>' : $name == 'Contact Us' ? '<i class="fas fa-envelope"></i>' : '<i class="fas fa-home"></i>';
-        $nav_menu .= '<li class="nav-item ' . $class . '"> <a href="' . $url . '" title="' . $name . '" class="nav-link ' . '">' . $icon . $name . '</a>' . '</li>';
+        $icon = $name == 'Trending' ? '<i class="fab fa-hotjar"></i>' : ($name == 'About Us' ? '<i class="fas fa-users"></i>' : ($name == 'Contact Us' ? '<i class="fas fa-envelope"></i>' : '<i class="fas fa-home"></i>'));
+        $nav_menu .= '<li class="nav-item ' . $class . '"> <a href="' . $url . '" title="' . $name . '" class="nav-link ' . '">' . $icon . '&nbsp;&nbsp;' . $name . '</a>' . '</li>';
     }
     echo trim($nav_menu);
 }
