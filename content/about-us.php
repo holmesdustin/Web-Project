@@ -22,4 +22,4 @@
     </div>
 </section>
 
-<div id="particles-js"></div>
+<div id="particles-js2"></div>
