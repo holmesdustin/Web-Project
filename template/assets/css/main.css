@@ -515,7 +515,6 @@
 		-webkit-appearance: none;
 		-ms-appearance: none;
 		appearance: none;
-
 		border-radius: 30px;
 		border: solid 1px;
 		color: inherit;
@@ -679,7 +678,7 @@
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: rgb(87, 87, 87);
+			border-color: #1abc9c;
 			box-shadow: 0 0 0 1px #fff;
 		}
 
@@ -1857,15 +1856,7 @@
 			border-color: rgba(255, 255, 255, 0.25);
 		}
 
-			#banner input[type="text"]:focus,
-			#banner input[type="password"]:focus,
-			#banner input[type="email"]:focus,
-			#banner button:focus,
-			#banner select:focus,
-			#banner textarea:focus {
-				border-color: #fff;
-				box-shadow: 0 0 0 1px #fff;
-			}
+			
 
 		#banner .select-wrapper:before {
 			color: rgba(255, 255, 255, 0.25);
