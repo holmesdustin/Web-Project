@@ -13,9 +13,10 @@ function config($key = '')
         'site_url' => 'https://web-project-team-gao.herokuapp.com/',
         'nav_menu' => [
             '' => 'Home',
+            'trending' => 'Trending',
             'about-us' => 'About Us',
-            'contact' => 'Contact Us',
-            'trending' => 'Trending'
+            'contact' => 'Contact Us'
+            
         ],
         'template_path' => 'template',
         'content_path' => 'content',
