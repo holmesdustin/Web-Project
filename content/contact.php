@@ -118,7 +118,7 @@
                         </div>
                         <div class="form-row">
                             <div class="col-md-12 mb-3">
-                                <button class="btn btn-primary-success btn-lg" type="submit">Send Message</button>
+                                <button class="btn btn-primary-success btn-lg" style="background-color: #17a689;" type="submit">Send Message</button>
                             </div>
                         </div>
                     </form>
