@@ -28,15 +28,11 @@
         </h5>
         <h2 class="text-center">Team members</h2>
         <div class="row container-fluid relative">
-            <div class="col-xs-12 col-sm-12 col-lg-12">
-                <h3 class="junbotron" style="background-color: white">Contact us via Social Media:</h3>
-            </div>
             <div class="col-xs-12 col-sm-6 col-lg-3">
-
                 <div class="card text-center" style="border-radius: 20px;">
-                    <img class="card-img-top" style="border-radius: 20px 20px 0px 0px;" src="https://cdn.pixabay.com/photo/2016/11/29/05/45/astronomy-1867616__340.jpg" alt="Yujing Gao BG">
+                    <img class="card-img-top" style="border-radius: 20px 20px 0px 0px; backgroud-color:#1c1c1c;" src="https://cdn.pixabay.com/photo/2016/11/29/05/45/astronomy-1867616__340.jpg" alt="Yujing Gao BG">
                     <div class="card-body">
-                        <h4 class="card-title">Yujing Gao</h5>
+                        <h4 class="card-title" style="color:white">Yujing Gao</h5>
                             <p class="card-text">Programmer<br>Team Gao 2019</p>
                             <a href="#" class="icon fa-twitter fa-2x"><span class="label">Twitter</span></a>&nbsp; &nbsp;
                             <a href="#" class="icon fa-facebook fa-2x"><span class="label">Facebook</span></a>&nbsp; &nbsp;
