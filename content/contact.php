@@ -116,7 +116,11 @@
                                 </div>
                             </div>
                         </div>
-                        <button class="btn btn-outline-success btn-lg" type="submit">Send Message</button>
+                        <div class="form-row">
+                            <div class="col-md-12 mb-3">
+                                <button class="btn btn-primary-success btn-lg" type="submit">Send Message</button>
+                            </div>
+                        </div>
                     </form>
                 </div>
             </div>
