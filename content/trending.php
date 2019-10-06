@@ -19,21 +19,21 @@
                     <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
                 </ol>
                 <div class="carousel-inner p-lg-5">
-                    <div class="carousel-item active px-lg-5">
+                    <div class="carousel-item active p-lg-5">
                         <img src="https://wallpaperaccess.com/full/1102367.jpg" class="d-block w-100" style="border-radius: 20px;" alt="...">
                         <div class="carousel-caption d-none d-md-block">
                             <h5>Halloween - 1978</h5>
                             <p></p>
                         </div>
                     </div>
-                    <div class="carousel-item px-lg-5">
+                    <div class="carousel-item p-lg-5">
                         <img src="https://wallup.net/wp-content/uploads/2019/07/24/257981-trick-r-treat-horror-thriller-dark-halloween-movie-film.jpg" class="d-block w-100" style="border-radius: 20px;" alt="...">
                         <div class="carousel-caption d-none d-md-block">
                             <h5>Hocus Pocus - 1993</h5>
                             <p></p>
                         </div>
                     </div>
-                    <div class="carousel-item px-lg-5">
+                    <div class="carousel-item p-lg-5">
                         <img src="http://getwallpapers.com/wallpaper/full/6/2/9/83885.jpg" class="d-block w-100" style="border-radius: 20px;" alt="...">
                         <div class="carousel-caption d-none d-md-block">
                             <h5>Hotel Transylvania - 2012</h5>
@@ -58,7 +58,6 @@
 
 <div class="row container-fluid relative">
     <div class="col-xs-12 col-sm-12 col-lg-12">
-        <br>
         <hr class="my-4">
         <br>
         <h3 class="junbotron" style="background-color: white">Find Out Some Interesting Halloween Movies:</h3>
