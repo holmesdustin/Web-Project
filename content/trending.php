@@ -10,7 +10,7 @@
         <hr class="my-4">
         <br>
     </div>
-    <div class="col-xs-12 col-sm-12 col-lg-8">
+    <div class="col-xs-12 col-sm-12 col-lg-10">
         <div class="bd-example">
             <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
