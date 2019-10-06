@@ -406,7 +406,7 @@
 	input[type="button"],
 	button,
 	.button {
-		background-color: inherit;
+		background-color: #17a689;
 		color: #fff !important;
 	}
 
