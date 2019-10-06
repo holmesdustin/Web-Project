@@ -23,19 +23,17 @@ function searchByKeyword($keyword)
     $output = curl_exec($handle);
     $response = json_decode($output, true);
     echo '<div class="col-xs-12 col-sm-12 col-lg-12"><br><hr class="my-4"><br></div>'; // add a line to seperate search bar and result content
-    if ($response['Response'] == 'False')
-    {
-        echo '<div class="col-xs-12 col-sm-12 col-lg-12"><h4 class="text-center"><i class="fas fa-sad-cry fa-lg"></i>&nbsp;Sorry, we couldn\'t find any result on the keyword: \'' . $keyword .'\'.</h4></div>';
+    if ($response['Response'] == 'False') {
+        echo '<div class="col-xs-12 col-sm-12 col-lg-12"><h4 class="text-center"><i class="fas fa-sad-cry fa-lg"></i>&nbsp;Sorry, we couldn\'t find any result on the keyword: \'' . $keyword . '\'.</h4></div>';
         echo '<div class="col-xs-12 col-sm-12 col-lg-12"><hr class="my-4"><br></div>'; // add a line to seperate search bar and result content
-    }else{
+    } else {
         $result_num = sizeof($response["Search"]);
-    
+
         for ($x = 0; $x < $result_num; $x++) {
             //echo $x % 4 == 0 ? '<div class="col-xs-12 col-sm-12 col-lg-12"><br><hr class="my-4"><br></div>' : ''; // add break lines 
             echo '<div class="col-xs-12 col-sm-6 col-lg-3">';
             echo '<div class="card text-center" style="width: 100%; height: 90%; border-radius: 20px;">';
             getDetailsByID($response["Search"][$x]["imdbID"]);
-            echo '<a href="#" class="btn btn-primary">Read More</a>';
             echo '</div>';
             echo '</div>';
             echo '<br><hr class="my-4"><br>';
@@ -44,10 +42,8 @@ function searchByKeyword($keyword)
 
         echo '<div class="col-xs-12 col-sm-12 col-lg-12"><p class="text-center">You\'ve reached the end of results.</p><br></div>';
     }
-    
-    curl_close($handle);
-    
 
+    curl_close($handle);
 }
 /*
  * This function is used for more detail about the movie by searching its imdbID
@@ -66,14 +62,62 @@ function getDetailsByID($id)
     );
     $output = curl_exec($handle);
     $response = json_decode($output, true);
-    echo '<img class="card-img-top img-fluid" style="height: 70%; width: auto; border-radius: 20px 20px 0px 0px;" src="' . ($response["Poster"] == 'N/A' ? '../template/assets/images/nopicture.JPG': $response["Poster"]) . '" alt="Poster of Movie">';
-	echo '<div class="card-body">';
-    echo '<h5 class="card-title">' . $response["Title"]. ' - '. $response["Year"] . '</h5>';
+    echo '<img class="card-img-top img-fluid" style="height: 70%; width: auto; border-radius: 20px 20px 0px 0px;" src="' . ($response["Poster"] == 'N/A' ? '../template/assets/images/nopicture.JPG' : $response["Poster"]) . '" alt="Poster of Movie">';
+    echo '<div class="card-body">';
+    echo '<h5 class="card-title">' . $response["Title"] . ' - ' . $response["Year"] . '</h5>';
     $plot = $response["Plot"];
-    
-	echo '<p class="card-text">' . formatPlot($plot) . '</p>';
+
+    echo '<p class="card-text">' . formatPlot($plot) . '</p>';
+    echoDetailModal($response);
 }
 
+/**
+ * This function is used for echoing the detail modal 
+ *
+ * @return void
+ */
+function echoDetailModal($response)
+{
+    $imdbID = $response['imdbID'];
+    $title = $response['Title'];
+    $released = $response['Released'];
+    $plot = $response['Plot'];
+    $rated = $response['Rated'];
+    $director = $response['Director'];
+    $actors = $response['Actors'];
+    $country = $response['Country'];
+    $genre = $response['Genre'];
+
+    echo '<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalForID' . $imdbID . '">Read More</button>';
+    echo '<div class="modal fade" id="modalForID' . $imdbID . '" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title text-center">' . $title . '</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 text-left mb-2"><b>Released: &nbsp;</b>' . $released . '</div>
+                    <div class="col-12 text-left mb-2"><b>Rated: &nbsp;</b>' . $rated . '</div>
+                    <div class="col-12 text-left mb-2"><b>Genre: &nbsp;</b>' . $genre . '</div>
+                    <div class="col-12 text-left mb-2"><b>Director: &nbsp;</b>' . $director . '</div>
+                    <div class="col-12 text-left mb-2"><b>Actors: &nbsp;</b>' . $actors . '</div>
+                    <div class="col-12 text-left mb-2"><b>Country: &nbsp;</b>' . $country . '</div>
+                    <div class="col-12 text-left mb-2"><b>Plot: &nbsp;</b>' . $plot . '</div>
+                </div>
+            </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>';
+}
 /**
  * Make the plot length consistent to beatify the card
  *
@@ -82,8 +126,7 @@ function getDetailsByID($id)
 function formatPlot($plot)
 {
     $maxCharacter = 160;
-    while (strlen($plot) < $maxCharacter)
-    {
+    while (strlen($plot) < $maxCharacter) {
         $plot = $plot . ' ';
     }
     $plotBrief = strlen($plot) > $maxCharacter ? substr($plot, 0, $maxCharacter) . ' ...' : $plot;
@@ -125,7 +168,7 @@ function nav_menu()
         $class = '';
         if (isset($_SERVER['QUERY_STRING'])) {
             $class = str_replace('page=', '', $_SERVER['QUERY_STRING']) == $uri ? 'active' : '';
-        } 
+        }
         $url = config('site_url') . '/' . (config('pretty_uri') || $uri == '' ? '' : '?page=') . $uri;
         $icon = $name == 'Trending' ? '<i class="fab fa-hotjar"></i>' : ($name == 'About Us' ? '<i class="fas fa-users"></i>' : ($name == 'Contact Us' ? '<i class="fas fa-envelope"></i>' : '<i class="fas fa-home"></i>'));
         $nav_menu .= '<li class="nav-item ' . $class . '"> <a href="' . $url . '" title="' . $name . '" class="nav-link ' . '">' . $icon . '&nbsp;&nbsp;' . $name . '</a>' . '</li>';
