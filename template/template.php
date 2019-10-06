@@ -53,6 +53,8 @@
     <script src="template/assets/js/skel.min.js"></script>
     <script src="template/assets/js/util.js"></script>
     <script src="template/assets/js/main.js"></script>
+    <script src="template/assets/js/particles.js"></script>
+    <script src="template/assets/js/app.js"></script>
 
     <script>
         $("#button").click(function() {

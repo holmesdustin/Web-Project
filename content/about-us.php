@@ -4,6 +4,9 @@
     </div>
 </section>
 
+<!-- particles.js container -->
+<div id="particles-js"></div>
+
 <section id="main">
     <div class="inner">
         <header>
