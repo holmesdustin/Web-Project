@@ -18,7 +18,7 @@
                     <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
                     <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
                 </ol>
-                <div class="carousel-inner px-md-4">
+                <div class="carousel-inner mpx-lg-4">
                     <div class="carousel-item active">
                         <img src="https://wallpaperaccess.com/full/1102367.jpg" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block">
