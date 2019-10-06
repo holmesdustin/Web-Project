@@ -13,21 +13,21 @@
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="https://m.media-amazon.com/images/M/MV5BNzk1OGU2NmMtNTdhZC00NjdlLWE5YTMtZTQ0MGExZTQzOGQyXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg" class="d-block w-100" alt="...">
+                <img src="https://www.history.com/.image/t_share/MTU3ODc5MDc5OTg4MTEwNjY1/halloween-hero-1.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>Halloween - 1978</h5>
                     <p>Fifteen years after murdering his sister on Halloween night 1963, Michael Myers escapes from a mental hospital and returns to the small town of Haddonfield, Illinois to kill again.</p>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="https://m.media-amazon.com/images/M/MV5BMmQyYmY5ZTMtM2JkNi00NmM2LWE3ZmEtYWYzZmRkZDM0ZTdlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg" class="d-block w-100" alt="...">
+                <img src="https://bloody-disgusting.com/wp-content/uploads/2015/10/Screen-Shot-2015-10-21-at-7.43.15-PM.png" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>Hocus Pocus - 1993</h5>
                     <p>A curious youngster moves to Salem, where he struggles to fit in before awakening a trio of diabolical witches that were executed in the 17th century.</p>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="https://m.media-amazon.com/images/M/MV5BMTM3NjQyODI3M15BMl5BanBnXkFtZTcwMDM4NjM0OA@@._V1_SX300.jpg" class="d-block w-100" alt="...">
+                <img src="https://mutts.com/wp-content/uploads/2018/10/halloween-lrg-1200x550.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>Hotel Transylvania - 2012</h5>
                     <p>Dracula, who operates a high-end resort away from the human world, goes into overprotective mode when a boy discovers the resort and falls for the count's teenaged daughter.</p>
