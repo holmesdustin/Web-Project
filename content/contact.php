@@ -116,7 +116,7 @@
                                 </div>
                             </div>
                         </div>
-                        <button class="btn btn-primary" type="submit">Submit Form</button>
+                        <button class="btn btn-outline-success btn-lg" type="submit">Send Message</button>
                     </form>
                 </div>
             </div>

@@ -6,7 +6,7 @@
 
 		<div class="input-group md-form form-sm form-2 pl-0">
 			<input class="form-control" style="font-size:unset; border-right-color: transparent;" id="inputKey" type="text" placeholder="Search Movies by Title, Keyword..." aria-label="Search">
-			<button type="button" style="border-left-color: transparent;" id="button" href="#result_showed"><i class="fas fa-search" aria-hidden="true"></i></button>
+			<button type="button" style="border-left-color: transparent;" id="button" href="#result_showed"><i class="fas fa-search fa-lg" aria-hidden="true"></i></button>
 		</div>
 		
 	</div>
