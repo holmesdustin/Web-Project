@@ -4,6 +4,15 @@
     </div>
 </section>
 
+<div class="row container-fluid relative">
+    <div class="col-xs-12 col-sm-12 col-lg-12">
+        <br>
+        <hr class="my-4">
+        <br>
+        <h3 class="junbotron" style="background-color: white">Join Team Gao with Halloween Specials:</h3>
+    </div>
+</div>
+
 <div class="bd-example">
     <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
@@ -50,7 +59,7 @@
         <br>
         <hr class="my-4">
         <br>
-        <h3 class="junbotron" style="background-color: white">Find out some Halloween specials:</h3>
+        <h3 class="junbotron" style="background-color: white">Find Out Some Interesting Halloween Movies:</h3>
     </div>
     <div class="col-xs-12 col-sm-6 col-lg-3">
         <div class="card text-center" style="border-radius: 20px; height: 90%; width: 100%;">
