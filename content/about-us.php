@@ -4,15 +4,24 @@
     </div>
 </section>
 
-<!-- particles.js container -->
-<div id="particles-js"></div>
+
+<section id="main">
+    <div class="inner">
+        <div class="row container-fluid relative">
+            <div class="col-xs-12 col-sm-12 col-lg-12">
+                <div id="particles-js text-center"><h2 class="junbotron" style="color: white;">We are <strong>Team Gao</strong></h2></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
 
 <section id="main">
     <div class="inner">
         <header>
             <p class="info">Updated on Oct 04, 2019 by <a href="#">Team Gao</a></p>
         </header>
-        <h2>We are <strong>Team Gao</strong></h2>
         <h4>Team members:</h4>
         <ul>
             <li>Yujing Gao</li>
