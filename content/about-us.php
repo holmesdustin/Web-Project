@@ -6,10 +6,10 @@
 
 <div id="particles-js"></div>
 
-<section id="main">
-    <div class="inner" style="background-color: #1c1c1c; color: white;">
+<section id="main" style="background-color: #1c1c1c; color: white;">
+    <div class="inner">
         <header>
-            <p class="info">Updated on Oct 04, 2019 by <a href="#">Team Gao</a></p>
+            <p class="info">Updated on Oct 04, 2019 by <strong>Team Gao</strong></p>
         </header>
         <h2>We are <strong>Team Gao</strong></h2>
         <h4>Team members:</h4>
