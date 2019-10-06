@@ -2465,7 +2465,7 @@
 /* Footer */
 
 	#footer {
-		padding: 4em 0 2em 0;
+		padding: 2em 0 2em 0;
 		background: #1c1c1c;
 		text-align: center;
 	}
@@ -2488,7 +2488,7 @@
 		@media screen and (max-width: 736px) {
 
 			#footer {
-				padding: 3em 0 1em 0;
+				padding: em 0 1em 0;
 			}
 
 		}
