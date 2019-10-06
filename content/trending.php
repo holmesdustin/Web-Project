@@ -10,7 +10,7 @@
         <hr class="my-4">
         <br>
     </div>
-    <div class="col-xs-12 col-sm-12 col-lg-10">
+    <div class="col-xs-12 col-sm-12 col-lg-9">
         <div class="bd-example">
             <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
@@ -18,7 +18,7 @@
                     <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
                     <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
                 </ol>
-                <div class="carousel-inner p-lg-5">
+                <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img src="https://wallpaperaccess.com/full/1102367.jpg" class="d-block w-100" style="border-radius: 20px;" alt="...">
                         <div class="carousel-caption d-none d-md-block">
