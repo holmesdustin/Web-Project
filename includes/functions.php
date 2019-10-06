@@ -25,7 +25,7 @@ function searchByKeyword($keyword)
     echo '<div class="col-xs-12 col-sm-12 col-lg-12"><br><hr class="my-4"><br></div>'; // add a line to seperate search bar and result content
     if ($response['Response'] == 'False')
     {
-        echo '<div class="col-xs-12 col-sm-12 col-lg-12"><h4 class="text-center">Sorry, we couldn\'t find any result on the keyword: \'' . $keyword .'\'.</h4></div>';
+        echo '<div class="col-xs-12 col-sm-12 col-lg-12"><h4 class="text-center"><i class="fas fa-sad-cry fa-lg"></i>&nbsp;Sorry, we couldn\'t find any result on the keyword: \'' . $keyword .'\'.</h4>&nbsp;<i class="fas fa-heart-broken fa-lg"></i></div>';
         echo '<div class="col-xs-12 col-sm-12 col-lg-12"><hr class="my-4"><br></div>'; // add a line to seperate search bar and result content
     }else{
         $result_num = sizeof($response["Search"]);
