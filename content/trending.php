@@ -20,21 +20,21 @@
                 </ol>
                 <div class="carousel-inner p-lg-5">
                     <div class="carousel-item active p-lg-5">
-                        <img src="https://wallpaperaccess.com/full/1102367.jpg" class="d-block w-100" style="border-radius: 20px;" alt="...">
+                        <img src="https://wallpaperaccess.com/full/1102367.jpg" class="d-block w-50 h-50" style="border-radius: 20px;" alt="...">
                         <div class="carousel-caption d-none d-md-block">
                             <h5>Halloween - 1978</h5>
                             <p></p>
                         </div>
                     </div>
                     <div class="carousel-item p-lg-5">
-                        <img src="https://wallup.net/wp-content/uploads/2019/07/24/257981-trick-r-treat-horror-thriller-dark-halloween-movie-film.jpg" class="d-block w-100" style="border-radius: 20px;" alt="...">
+                        <img src="https://wallup.net/wp-content/uploads/2019/07/24/257981-trick-r-treat-horror-thriller-dark-halloween-movie-film.jpg" class="d-block w-50 h-50" style="border-radius: 20px;" alt="...">
                         <div class="carousel-caption d-none d-md-block">
                             <h5>Hocus Pocus - 1993</h5>
                             <p></p>
                         </div>
                     </div>
                     <div class="carousel-item p-lg-5">
-                        <img src="http://getwallpapers.com/wallpaper/full/6/2/9/83885.jpg" class="d-block w-100" style="border-radius: 20px;" alt="...">
+                        <img src="http://getwallpapers.com/wallpaper/full/6/2/9/83885.jpg" class="d-block w-50 h-50" style="border-radius: 20px;" alt="...">
                         <div class="carousel-caption d-none d-md-block">
                             <h5>Hotel Transylvania - 2012</h5>
                             <p></p>
