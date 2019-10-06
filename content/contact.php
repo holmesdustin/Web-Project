@@ -103,7 +103,7 @@
                         </div>
                         <div class="form-group">
                             <label for="validationDefault03">Message</label>
-                            <textarea class="form-control" id="validationDefault03" placeholder="Why are you contacting us?" required> </textarea>
+                            <textarea id="validationDefault03" placeholder="Why are you contacting us?" required> </textarea>
                         </div>
                         <div class="form-group">
                             <div class="form-check">
