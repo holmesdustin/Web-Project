@@ -4,8 +4,18 @@
     </div>
 </section>
 
-<!-- particles.js container -->
-<div id="particles-js"></div>
+
+<section id="main">
+    <div class="inner">
+        <div class="row container-fluid relative">
+            <div class="col-xs-12 col-sm-12 col-lg-12">
+                <div id="particles-js"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
 
 <section id="main">
     <div class="inner">
