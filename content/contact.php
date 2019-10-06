@@ -11,7 +11,7 @@
                 <h3 class="junbotron" style="background-color: white">Contact us via Social Media:</h3>
             </div>
             <div class="col-xs-12 col-sm-6 col-lg-3">
-                
+
                 <div class="card text-center" style="border-radius: 20px;">
                     <img class="card-img-top" style="border-radius: 20px 20px 0px 0px;" src="https://cdn.pixabay.com/photo/2016/11/29/05/45/astronomy-1867616__340.jpg" alt="Yujing Gao BG">
                     <div class="card-body">
@@ -95,14 +95,9 @@
                                 <input type="text" class="form-control" id="validationDefault02" placeholder="Last name" required>
                             </div>
                             <div class="col-md-6 mb-3">
-                                <label for="validationDefaultUsername">Email</label>
+                                <label for="validationDefaultEmail">Email</label>
                                 <div class="input-group">
-                                    <input type="text" class="form-control" id="validationDefaultUsername" placeholder="Username" aria-describedby="inputGroupPrepend2" required>
-                                    <div class="input-group-prepend">
-                                        <span class="input-group-text" id="inputGroupPrepend2">@</span>
-                                    </div>
-                                    <input type="text" class="form-control" placeholder="teamgao.org" aria-describedby="inputGroupPrepend2" required>
-
+                                    <input type="email" class="form-control" id="validationDefaultEmail" placeholder="Email" required>
                                 </div>
                             </div>
                         </div>
