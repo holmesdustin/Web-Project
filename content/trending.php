@@ -58,6 +58,7 @@
 
 <div class="row container-fluid relative">
     <div class="col-xs-12 col-sm-12 col-lg-12">
+        <br>
         <hr class="my-4">
         <br>
         <h3 class="junbotron" style="background-color: white">Find Out Some Interesting Halloween Movies:</h3>
