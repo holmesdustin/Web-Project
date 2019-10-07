@@ -150,8 +150,13 @@ body {
 	background-color: #1c1c1c;
 }
 
-.spiderFont {
+@font-face {
 	src:url("../fonts/spider-man-font.ttf");
+	font-family: spider;
+}
+
+.spiderFont {
+	font-family: spider;
 }
 
 /* Box Model */
