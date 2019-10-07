@@ -1,6 +1,6 @@
 <section id="banner">
     <div class="inner">
-        <h1 id="spiderFont"><i class="fas fa-ghost"></i>&nbsp;&nbsp;trending&nbsp;&nbsp;<i class="fas fa-spider"></i></h1>
+        <h1 id="spiderFont"><i class="fas fa-ghost"></i>&nbsp;&nbsp;TRENDING&nbsp;&nbsp;<i class="fas fa-spider"></i></h1>
     </div>
 </section>
 
