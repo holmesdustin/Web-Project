@@ -150,6 +150,10 @@ body {
 	background-color: #1c1c1c;
 }
 
+.spiderFont {
+	src:url("../fonts/spider-man-font.ttf");
+}
+
 /* Box Model */
 
 *,

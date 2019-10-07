@@ -1,6 +1,6 @@
 <section id="banner">
     <div class="inner">
-        <h1 style="url('template/assets/fonts/the_amazing_spider_man/The Amazing Spider-Man.ttf')";><i class="fas fa-ghost"></i>&nbsp;&nbsp;Trending&nbsp;&nbsp;<i class="fas fa-spider"></i></h1>
+        <h1 class="spiderFont"><i class="fas fa-ghost"></i>&nbsp;&nbsp;Trending&nbsp;&nbsp;<i class="fas fa-spider"></i></h1>
     </div>
 </section>
 
