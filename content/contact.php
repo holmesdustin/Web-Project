@@ -134,7 +134,7 @@
             <div class="col-xs-12 col-sm-12 col-lg-12">
                 <div class="card">
                     <div class="card-header">
-                        Quote
+                        <i class="fas fa-quote-left"></i>
                     </div>
                     <div class="card-body">
                         <blockquote class="blockquote mb-0">

@@ -2,13 +2,19 @@
 <section id="banner">
 	<div class="inner">
 		<h1>OMDb Movie Search Engine<br>
-			created by Team Gao</h1>
+			Created by Team Gao</h1>
 
 		<div class="input-group md-form form-sm form-2 pl-0">
 			<input class="form-control" style="font-size:unset; border-right-color: transparent;" id="inputKey" type="text" placeholder="Search Movies by Title, Keyword..." aria-label="Search">
 			<button type="button" style="border-left-color: transparent;" id="button"><i class="fas fa-search fa-lg" aria-hidden="true"></i></button>
 		</div>
 
+		<br><br><br>
+		<h3 style="color: #9c9c9c;">
+			Supported By: &nbsp;&nbsp;<i class="fab fa-php"></i> &nbsp;&nbsp;&nbsp;<i class="fab fa-js-square"></i>&nbsp;&nbsp;&nbsp;
+			<i class="fab fa-imdb"></i>&nbsp;&nbsp;&nbsp;<i class="fab fa-bootstrap"></i>&nbsp;&nbsp;&nbsp;<i class="fab fa-css3-alt"></i>
+			&nbsp;&nbsp;&nbsp;<i class="fas fa-code"></i>&nbsp;&nbsp;&nbsp;<i class="fab fa-chrome"></i>
+		</h3>
 	</div>
 </section>
 <div id="result_showed" class="container-fluid relative row" style="display: none;">
