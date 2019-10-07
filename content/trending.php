@@ -25,7 +25,6 @@
                         <div class="carousel-caption d-none d-md-block">
                             <h3 class="junbotron" style="color: white;">Today's Halloween is a cultural mashup.</h3>
                             <p>The Halloween holiday we've all come to know and love is a combination of several different celebrations from different cultures and religions at different times in history. The ancient Celtic people celebrated Samhain, marking the end of harvest season and a time when the boundary between the worlds of the living and the dead became blurred and ghosts visited the earth. After the Roman Empire conquered the Celtic peoples, their festivals of Feralia, a day in late October when the Romans honored the passing of the dead, and a day to honor Pomona, the Roman goddess of fruit and trees, were combined with Samhain.</p>
-                            <p>The November 1st Catholic holiday of All Saints' Day, or All Hallows' Mass, celebrating all those who have gone to heaven, also contributes to the history of Halloween. All Souls' Day, celebrated the next day, honors all who have died but have not yet reached heaven.</p>
                         </div>
                     </div>
                     <div class="carousel-item">
