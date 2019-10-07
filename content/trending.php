@@ -29,7 +29,7 @@
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="https://wallup.net/wp-content/uploads/2019/07/24/257981-trick-r-treat-horror-thriller-dark-halloween-movie-film.jpg" class="d-block w-100" style="border-radius: 20px;" alt="...">
+                        <img src="https://img2.akspic.com/image/63432-farmhouse-full_moon-nature-moonlight-halloween-1920x1080.jpg" class="d-block w-100" style="border-radius: 20px;" alt="...">
                         <div class="carousel-caption d-none d-md-block">
                             <h3 class="junbotron" style="color: white;">Dressing up in costumes was once a way to hide from ghosts.</h3>
                             <p>The tradition originated as a way for the Celtic and other European people to hide from the spirits who returned at this time of year. People wore masks when they left their homes after dark so the ghosts would think they were fellow spirits. To keep the ghosts out of their houses, people would place bowls of food outside to make them happy.</p>

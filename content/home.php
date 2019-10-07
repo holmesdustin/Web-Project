@@ -11,7 +11,21 @@
 
 	</div>
 </section>
-<div id="result_showed" class="container-fluid relative row"></div>
+<div id="result_showed" class="container-fluid relative row" style="display: none;">
+	<div class="container">
+		<br>
+		<hr class="my-4">
+		<h2 class="text-center">Loading Results...</h2>
+		<div class="progress">
+			<div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+				<span class="sr-only">70% Complete</span>
+			</div>
+		</div>
+		<br>
+		<hr class="my-4">
+		<br>
+	</div>
+</div>
 
 <script>
 	var input = document.getElementById("inputKey");
@@ -22,4 +36,3 @@
 		}
 	});
 </script>
-

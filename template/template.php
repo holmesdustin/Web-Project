@@ -58,6 +58,10 @@
 
     <script>
         $("#button").click(function() {
+            $("#result_showed").show();
+            $('html, body').animate({
+                        scrollTop: $("#result_showed").offset().top
+                    }, 1000);
             var keyword = $("#inputKey").val();
             $.ajax({
                 type: 'post',
@@ -67,10 +71,9 @@
                 },
                 dataType: "HTML",
                 success: function(result) {
-                    $('html, body').animate({
-                        scrollTop: $("#result_showed").offset().top
-                    }, 1000);
+                    $("#result_showed").delay("slow").fadeIn();
                     $("#result_showed").html(result);
+                    
                 },
                 error: function() {
                     alert("Failed to get result");
