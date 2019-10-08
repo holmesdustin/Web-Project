@@ -2,14 +2,6 @@
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Lato:300,700,300italic,700italic");
 
-/*
-	Binary by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
-*/
-
-/* Reset */
-
 html,
 body,
 div,
@@ -196,7 +188,7 @@ body.is-loading *:after {
 /* Type */
 
 body {
-	background-color: #fff;
+	background-color: rgb(223, 223, 223);
 	color: #444;
 }
 
@@ -539,7 +531,7 @@ input[type="button"],
 button,
 .button {
 	background-color: #17a689;
-	color: #fff !important;
+	
 }
 
 input[type="submit"]:hover,
