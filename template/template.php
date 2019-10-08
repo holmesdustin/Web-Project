@@ -59,9 +59,10 @@
 
     <script>
         $("#button").click(function() {
-            $("#result_showed").show();
+            $("#result_showed").hide();
+            $("#result_loading").show();
             $('html, body').animate({
-                scrollTop: $("#result_showed").offset().top
+                scrollTop: $("#result_loading").offset().top
             }, 1000);
             var keyword = $("#inputKey").val();
             $.ajax({
@@ -72,9 +73,12 @@
                 },
                 dataType: "HTML",
                 success: function(result) {
-                    $("#result_showed").delay("slow").fadeIn();
+                    $("#result_loading").hide();
+                    $("#result_showed").show();
                     $("#result_showed").html(result);
-
+                    $('html, body').animate({
+                        scrollTop: $("#result_showed").offset().top
+                    }, 1000);
                 },
                 error: function() {
                     alert("Failed to get result");

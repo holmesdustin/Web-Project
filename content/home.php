@@ -17,7 +17,8 @@
 		</h3>
 	</div>
 </section>
-<div id="result_showed" class="container-fluid relative row" style="display: none;">
+
+<div id="result_loading" class="container-fluid relative row" style="display: none;">
 	<div class="container">
 		<br>
 		<hr class="my-4">
@@ -31,6 +32,10 @@
 		<hr class="my-4">
 		<br>
 	</div>
+</div>
+
+<div id="result_showed" class="container-fluid relative row">
+	
 </div>
 
 <script>
