@@ -101,11 +101,10 @@
                     "message": message
                 },
                 success: function(result) {
-                    alert("Thank you! Your message has been sent to our team.");
-                    alert("test: " + firstName+lastName+email+message);
+                    alert(result);
                 },
                 error: function() {
-                    alert("Failed to send message. Please try again.");
+                    alert("Failed to reach server. Please try again.");
                 }
             });
             return false;
