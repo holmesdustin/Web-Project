@@ -1,7 +1,5 @@
 <?php
 
-require 'config.php';
-
 $emailFrom = "";
 $firstName = "";
 $LastName = "";
