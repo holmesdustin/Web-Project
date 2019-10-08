@@ -27,7 +27,7 @@ try {
     $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
     $mail->Username   = config['email']['username'];                     // SMTP username
     $mail->Password   = config['email']['password'];                               // SMTP password
-    $mail->SMTPSecure = config['email']['SMTPSecure'];      // Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` also accepted
+    $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;      // Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` also accepted
     $mail->Port       = config['email']['port'];                                    // TCP port to connect to
 
     //Recipients
