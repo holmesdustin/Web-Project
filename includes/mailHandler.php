@@ -10,6 +10,7 @@ $emailFrom = $_POST["email"];
 $firstName = $_POST["firstName"];
 $LastName = $_POST["lastName"];
 $message = $_POST["message"];
+$fullName = $firstName . ' ' . $LastName;
 
 require 'PHPMailerAutoload.php';
 $mail = new PHPMailer;
@@ -22,15 +23,15 @@ $mail->Password = 'P@ssw0rdtoor';                           // SMTP password
 $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
 $mail->Port = 587;                                    // TCP port to connect to
 
-$mail->setFrom($_POST['email'], $_POST['name']);
+$mail->setFrom($emailFrom, $fullName);
 $mail->addAddress('gao.yujing.csu@gmail.com', 'Yujing Gao');     // Add a recipient
 $mail->addReplyTo($_POST['email'], $_POST['name']);
 
 $mail->isHTML(true);                                  // Set email format to HTML
 
-$mail->Subject = 'Here is the subject: ' . $_POST['subject'];
-$mail->Body    = 'This is the HTML message body <b>in bold!</b>';
-$mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
+$mail->Subject = 'You Got a Feedback From Team Gao Website!';
+$mail->Body    = $fullName . ' has sent you a feeback on website.<br><b>Name: </b>' . $fullName . '<br><b>Contact Email: </b>' . $emailFrom . '<br><b>Message: </b>' . $message;
+$mail->AltBody = $fullName . ' has sent you a feeback on website.\nName: ' . $fullName . '\nContact Email: ' . $emailFrom . '\nMessage: ' . $message;
 
 if(!$mail->send()) {
     echo 'Message could not be sent.';
