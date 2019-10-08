@@ -34,9 +34,12 @@
 
     <!-- Footer -->
     <footer id="footer">
-        <a href="https://github.com/holmesdustin/Web-Project"><i class="fab fa-github fa-lg"></i></a>
         <div class="copyright">
+            <a href="https://github.com/holmesdustin/Web-Project"><i class="fab fa-github fa-2x"></i></a>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="../content/contact.php"><i class="fas fa-at fa-2x"></i></a> <br><br>
             &copy;<?php echo date('Y'); ?> <?php site_name(); ?>.<br><?php site_version(); ?>
+
         </div>
     </footer>
 
