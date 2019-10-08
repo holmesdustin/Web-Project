@@ -95,7 +95,6 @@
                 type: 'post',
                 url: '../includes/mailHandler.php',
                 data: {
-                    "mailInfoSet": true,
                     "firstName": firstName,
                     "lastName": lastName,
                     "email": email,

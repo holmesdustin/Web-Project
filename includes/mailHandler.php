@@ -1,11 +1,6 @@
 <?php
 
-use PHPMailer\PHPMailer\PHPMailer;
-use PHPMailer\PHPMailer\Exception;
-
-require 'includes/config.php';
-// Load Composer's autoloader
-require 'vendor/autoload.php';
+require 'config.php';
 
 $emailFrom = "";
 $firstName = "";
@@ -18,30 +13,28 @@ $firstName = $_POST["firstName"];
 $LastName = $_POST["lastName"];
 $message = $_POST["message"];
 
-$mail = new PHPMailer(true);
 
-try {
-    //Server settings
-    $mail->SMTPDebug = SMTP::DEBUG_SERVER;   
-    $mail->isSMTP();                                            // Send using SMTP
-    $mail->Host       = config['email']['host'];                    // Set the SMTP server to send through
-    $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
-    $mail->Username   = config['email']['username'];                     // SMTP username
-    $mail->Password   = config['email']['password'];                               // SMTP password
-    $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;      // Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` also accepted
-    $mail->Port       = config['email']['port'];                                    // TCP port to connect to
 
-    //Recipients
-    $mail->setFrom($emailFrom, $firstName . ' ' . $LastName);
-    $mail->addAddress('gao_yujing@columbusstate.edu', 'Yujing Gao');     // Add a recipient
+require_once "Mail.php";
 
-    $mail->isHTML(true);                                  // Set email format to HTML
-    $mail->Subject = 'You got a message';
-    $mail->Body    = '<p>' . $message . '</p>';
-    $mail->AltBody = $message;
+$host = "ssl://smtp.gmail.com";
+$username = "noreply.teamgao@gmail.com";
+$password = "P@ssw0rdtoor";
+$port = "587";
+$to = "gao_yujing@columbusstate.edu";
+$email_from = $emailFrom;
+$email_subject = "Subject Line Here: " ;
+$email_body = "whatever you like" ;
+$email_address = $emailFrom;
 
-    $mail->send();
-    echo 'Thank you! Your message has been sent to our team.';
-} catch (Exception $e) {
-    echo "Message could not be sent.";
+$headers = array ('From' => $email_from, 'To' => $to, 'Subject' => $email_subject, 'Reply-To' => $email_address);
+$smtp = Mail::factory('smtp', array ('host' => $host, 'port' => $port, 'auth' => true, 'username' => $username, 'password' => $password));
+$mail = $smtp->send($to, $headers, $email_body);
+
+
+if (PEAR::isError($mail)) {
+echo("<p>" . $mail->getMessage() . "</p>");
+} else {
+echo("<p>Message successfully sent!</p>");
 }
+?>

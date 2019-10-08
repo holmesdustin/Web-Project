@@ -22,12 +22,6 @@ function config($key = '')
         'content_path' => 'content',
         'version' => 'October 6th, 2019',
         'api_key' => '2b352ccb',
-        'email' => [
-            'host' => 'smtp.gmail.com',
-            'port' => 587,
-            'username' => 'noreply.teamgao@gmail.com',
-            'password' => 'P@ssw0rdtoor'
-        ],
     ];
     return isset($config[$key]) ? $config[$key] : null;
 }
