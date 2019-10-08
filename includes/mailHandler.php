@@ -24,7 +24,7 @@ $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, 
 $mail->Port = 587;                                    // TCP port to connect to
 
 $mail->setFrom($emailFrom, $fullName);
-$mail->addAddress('gao.yujing.csu@gmail.com', 'Yujing Gao');     // Add a recipient
+$mail->addAddress('gao_yujing@columbusstate.edu', 'Yujing Gao');     // Add a recipient
 $mail->addReplyTo($_POST['email'], $_POST['name']);
 
 $mail->isHTML(true);                                  // Set email format to HTML
