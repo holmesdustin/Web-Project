@@ -9,7 +9,8 @@ if (isset($_POST["search"])) {
 };
 
 if (isset($_POST["firstName"])) {
-    emailTeamMessage($_POST["firstName"], $_POST["lastName"], $_POST["email"], $_POST["message"]);
+    //emailTeamMessage($_POST["firstName"], $_POST["lastName"], $_POST["email"], $_POST["message"]);
+    echo "test: all good";
 };
 
 /**
