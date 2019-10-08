@@ -102,6 +102,7 @@
                 },
                 success: function(result) {
                     alert("Thank you! Your message has been sent to our team.");
+                    alert("test: " + firstName+lastName+email+message);
                 },
                 error: function() {
                     alert("Failed to send message. Please try again.");
