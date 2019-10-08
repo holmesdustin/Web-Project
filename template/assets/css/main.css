@@ -188,7 +188,7 @@ body.is-loading *:after {
 /* Type */
 
 body {
-	background-color: rgb(223, 223, 223);
+	background-color: #fff;
 	color: #444;
 }
 
@@ -531,7 +531,7 @@ input[type="button"],
 button,
 .button {
 	background-color: #17a689;
-	
+	color: #fff !important;
 }
 
 input[type="submit"]:hover,
