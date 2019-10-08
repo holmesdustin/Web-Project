@@ -23,13 +23,17 @@ $mail->Password = 'P@ssw0rdtoor';                           // SMTP password
 $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
 $mail->Port = 587;                                    // TCP port to connect to
 
-$mail->setFrom($emailFrom, $fullName);
+$mail->setFrom('noreply.teamgao@gmail.com', 'NoReply-TeamGao');
 $mail->addAddress('gao_yujing@columbusstate.edu', 'Yujing Gao');     // Add a recipient
+$mail->addAddress('gao.yujing.csu@gmail.com', 'Yujing Gao'); 
+//$mail->addAddress('corbin_caleb@columbusstate.edu', 'Corbin Caleb'); 
+//$mail->addAddress('holmes_dustin@columbusstate.edu', 'Dustin Holmes'); 
+//$mail->addAddress('stadtmueller_johnathan@columbusstate.edu', 'Jonathan Stadmueller'); 
 $mail->addReplyTo($_POST['email'], $_POST['name']);
 
 $mail->isHTML(true);                                  // Set email format to HTML
 
-$mail->Subject = 'You Got a Feedback From Team Gao Website!';
+$mail->Subject = 'Feedback from Team Gao';
 $mail->Body    = $fullName . ' has sent you a feeback on website.<br><br><b>Name: </b>' . $fullName . '<br><b>Contact Email: </b>' . $emailFrom . '<br><b>Message: </b>' . $message;
 $mail->AltBody = $fullName . ' has sent you a feeback on website.\nName: ' . $fullName . '\nContact Email: ' . $emailFrom . '\nMessage: ' . $message;
 
