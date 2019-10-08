@@ -103,10 +103,10 @@
                 dataType: "text",
                 success: function(result) {
                     alert(result);
-                    $("#firstNameContact").attr('value', '');
-                    $("#lastNameContact").attr('value', '');
-                    $("#emailContact").attr('value', '');
-                    $("#messageContact").attr('value', '');
+                    $("#firstNameContact").val('');
+                    $("#lastNameContact").val('');
+                    $("#emailContact").val('');
+                    $("#messageContact").val('');
                 },
                 error: function() {
                     alert("Failed to reach server. Please try again.");

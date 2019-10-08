@@ -30,7 +30,7 @@ $mail->addReplyTo($_POST['email'], $_POST['name']);
 $mail->isHTML(true);                                  // Set email format to HTML
 
 $mail->Subject = 'You Got a Feedback From Team Gao Website!';
-$mail->Body    = $fullName . ' has sent you a feeback on website.<br><b>Name: </b>' . $fullName . '<br><b>Contact Email: </b>' . $emailFrom . '<br><b>Message: </b>' . $message;
+$mail->Body    = $fullName . ' has sent you a feeback on website.<br><br><b>Name: </b>' . $fullName . '<br><b>Contact Email: </b>' . $emailFrom . '<br><b>Message: </b>' . $message;
 $mail->AltBody = $fullName . ' has sent you a feeback on website.\nName: ' . $fullName . '\nContact Email: ' . $emailFrom . '\nMessage: ' . $message;
 
 if(!$mail->send()) {
