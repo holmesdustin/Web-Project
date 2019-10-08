@@ -12,6 +12,7 @@ function searchByKeyword($keyword)
     //$keyword = trim($keyword); //Strip whitespace (or other characters) from the beginning and end of a string
     //$keyword = str_replace(" ", "+", $keyword);
     $keyword = parseKeyword($keyword);
+    echo "parsed keyword:" . $keyword;
     $url = "http://www.omdbapi.com/?apikey=" . config('api_key') . "&s=" . $keyword;
     $handle = curl_init();
     curl_setopt($handle, CURLOPT_URL, $url);
@@ -53,10 +54,15 @@ function searchByKeyword($keyword)
  */
 function parseKeyword($keyword)
 {
+    $keyword = trim($keyword);
     $keywordPieces = explode(" ", $keyword);
     $keyword = "";
     for ($x = 0; $x < sizeof($keywordPieces)-1; $x++) {
-        $keyword = $keyword . $keywordPieces[$x] . "+";
+        if ($keywordPieces[$x] != "")
+        {
+            $keyword = $keyword . $keywordPieces[$x] . "+";
+        }
+        
     }
     $keyword = $keyword . $keywordPieces[sizeof($keywordPieces)-1];
     return $keyword;
