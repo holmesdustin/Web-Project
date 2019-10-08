@@ -27,7 +27,7 @@ function config($key = '')
             'port' => 587,
             'username' => 'noreply.teamgao@gmail.com',
             'password' => 'P@ssw0rdtoor',
-            'SMTPSecure' => 'tls'
+            'SMTPSecure' => PHPMailer::ENCRYPTION_STARTTLS
         ],
     ];
     return isset($config[$key]) ? $config[$key] : null;
