@@ -111,7 +111,7 @@
                                 <div class="form-check">
                                     <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
                                     <label class="form-check-label" for="invalidCheck2">
-                                        I am not a robot.
+                                        I like Team Gao.
                                     </label>
                                 </div>
                             </div>
