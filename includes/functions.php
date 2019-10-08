@@ -7,9 +7,11 @@ if (isset($_POST["search"])) {
  */
 function searchByKeyword($keyword)
 {
+    $originalKeyword = $keyword;
     require('config.php');
-    $keyword = trim($keyword); //Strip whitespace (or other characters) from the beginning and end of a string
-    $keyword = str_replace(" ", "+", $keyword);
+    //$keyword = trim($keyword); //Strip whitespace (or other characters) from the beginning and end of a string
+    //$keyword = str_replace(" ", "+", $keyword);
+    $keyword = parseKeyword($keyword);
     $url = "http://www.omdbapi.com/?apikey=" . config('api_key') . "&s=" . $keyword;
     $handle = curl_init();
     curl_setopt($handle, CURLOPT_URL, $url);
@@ -24,7 +26,7 @@ function searchByKeyword($keyword)
     $response = json_decode($output, true);
     echo '<div class="col-xs-12 col-sm-12 col-lg-12"><br><hr class="my-4"><br></div>'; // add a line to seperate search bar and result content
     if ($response['Response'] == 'False') {
-        echo '<div class="col-xs-12 col-sm-12 col-lg-12"><h4 class="text-center"><i class="fas fa-sad-cry fa-lg"></i>&nbsp;Sorry, we couldn\'t find any result on the keyword: \'' . $keyword . '\'.</h4></div>';
+        echo '<div class="col-xs-12 col-sm-12 col-lg-12"><h4 class="text-center"><i class="fas fa-sad-cry fa-lg"></i>&nbsp;Sorry, we couldn\'t find any result on the keyword: \'' . $originalKeyword . '\'.</h4></div>';
         echo '<div class="col-xs-12 col-sm-12 col-lg-12"><hr class="my-4"><br></div>'; // add a line to seperate search bar and result content
     } else {
         $result_num = sizeof($response["Search"]);
@@ -45,6 +47,21 @@ function searchByKeyword($keyword)
 
     curl_close($handle);
 }
+
+/**
+ * This function is used to parse keyword input
+ */
+function parseKeyword($keyword)
+{
+    $keywordPieces = explode(" ", $keyword);
+    $keyword = "";
+    for ($x = 0; $x < sizeof($keywordPieces)-1; $x++) {
+        $keyword = $keyword . $keywordPieces[$x] . "+";
+    }
+    $keyword = $keyword . $keywordPieces[sizeof($keywordPieces)-1];
+    return $keyword;
+}
+
 /*
  * This function is used for more detail about the movie by searching its imdbID
 */
