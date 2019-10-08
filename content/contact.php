@@ -8,7 +8,7 @@
     <div class="inner">
         <div class="row container-fluid relative">
             <div class="col-xs-12 col-sm-12 col-lg-12">
-                <h3 class="junbotron" style="background-color: white">Contact us via Social Media:</h3>
+                <h3 class="junbotron" style="background-color: white">Contact Team Members:</h3>
             </div>
             <div class="col-xs-12 col-sm-6 col-lg-3">
 
@@ -80,7 +80,7 @@
             </div>
 
             <div class="col-xs-12 col-sm-12 col-lg-12">
-                <h3 class="junbotron" style="background-color: white">Contact us via Submitting Form :</h3>
+                <h3 class="junbotron" style="background-color: white">Leave A Message, And We Will Contact You Back:</h3>
             </div>
             <div class="col-xs-12 col-sm-12 col-lg-12">
                 <div class="card p-4" style="border-radius: 20px;">
