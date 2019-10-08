@@ -87,24 +87,24 @@
                     <form class="text-center" style="width: 100%;">
                         <div class="form-row">
                             <div class="col-md-3 mb-3">
-                                <label for="validationDefault01">First name</label>
-                                <input type="text" class="form-control" id="validationDefault01" placeholder="First name" required>
+                                <label for="firstNameContact">First name</label>
+                                <input type="text" class="form-control" id="firstNameContact" placeholder="First name" required>
                             </div>
                             <div class="col-md-3 mb-3">
-                                <label for="validationDefault02">Last name</label>
-                                <input type="text" class="form-control" id="validationDefault02" placeholder="Last name" required>
+                                <label for="lastNameContact">Last name</label>
+                                <input type="text" class="form-control" id="lastNameContact" placeholder="Last name" required>
                             </div>
                             <div class="col-md-6 mb-3">
-                                <label for="validationDefaultEmail">Email</label>
+                                <label for="emailContact">Email</label>
                                 <div class="input-group">
-                                    <input type="email" class="form-control" id="validationDefaultEmail" placeholder="Email" required>
+                                    <input type="email" class="form-control" id="emailContact" placeholder="Email" required>
                                 </div>
                             </div>
                         </div>
                         <div class="form-row">
                             <div class="col-md-12 mb-3">
-                                <label for="validationDefault03">Message</label>
-                                <textarea id="validationDefault03" placeholder="Why are you contacting us?" required> </textarea></div>
+                                <label for="messageContact">Message</label>
+                                <textarea id="messageContact" required> </textarea></div>
                         </div>
                         <div class="form-row">
                             <div class="col-md-12 mb-3">
@@ -119,7 +119,7 @@
                         </div>
                         <div class="form-row">
                             <div class="col-md-12 mb-3">
-                                <button class="btn btn-primary-success btn-lg" style="background-color: #17a689;" type="submit">Send Message</button>
+                                <button id="buttonContact" class="btn btn-primary-success btn-lg" style="background-color: #17a689;" type="submit">Send Message</button>
                             </div>
                         </div>
                     </form>
@@ -139,7 +139,7 @@
                     <div class="card-body">
                         <blockquote class="blockquote mb-0">
                             <p>Never hesitate to contact us!</p>
-                            <footer class="blockquote-footer">Yujing Gao</footer>
+                            <footer class="blockquote-footer">Team Gao</footer>
                         </blockquote>
                     </div>
                 </div>

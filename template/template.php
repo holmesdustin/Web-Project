@@ -61,8 +61,8 @@
         $("#button").click(function() {
             $("#result_showed").show();
             $('html, body').animate({
-                        scrollTop: $("#result_showed").offset().top
-                    }, 1000);
+                scrollTop: $("#result_showed").offset().top
+            }, 1000);
             var keyword = $("#inputKey").val();
             $.ajax({
                 type: 'post',
@@ -74,7 +74,7 @@
                 success: function(result) {
                     $("#result_showed").delay("slow").fadeIn();
                     $("#result_showed").html(result);
-                    
+
                 },
                 error: function() {
                     alert("Failed to get result");
@@ -84,6 +84,32 @@
         });
     </script>
 
+
+    <script>
+        $("#buttonContact").click(function() {
+            var firstName = $("#firstNameContact").val();
+            var lastName = $("#lastNameContact").val();
+            var email = $("#emailContact").val();
+            var message = $("#messageContact").val();
+            $.ajax({
+                type: 'post',
+                url: '../includes/functions.php',
+                data: {
+                    "firstName": firstName,
+                    "lastName": lastName,
+                    "email": email,
+                    "message": message
+                },
+                success: function(result) {
+                    alert("Thank you! Your message has been sent to our team.");
+                },
+                error: function() {
+                    alert("Failed to send message. Please try again.");
+                }
+            });
+            return false;
+        });
+    </script>
 
 </body>
 

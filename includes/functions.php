@@ -2,6 +2,30 @@
 if (isset($_POST["search"])) {
     searchByKeyword($_POST["search"]);
 };
+
+if (isset($_POST["firstName"])) {
+    emailTeamMessage($_POST["firstName"], $_POST["lastName"], $_POST["email"], $_POST["message"]);
+};
+
+/**
+ * This function is used to send the team member message about feedback
+ *
+ * @param [type] $firstName
+ * @param [type] $lastName
+ * @param [type] $email
+ * @param [type] $message
+ * @return void
+ */
+function emailTeamMessage($firstName, $lastName, $email, $message)
+{
+    $to = "gao_yujing@columbusstate.edu";
+    $subject = "You Got a Feedback from Your Website Visitor";
+    $txt = "First Name: " . $firstName . "\nLast Name: " . $lastName . "\nEmail: " . $email . "\nMessage: " . $message;
+    $msg = wordwrap($txt,70);
+    
+    mail($to,$subject,$msg);
+}
+
 /**
  * This Function is used to get search result from a specific URL
  */
