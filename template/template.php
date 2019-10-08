@@ -93,7 +93,7 @@
             var message = $("#messageContact").val();
             $.ajax({
                 type: 'post',
-                url: '../includes/functions.php',
+                url: '../includes/mailHandler.php',
                 data: {
                     "firstName": firstName,
                     "lastName": lastName,

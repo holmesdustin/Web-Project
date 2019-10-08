@@ -1,60 +1,7 @@
 <?php
-
-use PHPMailer\PHPMailer\PHPMailer;
-use PHPMailer\PHPMailer\SMTP;
-use PHPMailer\PHPMailer\Exception;
-
 if (isset($_POST["search"])) {
     searchByKeyword($_POST["search"]);
 };
-
-if (isset($_POST["firstName"])) {
-    //emailTeamMessage($_POST["firstName"], $_POST["lastName"], $_POST["email"], $_POST["message"]);
-    echo "test: all good";
-};
-
-/**
- * This function is used to send the team member message about feedback
- *
- * @param [type] $firstName
- * @param [type] $lastName
- * @param [type] $email
- * @param [type] $message
- * @return void
- */
-function emailTeamMessage($firstName, $lastName, $email, $message)
-{
-    require 'includes/PHPMailer/src/Exception.php';
-    require 'includes/PHPMailer/src/PHPMailer.php';
-    require 'includes/PHPMailer/src/SMTP.php';
-    $mail = new PHPMailer(true);
-
-    try {
-        //Server settings
-        $mail->SMTPDebug = SMTP::DEBUG_SERVER;                      // Enable verbose debug output
-        $mail->isSMTP();                                            // Send using SMTP
-        $mail->Host       = 'smtp.gmail.com';                       // Set the SMTP server to send through
-        $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
-        $mail->Username   = 'noreply.teamgao@gmail.com';            // SMTP username
-        $mail->Password   = 'P@ssw0rdtoor';                               // SMTP password
-        $mail->SMTPSecure = 'tls';         // Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` also accepted
-        $mail->Port       = 587;                                    // TCP port to connect to
-
-        //Recipients
-        $mail->setFrom('noreply.teamgao@gmail.com', 'Team Gao');
-        $mail->addAddress('gao_yujing@columbusstate.edu', 'Yujing Gao');     // Add a recipient
-
-        $mail->isHTML(true);                                  // Set email format to HTML
-        $mail->Subject = 'Here is the subject';
-        $mail->Body    = 'This is the HTML message body <b>in bold!</b>';
-        $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
-
-        $mail->send();
-        echo 'Thank you! Your message has been sent to our team.';
-    } catch (Exception $e) {
-        echo "Message could not be sent.";
-    }
-}
 
 /**
  * This Function is used to get search result from a specific URL
