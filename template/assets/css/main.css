@@ -2714,3 +2714,7 @@ body.is-ie .post {
 #about-us-heading-1, #about-us-heading-2 {
 	color: #bbb;
 }
+
+#about-us-description {
+	text-align: justify;
+}
