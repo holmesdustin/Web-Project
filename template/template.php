@@ -34,12 +34,7 @@
 
     <!-- Footer -->
     <footer id="footer">
-        <ul class="icons">
-            <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-            <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-            <li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-            <li><a href="https://github.com/holmesdustin/Web-Project" class="icon fa-github"><span class="label">GitHub</span></a></li>
-        </ul>
+        <a href="https://github.com/holmesdustin/Web-Project"><i class="fab fa-github fa-lg"></i></a>
         <div class="copyright">
             &copy;<?php echo date('Y'); ?> <?php site_name(); ?>.<br><?php site_version(); ?>
         </div>
