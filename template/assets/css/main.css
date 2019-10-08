@@ -2710,3 +2710,7 @@ body.is-ie .post {
 #spiderFont {
 	font-family: spider;
 }
+
+#about-us-heading-1, #about-us-heading-2 {
+	color: #bbb;
+}
