@@ -48,7 +48,7 @@ function emailTeamMessage($firstName, $lastName, $email, $message)
         $mail->send();
         echo 'Thank you! Your message has been sent to our team.';
     } catch (Exception $e) {
-        echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
+        echo "Message could not be sent.";
     }
 }
 

@@ -100,6 +100,7 @@
                     "email": email,
                     "message": message
                 },
+                dataType: "text",
                 success: function(result) {
                     alert(result);
                 },
