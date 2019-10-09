@@ -1496,6 +1496,10 @@ body.is-loading #banner>.inner {
 
 #spiderFont {
 	font-family: spider;
+	transition:color .2s ease-out;
+}
+#spider:hover {
+	color: rgb(255, 117, 24);
 }
 
 #about-us-heading-1, #about-us-heading-2 {
