@@ -1399,7 +1399,7 @@ body.is-loading #banner>.inner {
 @media screen and (max-width: 1280px) {
 
 	#banner h1 {
-		font-size: 5em;
+		font-size: 4em;
 	}
 
 	#banner h1 br {
@@ -1496,6 +1496,9 @@ body.is-loading #banner>.inner {
 
 #spiderFont {
 	font-family: spider;
+	-moz-transition: color 1s ease-out;
+	-webkit-transition: color 1s ease-out;
+	-ms-transition: color 1s ease-out;
 	transition:color 1s ease-out;
 	vertical-align: text-top;
 }
