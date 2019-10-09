@@ -1,4 +1,3 @@
-<!-- Banner -->
 <section id="banner">
 	<div class="inner">
 		<h1>OMDb Movie Search Engine<br>

@@ -34,6 +34,19 @@
 
     <!-- Footer -->
     <footer id="footer">
+        <a class="weatherwidget-io" href="https://forecast7.com/en/32d46n84d99/columbus/" data-label_1="COLUMBUS" data-label_2="WEATHER" data-font="Roboto" data-icons="Climacons Animated" data-mode="Both" data-days="7" data-theme="original" data-basecolor="">COLUMBUS WEATHER</a>
+        <script>
+            ! function(d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (!d.getElementById(id)) {
+                    js = d.createElement(s);
+                    js.id = id;
+                    js.src = 'https://weatherwidget.io/js/widget.min.js';
+                    fjs.parentNode.insertBefore(js, fjs);
+                }
+            }(document, 'script', 'weatherwidget-io-js');
+        </script>
+        <br><br>
         <div class="copyright">
             <a href="https://github.com/holmesdustin/Web-Project"><i class="fab fa-github fa-2x"></i></a>
             <br><br>
