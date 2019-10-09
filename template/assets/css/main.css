@@ -1496,7 +1496,7 @@ body.is-loading #banner>.inner {
 
 #spiderFont {
 	font-family: spider;
-	transition:color .2s ease-out;
+	transition:color 1s ease-out;
 	vertical-align: text-top;
 }
 #spiderFont:hover {
