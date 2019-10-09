@@ -65,7 +65,7 @@
         <h2 class="junbotron text-center" style="background-color: white">Trending Halloween Movies</h2>
     </div>
     <div class="col-xs-12 col-sm-6 col-lg-3">
-        <div class="card text-center" style="border-radius: 20px; height: 90%; width: 100%;">
+        <div class="card shadow text-center" style="border-radius: 20px; height: 90%; width: 100%;">
             <img class="card-img-top img-fluid" style="border-radius: 20px 20px 0px 0px;" src="https://m.media-amazon.com/images/M/MV5BNzk1OGU2NmMtNTdhZC00NjdlLWE5YTMtZTQ0MGExZTQzOGQyXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg" alt="BG">
             <div class="card-body">
                 <h4 class="card-title">Halloween - 1978</h5>
@@ -78,7 +78,7 @@
     </div>
 
     <div class="col-xs-12 col-sm-6 col-lg-3">
-        <div class="card text-center" style="border-radius: 20px; height: 90%; width: 100%;">
+        <div class="card shadow text-center" style="border-radius: 20px; height: 90%; width: 100%;">
             <img class="card-img-top img-fluid" style="border-radius: 20px 20px 0px 0px;" src="https://m.media-amazon.com/images/M/MV5BMmQyYmY5ZTMtM2JkNi00NmM2LWE3ZmEtYWYzZmRkZDM0ZTdlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg" alt="BG">
             <div class="card-body">
                 <h4 class="card-title">Hocus Pocus - 1993</h5>
@@ -91,7 +91,7 @@
     </div>
 
     <div class="col-xs-12 col-sm-6 col-lg-3">
-        <div class="card text-center" style="border-radius: 20px; height: 90%; width: 100%;">
+        <div class="card shadow text-center" style="border-radius: 20px; height: 90%; width: 100%;">
             <img class="card-img-top img-fluid" style="border-radius: 20px 20px 0px 0px;" src="https://m.media-amazon.com/images/M/MV5BMTM3NjQyODI3M15BMl5BanBnXkFtZTcwMDM4NjM0OA@@._V1_SX300.jpg" alt="BG">
             <div class="card-body">
                 <h4 class="card-title">Hotel Transylvania - 2012</h5>
@@ -104,7 +104,7 @@
     </div>
 
     <div class="col-xs-12 col-sm-6 col-lg-3">
-        <div class="card text-center" style="border-radius: 20px; height: 90%; width: 100%;">
+        <div class="card shadow text-center" style="border-radius: 20px; height: 90%; width: 100%;">
             <img class="card-img-top img-fluid" style="border-radius: 20px 20px 0px 0px;" src="https://m.media-amazon.com/images/M/MV5BOTAyYjQ3NjctNGMzNi00YThkLThmYzUtZDViYWZkMDA2YTMyL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNjAwMjc0NjQ@._V1_SX300.jpg" alt="BG">
             <div class="card-body">
                 <h4 class="card-title">Halloweentown - 1998</h5>
