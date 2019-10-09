@@ -18,24 +18,33 @@
 	</div>
 </section>
 
-<div id="result_loading" class="container-fluid relative row" style="display: none;">
-	<div class="container">
-		<br>
-		<hr class="my-4">
-		<h2 class="text-center">Loading Results...</h2>
-		<div class="progress">
-			<div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
-				<span class="sr-only">70% Complete</span>
-			</div>
+<div id="result_loading" class="container relative" style="display: none;">
+	<br>
+	<hr class="my-4">
+	<div class="row justify-content-center">
+		<div class="col-2">
+			<div class="spinner"></div>
 		</div>
-		<br>
-		<hr class="my-4">
-		<br>
+		<div class="col-2">
+			<div class="spinner"></div>
+		</div>
+		<div class="col-2">
+			<div class="spinner"></div>
+		</div>
+		<div class="col-12">
+		<h2 class="text-center">Loading Results...</h2>
+		</div>
+		
 	</div>
+
+	<br>
+	<hr class="my-4">
+	<br>
+
 </div>
 
 <div id="result_showed" class="container-fluid relative row">
-	
+
 </div>
 
 <script>
@@ -46,4 +55,22 @@
 			document.getElementById("button").click();
 		}
 	});
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.5.0/lottie.js" type="text/javascript"></script>
+<script>
+	var loader = document.getElementsByClassName("spinner");
+
+	function loadBMAnimation(loader) {
+		var animation = bodymovin.loadAnimation({
+			container: loader,
+			renderer: "svg",
+			loop: true,
+			autoplay: true,
+			path: "https://gist.githubusercontent.com/YujingGao96/bb86846950ec53511a0f6ebc090f655f/raw/c6a7cd7a593869da98a1ad0c80de10694270dce3/fidget-spinner.json"
+		});
+	}
+
+	for (var i = 0; i < loader.length; i++) {
+		loadBMAnimation(loader[i]);
+	}
 </script>

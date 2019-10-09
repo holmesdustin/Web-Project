@@ -70,12 +70,15 @@
                 },
                 dataType: "HTML",
                 success: function(result) {
-                    $("#result_loading").hide();
-                    $("#result_showed").show();
-                    $("#result_showed").html(result);
-                    $('html, body').animate({
-                        scrollTop: $("#result_showed").offset().top
-                    }, 1000);
+                    $("#result_showed").html(result); //load the page 
+                    $("#result_showed").ready(function() { //when the page is ready
+                        $("#result_loading").hide(200); //hide loading spinner
+                        $("#result_showed").show(500); //show the result
+                        $('html, body').animate({
+                            scrollTop: $("#result_loading").offset().top
+                        }, 1000);
+                    });
+
                 },
                 error: function() {
                     alert("Failed to get result");
