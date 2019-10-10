@@ -99,6 +99,26 @@
             });
             return false;
         });
+
+        $("#back-to-top").click(function() {
+            $('html, body').animate({
+                scrollTop: $("#banner").offset().top
+            }, 1000);  
+        });
+
+        $(window).scroll(function() {
+            var hT = $('#inputKey').offset().top,
+                hH = $('#inputKey').outerHeight(),
+             
+                wS = $(this).scrollTop();
+            if (wS > hT + hH) {
+                $("#back-to-top").show(300);
+            }
+            else{
+                $("#back-to-top").hide(300);
+            }
+        });
+
     </script>
 
 

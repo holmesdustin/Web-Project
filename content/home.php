@@ -45,7 +45,7 @@
 <div id="result_showed" class="container-fluid relative row">
 
 </div>
-
+<a id="back-to-top" href="#" class="back-to-top" role="button"><i class="fas fa-chevron-circle-up fa-3x"></i></a>
 <script>
 	var input = document.getElementById("inputKey");
 	input.addEventListener("keyup", function(event) {

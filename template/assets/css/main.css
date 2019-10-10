@@ -1513,3 +1513,12 @@ body.is-loading #banner>.inner {
 #about-us-description {
 	text-align: justify;
 }
+
+.back-to-top {
+	cursor: pointer;
+	color: #00ffd0af;
+    position: fixed;
+    bottom: 20px;
+	right: 20px;
+	display: none;
+}
