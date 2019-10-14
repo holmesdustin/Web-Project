@@ -1515,7 +1515,7 @@ body.is-loading #banner>.inner {
 }
 
 #trendingBG{
-	background-image: url("../images/halloweenBG.png");
+	background-image: url("../images/halloweenBG.jpg");
 	background-repeat: repeat-x repeat-y;
 	background-attachment: fixed;
 	background-size: auto;
