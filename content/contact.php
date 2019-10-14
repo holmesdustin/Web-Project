@@ -144,7 +144,7 @@
                     </div>
                 </div>
             </div>
-            <br>
+            <div class="col-xs-12 col-sm-12 col-lg-12"><br></div>
         </div>
     </div>
 </section>
