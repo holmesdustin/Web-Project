@@ -10,7 +10,7 @@
             <br>
             <hr class="my-4">
             <br>
-            <h2 class="junbotron text-center" style="background-color: white">Fun Facts About Halloween</h2>
+            <h2 class="junbotron text-center" style="background-color: transparent;">Fun Facts About Halloween</h2>
         </div>
         <div class="col-xs-12 col-sm-12 col-lg-9">
             <div class="bd-example">
@@ -63,7 +63,7 @@
             <br>
             <hr class="my-4">
             <br>
-            <h2 class="junbotron text-center" style="background-color: white">Trending Halloween Movies</h2>
+            <h2 class="junbotron text-center" style="background-color: transparent;">Trending Halloween Movies</h2>
         </div>
         <div class="col-xs-12 col-sm-6 col-lg-3">
             <div class="card shadow text-center" style="border-radius: 20px; height: 90%; width: 100%;">

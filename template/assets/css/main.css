@@ -1518,6 +1518,7 @@ body.is-loading #banner>.inner {
 	background-image: url("../images/halloweenBG.png");
 	background-repeat: repeat-x repeat-y;
 	background-attachment: fixed;
+	background-size: cover;
 }
 
 .back-to-top {
