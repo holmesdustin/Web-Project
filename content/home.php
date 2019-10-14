@@ -1,7 +1,7 @@
 <section id="banner">
 	<div class="inner">
-		<h1>OMDb Movie Search Engine<br>
-			Created by Team Gao</h1>
+		<h1>Team Gao Movie Search Engine<br>
+			Powered by OMDb</h1>
 
 		<div class="input-group md-form form-sm form-2 pl-0">
 			<input class="form-control" style="font-size:unset; border-right-color: transparent;" id="inputKey" type="text" placeholder="Search Movies by Title, Keyword..." aria-label="Search">
