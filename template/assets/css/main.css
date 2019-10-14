@@ -1514,6 +1514,12 @@ body.is-loading #banner>.inner {
 	text-align: justify;
 }
 
+#trendingBG{
+	background-image: url("../images/halloweenBG.png");
+	background-repeat: repeat-x repeat-y;
+	background-attachment: fixed;
+}
+
 .back-to-top {
 	cursor: pointer;
 	color: #00ffd0af;
