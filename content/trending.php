@@ -4,7 +4,7 @@
     </div>
 </section>
 
-<div id="trendingBG">
+<div>
     <div class="row container-fluid relative justify-content-center">
         <div class="col-xs-12 col-sm-12 col-lg-12">
             <br>
