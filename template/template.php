@@ -103,22 +103,22 @@
         $("#back-to-top").click(function() {
             $('html, body').animate({
                 scrollTop: $("#banner").offset().top
-            }, 1000);
+            }, 1000);  
         });
 
         $(window).scroll(function() {
-            if ($('#inputKey') != null) {
-                var hT = $('#inputKey').offset().top;
-                var hH = $('#inputKey').outerHeight();
-                var wS = $(this).scrollTop();
-
-                if (wS > hT + hH) {
-                    $("#back-to-top").show(300);
-                } else {
-                    $("#back-to-top").hide(300);
-                }
+            var hT = $('#inputKey').offset().top;
+            var hH = $('#inputKey').outerHeight();
+            var wS = $(this).scrollTop();
+            
+            if (wS > hT + hH) {
+                $("#back-to-top").show(300);
+            }
+            else{
+                $("#back-to-top").hide(300);
             }
         });
+
     </script>
 
 
