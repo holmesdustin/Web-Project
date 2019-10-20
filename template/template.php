@@ -3,7 +3,7 @@
 <html lang="en">
 
 <head>
-    <link rel="icon" href="https://i.pinimg.com/originals/6b/4a/73/6b4a738dd051ec314307435efa574807.png">
+    <link rel="icon" href="https://icon-library.net/images/movie-icon-images/movie-icon-images-4.jpg">
     <script src="https://kit.fontawesome.com/65af02a589.js" crossorigin="anonymous"></script>
     <title><?php page_title(); ?> | <?php site_name(); ?></title>
     <meta charset="utf-8" />
