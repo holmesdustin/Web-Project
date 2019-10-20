@@ -109,7 +109,7 @@ function echoDetailModal($response)
     $country = $response['Country'];
     $genre = $response['Genre'];
 
-    echo '<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalForID' . $imdbID . '">Read More</button>';
+    echo '<button type="button" class="btn btn-outline-dark btn-lg" data-toggle="modal" data-target="#modalForID' . $imdbID . '">Read More</button>';
     echo '<div class="modal fade" id="modalForID' . $imdbID . '" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
       <div class="modal-content">
