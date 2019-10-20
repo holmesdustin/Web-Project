@@ -123,19 +123,18 @@
     <!-- Trending Video-->
     <div class="row container-fluid relative">
         <div class="col-xs-12 col-sm-12 col-lg-12">
-            <h2 class="junbotron text-center" style="background-color: transparent;">Coming Soon Trending Movie:</h2>
-            <h2 class="jumbotron text-center" style="background-color: transparent;"><i><b>The Death of Geese</b></i></h2>
+            <h2 class="junbotron text-center" style="background-color: transparent;">Coming Soon Trending Movie:<br><i>The Death of Geese</i></h2>
             <h4 class="junbotron text-center" style="background-color: transparent;">Director: Dustin Holmes</h4>
         </div>
+        <div class="col-xs-12 col-sm-12 col-lg-12">
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/y0IouxoVcCk" allowfullscreen></iframe>
 
-        <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/y0IouxoVcCk" allowfullscreen></iframe>
-
+            </div>
+            <br>
+            <hr class="my-4">
+            <br>
         </div>
-        <br>
-        <hr class="my-4">
-        <br>
-
 
     </div>
 </div>
