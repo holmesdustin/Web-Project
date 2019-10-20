@@ -86,7 +86,7 @@
                     $("#result_showed").html(result); //load the page 
                     $("#result_showed").ready(function() { //when the page is ready
                         $("#result_loading").hide(200); //hide loading spinner
-                        $("#result_showed").show(500); //show the result
+                        $("#result_showed").show(0); //show the result
                         $('html, body').animate({
                             scrollTop: $("#result_loading").offset().top
                         }, 1000);
@@ -112,10 +112,10 @@
              
                 wS = $(this).scrollTop();
             if (wS > hT + hH) {
-                $("#back-to-top").show(300);
+                $("#back-to-top").show(0);
             }
             else{
-                $("#back-to-top").hide(300);
+                $("#back-to-top").hide(0);
             }
         });
 
