@@ -1535,8 +1535,8 @@ body.is-loading #banner>.inner {
 
 #pumpkinFrame {
 	background-image: url("../images/pumpkinFrame.png");
-	height: 20px;
+	height: 50px;
 	width: 100%;
-	background-repeat: repeat-x;
-	background-size: auto;
+	margin-bottom: -5px;
+	background-size: contain;
 }
