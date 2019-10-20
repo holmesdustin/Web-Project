@@ -1515,11 +1515,13 @@ body.is-loading #banner>.inner {
 }
 
 #trendingBG{
+	width: 100%;
+	height: 100%;
 	background-image: url("../images/halloweenBG.jpg");
-	background-repeat: repeat-x repeat-y;
+	background-size: cover;
+	background-repeat: repeat;
 	position: fixed;
     z-index: -1;
-
 }
 
 .back-to-top {
