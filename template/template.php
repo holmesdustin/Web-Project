@@ -107,10 +107,10 @@
         });
 
         $(window).scroll(function() {
-            var hT = $('#inputKey').offset().top;
-            var hH = $('#inputKey').outerHeight();
-            var wS = $(this).scrollTop();
-            
+            var hT = $('#inputKey').offset().top,
+                hH = $('#inputKey').outerHeight(),
+             
+                wS = $(this).scrollTop();
             if (wS > hT + hH) {
                 $("#back-to-top").show(300);
             }
