@@ -1,12 +1,12 @@
+<div id="particles-js"></div>
 <section id="banner">
     <div class="inner">
         <h1>About Us</h1>
     </div>
 </section>
 
-<div id="particles-js"></div>
 
-<section id="main" style="background-color: #1c1c1c; color: white;">
+<section id="main" style="color: white;">
     <div class="inner">
         <header>
             <p class="info">Updated on Oct 06, 2019 by <strong>Team Gao</strong></p>

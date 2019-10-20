@@ -1487,6 +1487,8 @@ body.is-loading #banner>.inner {
 
 #particles-js {
 	background-color: #1c1c1c;
+	position: fixed;
+	z-index: -1;
 }
 
 @font-face {
