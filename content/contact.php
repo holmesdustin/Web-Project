@@ -84,45 +84,38 @@
             </div>
             <div class="col-xs-12 col-sm-12 col-lg-12">
                 <div class="card shadow-lg p-4" style="border-radius: 20px;">
-                    <form class="needs-validation" novalidate>
+                    <form class="text-center needs-validation" style="width: 100%;" novalidate>
                         <div class="form-row">
-                            <div class="col-md-4 mb-3">
+                            <div class="col-md-3 mb-3">
                                 <label for="firstNameContact">First name</label>
-                                <input type="text" class="form-control" id="firstNameContact" placeholder="First name" required>
-                                <div class="valid-tooltip">
-                                    Looks good!
-                                </div>
+                                <input type="text" class="form-control" id="firstNameContact" placeholder="First name" required />
                             </div>
-                            <div class="col-md-4 mb-3">
+                            <div class="col-md-3 mb-3">
                                 <label for="lastNameContact">Last name</label>
-                                <input type="text" class="form-control" id="lastNameContact" placeholder="Last name" required>
-                                <div class="valid-tooltip">
-                                    Looks good!
-                                </div>
+                                <input type="text" class="form-control" id="lastNameContact" placeholder="Last name" required />
                             </div>
-                            <div class="col-md-4 mb-3">
+                            <div class="col-md-6 mb-3">
                                 <label for="emailContact">Email</label>
-                                <div class="input-group">
-                                    <div class="input-group-prepend">
-                                        <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
-                                    </div>
-                                    <input type="email" class="form-control" id="emailContact" placeholder="Username" aria-describedby="validationTooltipUsernamePrepend" required>
-                                    <div class="invalid-tooltip">
-                                        Please choose a unique and valid username.
-                                    </div>
-                                </div>
+                                <input type="email" class="form-control" id="emailContact" placeholder="Email" required />
                             </div>
                         </div>
                         <div class="form-row">
                             <div class="col-md-12 mb-3">
-                                <label for="messageContact">City</label>
-                                <input type="text" class="form-control" id="messageContact" placeholder="Say something to us..." required>
-                                <div class="invalid-tooltip">
-                                    Please say a word at least!
-                                </div>
+                                <label for="messageContact">Message</label>
+                                <textarea id="messageContact" placeholder="Say something to us..." required></textarea>
+                            </div>
+                            <br>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-md-12 mb-3 ">
+                                <div class="g-recaptcha" data-sitekey="6LfcwL4UAAAAAI9nT6jzJ_iWIoJVboMJdJtHQQhF"></div>
                             </div>
                         </div>
-                        <button class="btn btn-primary" type="submit" id="buttonContact">Submit form</button>
+                        <div class="form-row">
+                            <div class="col-md-12 mb-3">
+                                <button id="buttonContact" class="btn btn-primary-success btn-lg" style="background-color: #17a689;" type="submit">Send Message</button>
+                            </div>
+                        </div>
                     </form>
                 </div>
             </div>

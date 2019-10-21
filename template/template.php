@@ -123,32 +123,42 @@
 
     <script>
         $("#buttonContact").click(function() {
-            var firstName = $("#firstNameContact").val();
-            var lastName = $("#lastNameContact").val();
-            var email = $("#emailContact").val();
-            var message = $("#messageContact").val();
-            $.ajax({
-                type: 'post',
-                url: '../includes/mailHandler.php',
-                data: {
-                    "firstName": firstName,
-                    "lastName": lastName,
-                    "email": email,
-                    "message": message
-                },
-                dataType: "text",
-                success: function(result) {
-                    alert(result);
-                    $("#firstNameContact").val('');
-                    $("#lastNameContact").val('');
-                    $("#emailContact").val('');
-                    $("#messageContact").val('');
-                },
-                error: function() {
-                    alert("Failed to reach server. Please try again.");
+            var recaptcha = $("#g-recaptcha-response").val();
+            if (recaptcha === "") {
+                event.preventDefault();
+                alert("Please check the reCAPTCHA");
+            } else {
+                var firstName = $("#firstNameContact").val();
+                var lastName = $("#lastNameContact").val();
+                var email = $("#emailContact").val();
+                var message = $("#messageContact").val();
+                if (firstName === "" || lastName === "" || email === "" || message === "") {
+                    alert("Please provide all information that we need.");
+                } else {
+                    $.ajax({
+                        type: 'post',
+                        url: '../includes/mailHandler.php',
+                        data: {
+                            "firstName": firstName,
+                            "lastName": lastName,
+                            "email": email,
+                            "message": message
+                        },
+                        dataType: "text",
+                        success: function(result) {
+                            alert(result);
+                            $("#firstNameContact").val('');
+                            $("#lastNameContact").val('');
+                            $("#emailContact").val('');
+                            $("#messageContact").val('');
+                        },
+                        error: function() {
+                            alert("Failed to reach server. Please try again.");
+                        }
+                    });
+                    return false;
                 }
-            });
-            return false;
+            }
         });
     </script>
 
