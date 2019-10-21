@@ -88,15 +88,15 @@
                         <div class="form-row">
                             <div class="col-md-3 mb-3">
                                 <label for="firstNameContact">First name</label>
-                                <input type="text" class="form-control" id="firstNameContact" placeholder="First name" required>
+                                <input type="text" class="form-control" id="firstNameContact" placeholder="First name" required />
                             </div>
                             <div class="col-md-3 mb-3">
                                 <label for="lastNameContact">Last name</label>
-                                <input type="text" class="form-control" id="lastNameContact" placeholder="Last name" required>
+                                <input type="text" class="form-control" id="lastNameContact" placeholder="Last name" required />
                             </div>
                             <div class="col-md-6 mb-3">
                                 <label for="emailContact">Email</label>
-                                <input type="email" class="form-control" id="emailContact" placeholder="Email" required>
+                                <input type="email" class="form-control" id="emailContact" placeholder="Email" required />
                             </div>
                         </div>
                         <div class="form-row">
