@@ -84,11 +84,17 @@
             </div>
             <div class="col-xs-12 col-sm-12 col-lg-12">
                 <div class="card shadow-lg p-4" style="border-radius: 20px;">
-                    <form class="text-center" style="width: 100%;">
+                    <form class="text-center needs-validation" style="width: 100%;" novalidate>
                         <div class="form-row">
                             <div class="col-md-3 mb-3">
                                 <label for="firstNameContact">First name</label>
                                 <input type="text" class="form-control" id="firstNameContact" placeholder="First name" required />
+                                <div class="valid-tooltip">
+                                    Looks good!
+                                </div>
+                                <div class="invalid-tooltip">
+                                    Please provide a valid first name.
+                                </div>
                             </div>
                             <div class="col-md-3 mb-3">
                                 <label for="lastNameContact">Last name</label>
@@ -102,7 +108,7 @@
                         <div class="form-row">
                             <div class="col-md-12 mb-3">
                                 <label for="messageContact">Message</label>
-                                <textarea id="messageContact" placeholder="Say something to us..." required></textarea>
+                                <textarea id="messageContact" class="form-control" placeholder="Say something to us..." required></textarea>
                             </div>
                             <br>
                         </div>
