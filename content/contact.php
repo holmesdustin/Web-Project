@@ -111,7 +111,7 @@
                                 <div class="g-recaptcha" data-theme="light" data-sitekey="6LfcwL4UAAAAAI9nT6jzJ_iWIoJVboMJdJtHQQhF"></div>
                             </div>
                             <div class="col-md-6 mb-3">
-                                <div class="input-group">
+                                <div class="input-group" style="display: inline-block;">
                                     <button id="buttonContact" class="btn btn-primary-success btn-lg" style="background-color: #17a689;" type="submit">Send Message</button>
                                 </div>
                             </div>
