@@ -96,9 +96,7 @@
                             </div>
                             <div class="col-md-6 mb-3">
                                 <label for="emailContact">Email</label>
-                                <div class="input-group">
-                                    <input type="email" class="form-control" id="emailContact" placeholder="Email" required>
-                                </div>
+                                <input type="email" class="form-control" id="emailContact" placeholder="Email" required>
                             </div>
                         </div>
                         <div class="form-row">
@@ -111,9 +109,7 @@
                                 <div class="g-recaptcha" data-theme="light" data-sitekey="6LfcwL4UAAAAAI9nT6jzJ_iWIoJVboMJdJtHQQhF"></div>
                             </div>
                             <div class="col-md-6 mb-3">
-                                <div class="input-group" style="display: inline-block;">
-                                    <button id="buttonContact" class="btn btn-primary-success btn-lg" style="background-color: #17a689;" type="submit">Send Message</button>
-                                </div>
+                                <button id="buttonContact" class="btn btn-primary-success btn-lg" style="background-color: #17a689;" type="submit">Send Message</button>
                             </div>
                             <br>
                         </div>
