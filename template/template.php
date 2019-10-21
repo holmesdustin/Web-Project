@@ -156,9 +156,10 @@
                             alert("Failed to reach server. Please try again.");
                         }
                     });
-                    return false;
+                    
                 }
             }
+            return false;
         });
     </script>
 
