@@ -102,7 +102,9 @@
                         <div class="form-row">
                             <div class="col-md-12 mb-3">
                                 <label for="messageContact">Message</label>
-                                <textarea id="messageContact" placeholder="Say something to us..." required></textarea></div>
+                                <textarea id="messageContact" placeholder="Say something to us..." required></textarea>
+                            </div>
+                            <br>
                         </div>
                         <div class="form-row">
                             <div class="col-md-12 mb-3 ">
