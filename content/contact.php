@@ -108,12 +108,7 @@
                         </div>
                         <div class="form-row">
                             <div class="col-md-12 mb-3">
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
-                                    <label class="form-check-label" for="invalidCheck2">
-                                        I like Team Gao.
-                                    </label>
-                                </div>
+                                <div class="g-recaptcha" data-sitekey="6LfcwL4UAAAAAI9nT6jzJ_iWIoJVboMJdJtHQQhF"></div>
                             </div>
                             <br>
                         </div>
