@@ -108,7 +108,7 @@
                         </div>
                         <div class="form-row">
                             <div class="col-md-12 mb-3 ">
-                                <div class="g-recaptcha" data-theme="light" data-sitekey="6LfcwL4UAAAAAI9nT6jzJ_iWIoJVboMJdJtHQQhF" style="transform:scale(0.77);-webkit-transform:scale(0.77);transform-origin:0 0;-webkit-transform-origin:0 0;"></div>
+                                <div class="g-recaptcha" data-theme="light" data-sitekey="6LfcwL4UAAAAAI9nT6jzJ_iWIoJVboMJdJtHQQhF"></div>
                             </div>
                             <br>
                         </div>
