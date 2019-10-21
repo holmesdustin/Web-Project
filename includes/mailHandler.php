@@ -25,9 +25,9 @@ $mail->Port = 587;                                    // TCP port to connect to
 
 $mail->setFrom('noreply.teamgao@gmail.com', 'NoReply-TeamGao');
 $mail->addAddress('gao_yujing@columbusstate.edu', 'Yujing Gao');     // Add a recipient
-$mail->addAddress('corbin_caleb@columbusstate.edu', 'Corbin Caleb'); 
-$mail->addAddress('holmes_dustin@columbusstate.edu', 'Dustin Holmes'); 
-$mail->addAddress('stadtmueller_johnathan@columbusstate.edu', 'Jonathan Stadmueller'); 
+//$mail->addAddress('corbin_caleb@columbusstate.edu', 'Corbin Caleb'); 
+//$mail->addAddress('holmes_dustin@columbusstate.edu', 'Dustin Holmes'); 
+//$mail->addAddress('stadtmueller_johnathan@columbusstate.edu', 'Jonathan Stadmueller'); 
 $mail->addReplyTo($_POST['email'], $_POST['name']);
 
 $mail->isHTML(true);                                  // Set email format to HTML
