@@ -105,12 +105,12 @@
                                 <textarea id="messageContact" placeholder="Say something to us..." required></textarea></div>
                         </div>
                         <div class="form-row">
-                            <div class="col-md-6 mb-3 ">
+                            <div class="col-md-12 mb-3 ">
                                 <div class="g-recaptcha" data-theme="light" data-sitekey="6LfcwL4UAAAAAI9nT6jzJ_iWIoJVboMJdJtHQQhF"></div>
                             </div>
                         </div>
                         <div class="form-row">
-                            <div class="col-md-6 mb-3">
+                            <div class="col-md-12 mb-3">
                                 <button id="buttonContact" class="btn btn-primary-success btn-lg" style="background-color: #17a689;" type="submit">Send Message</button>
                             </div>
                         </div>
