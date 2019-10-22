@@ -12,7 +12,6 @@
 		<h3 style="color: #9c9c9c;">
 			Supported By: &nbsp;&nbsp;<i class="fab fa-php"></i> &nbsp;&nbsp;&nbsp;<i class="fab fa-js-square"></i>&nbsp;&nbsp;&nbsp;
 			<i class="fab fa-bootstrap"></i>&nbsp;&nbsp;&nbsp;<i class="fab fa-css3-alt"></i>
-			&nbsp;&nbsp;&nbsp;<i class="fas fa-code"></i>
 		</h3>
 	</div>
 </section>
