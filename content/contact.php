@@ -84,7 +84,7 @@
             </div>
             <div class="col-xs-12 col-sm-12 col-lg-12">
                 <div class="card shadow-lg p-4" style="border-radius: 20px;">
-                    <form class="text-center needs-validation" style="width: 100%;" novalidate>
+                    <form class="text-center needs-validation" style="width: 100%;">
                         <div class="form-row">
                             <div class="col-md-3 mb-3">
                                 <label for="firstNameContact">First name</label>
