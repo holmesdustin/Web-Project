@@ -1520,7 +1520,7 @@ body.is-loading #banner>.inner {
 
 #about-us-heading-1, #about-us-heading-2 {
 	color: #bbb;
-	background-color: #1c1c1c;
+	background-color: transparent;
 }
 
 #about-us-description {
@@ -1560,12 +1560,3 @@ body.is-loading #banner>.inner {
 	display: inline-block;
 }
 
-@media only screen and (max-width: 600px) {
-	.g-recaptcha {
-		display: inline-block;
-		transform:scale(0.75);
-		-webkit-transform:scale(0.75);
-		transform-origin:0;
-		-webkit-transform-origin:0;
-	}
-  }
