@@ -655,6 +655,8 @@ input[type="email"]:invalid,
 select:invalid,
 textarea:invalid {
 	box-shadow: none;
+	border: solid 1px salmon;
+	
 }
 
 .select-wrapper {
@@ -1561,16 +1563,4 @@ body.is-loading #banner>.inner {
 
 .g-recaptcha {
 	display: inline-block;
-}
-
-.invalidInput {
-	border-color: rgba(252, 59, 59, 0.637);
-	border-width: 1px;
-	border-style: solid;
-}
-
-.validInput {
-	border-color: rgba(71, 252, 116, 0.74);
-	border-width: 1px;
-	border-style: solid;
 }
