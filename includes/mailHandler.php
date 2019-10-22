@@ -36,9 +36,11 @@ $mail->Subject = 'Feedback from Team Gao';
 $mail->Body    = $fullName . ' has sent you a feeback on website.<br><br><b>Name: </b>' . $fullName . '<br><b>Contact Email: </b>' . $emailFrom . '<br><b>Message: </b>' . $message;
 $mail->AltBody = $fullName . ' has sent you a feeback on website.\nName: ' . $fullName . '\nContact Email: ' . $emailFrom . '\nMessage: ' . $message;
 
-if(!$mail->send()) {
-    echo 'Message could not be sent.';
-    echo 'Mailer Error: ' . $mail->ErrorInfo;
+echo '<script language="javascript">';
+if (!$mail->send()) {
+    echo 'alert("Message could not be sent.")';
 } else {
-    echo ('Thank you ' . $firstName . '. Your message has been sent to our team.');
+    echo ('alert("Thank you ' . $firstName . '. Your message has been sent to our team.")');
 }
+echo '</script>';
+header('Location: https://web-project-team-gao.herokuapp.com//?page=contact');
