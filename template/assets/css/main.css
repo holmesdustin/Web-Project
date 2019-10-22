@@ -796,7 +796,7 @@ input[type="email"],
 select,
 textarea {
 	background: rgba(144, 144, 144, 0.075);
-	border-color: greenyellow;
+	border-color: #17a689;
 }
 
 input[type="text"]:focus,
