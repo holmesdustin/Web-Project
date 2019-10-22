@@ -810,6 +810,7 @@ textarea:focus {
 textarea:focus {
 	background-color: white;
 }
+
 button:focus {
 	outline: transparent;
 }
@@ -1502,7 +1503,7 @@ body.is-loading #banner>.inner {
 }
 
 @font-face {
-	src:url("../fonts/spider-man-font.ttf");
+	src: url("../fonts/spider-man-font.ttf");
 	font-family: spider;
 }
 
@@ -1511,14 +1512,16 @@ body.is-loading #banner>.inner {
 	-moz-transition: color 1s ease-out;
 	-webkit-transition: color 1s ease-out;
 	-ms-transition: color 1s ease-out;
-	transition:color 1s ease-out;
+	transition: color 1s ease-out;
 	vertical-align: text-top;
 }
+
 #spiderFont:hover {
 	color: rgb(255, 117, 24);
 }
 
-#about-us-heading-1, #about-us-heading-2 {
+#about-us-heading-1,
+#about-us-heading-2 {
 	color: #bbb;
 	background-color: transparent;
 }
@@ -1528,7 +1531,7 @@ body.is-loading #banner>.inner {
 	background-color: #1c1c1c;
 }
 
-#trendingBG{
+#trendingBG {
 	width: 100%;
 	height: 100%;
 	background-image: url("../images/halloweenBG.jpg");
@@ -1536,14 +1539,14 @@ body.is-loading #banner>.inner {
 	background-repeat: repeat;
 	filter: opacity(0.7);
 	position: fixed;
-    z-index: -1;
+	z-index: -1;
 }
 
 .back-to-top {
 	cursor: pointer;
 	color: #00ffd0af;
-    position: fixed;
-    bottom: 20px;
+	position: fixed;
+	bottom: 20px;
 	right: 20px;
 	display: none;
 }
@@ -1560,3 +1563,14 @@ body.is-loading #banner>.inner {
 	display: inline-block;
 }
 
+.invalidInput {
+	border-color: rgba(252, 59, 59, 0.637);
+	border-width: 1px;
+	border-style: solid;
+}
+
+.validInput {
+	border-color: rgba(71, 252, 116, 0.74);
+	border-width: 1px;
+	border-style: solid;
+}

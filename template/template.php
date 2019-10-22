@@ -133,7 +133,11 @@
                 var email = $("#emailContact").val();
                 var message = $("#messageContact").val();
                 if (firstName === "" || lastName === "" || email === "" || message === "") {
-                    alert("Please provide all information that we need.");
+                    if (firstName === ""){
+                        $("#firstNameContact").addClass("invalidInput");
+                    }else{
+                        $("#firstNameContact").addClass("validInput");
+                    }
                 } else {
                     $.ajax({
                         type: 'post',
