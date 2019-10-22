@@ -6,10 +6,10 @@ $LastName = "";
 $message = "";
 
 
-$emailFrom = $_POST["email"];
-$firstName = $_POST["firstName"];
-$LastName = $_POST["lastName"];
-$message = $_POST["message"];
+$emailFrom = $_POST["emailContact"];
+$firstName = $_POST["firstNameContact"];
+$LastName = $_POST["lastNameContact"];
+$message = $_POST["messageContact"];
 $fullName = $firstName . ' ' . $LastName;
 
 require 'PHPMailerAutoload.php';
