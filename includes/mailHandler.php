@@ -6,10 +6,10 @@ $LastName = "";
 $message = "";
 
 
-$emailFrom = $_POST["emailContact"];
-$firstName = $_POST["firstNameContact"];
-$LastName = $_POST["lastNameContact"];
-$message = $_POST["messageContact"];
+$emailFrom = $_POST["email"];
+$firstName = $_POST["firstName"];
+$LastName = $_POST["lastName"];
+$message = $_POST["message"];
 $fullName = $firstName . ' ' . $LastName;
 
 require 'PHPMailerAutoload.php';
@@ -36,11 +36,9 @@ $mail->Subject = 'Feedback from Team Gao';
 $mail->Body    = $fullName . ' has sent you a feeback on website.<br><br><b>Name: </b>' . $fullName . '<br><b>Contact Email: </b>' . $emailFrom . '<br><b>Message: </b>' . $message;
 $mail->AltBody = $fullName . ' has sent you a feeback on website.\nName: ' . $fullName . '\nContact Email: ' . $emailFrom . '\nMessage: ' . $message;
 
-echo '<script language="javascript">';
-if (!$mail->send()) {
-    echo 'alert("Message could not be sent.")';
+if(!$mail->send()) {
+    echo 'Message could not be sent.';
+    echo 'Mailer Error: ' . $mail->ErrorInfo;
 } else {
-    echo ('alert("Thank you ' . $firstName . '. Your message has been sent to our team.")');
+    echo ('Thank you ' . $firstName . '. Your message has been sent to our team.');
 }
-echo '</script>';
-header('Location: https://web-project-team-gao.herokuapp.com//?page=contact');

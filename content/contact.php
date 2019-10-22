@@ -84,25 +84,25 @@
             </div>
             <div class="col-xs-12 col-sm-12 col-lg-12">
                 <div class="card shadow-lg p-4" style="border-radius: 20px;">
-                    <form class="text-center needs-validation" style="width: 100%;" action="../includes/mailHandler.php" method="post">
+                    <form class="text-center" style="width: 100%;">
                         <div class="form-row">
                             <div class="col-md-3 mb-3">
                                 <label for="firstNameContact">First name</label>
-                                <input type="text" class="form-control" name="firstNameContact" placeholder="First name" required />
+                                <input type="text" class="form-control" id="firstNameContact" placeholder="First name" required />
                             </div>
                             <div class="col-md-3 mb-3">
                                 <label for="lastNameContact">Last name</label>
-                                <input type="text" class="form-control" name="lastNameContact" placeholder="Last name" required />
+                                <input type="text" class="form-control" id="lastNameContact" placeholder="Last name" required />
                             </div>
                             <div class="col-md-6 mb-3">
                                 <label for="emailContact">Email</label>
-                                <input type="email" class="form-control" name="emailContact" placeholder="Email" required />
+                                <input type="email" class="form-control" id="emailContact" placeholder="Email" required />
                             </div>
                         </div>
                         <div class="form-row">
                             <div class="col-md-12 mb-3">
                                 <label for="messageContact">Message</label>
-                                <textarea name="messageContact" placeholder="Say something to us..." required></textarea>
+                                <textarea id="messageContact" placeholder="Say something to us..." required></textarea>
                             </div>
                             <br>
                         </div>
