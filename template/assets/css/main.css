@@ -631,7 +631,6 @@ button {
 }
 
 input[type="text"],
-input[type="search"],
 input[type="password"],
 input[type="email"],
 select,
@@ -653,7 +652,6 @@ textarea {
 input[type="text"]:invalid,
 input[type="password"]:invalid,
 input[type="email"]:invalid,
-input[type="search"]:invalid,
 select:invalid,
 textarea:invalid {
 	box-shadow: none;
@@ -696,7 +694,6 @@ textarea:invalid {
 input[type="text"],
 input[type="password"],
 input[type="email"],
-input[type="search"],
 select {
 	height: 2.75em;
 }
@@ -796,7 +793,6 @@ label {
 input[type="text"],
 input[type="password"],
 input[type="email"],
-input[type="search"],
 select,
 textarea {
 	background: rgba(144, 144, 144, 0.075);
@@ -806,7 +802,6 @@ textarea {
 input[type="text"]:focus,
 input[type="password"]:focus,
 input[type="email"]:focus,
-input[type="search"]:focus,
 select:focus,
 button:focus,
 textarea:focus {
@@ -1217,7 +1212,6 @@ body {
 }
 
 #banner input[type="text"],
-#banner input[type="search"],
 #banner button {
 	background: rgba(255, 255, 255, 0.075);
 	border-color: rgba(255, 255, 255);
