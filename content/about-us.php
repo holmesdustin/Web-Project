@@ -23,13 +23,16 @@
          My biggest interests outside of Computer Science are playing music, hiking, camping, landscape photography, and travelling.</p>
 
         <h5 class="about-us-member">Yujing Gao</h5>
-        <p> </p>
+        <p> My name is Yujing. I am currently being a senior studying Computer Science - Applied Computing in Columbus State University.
+            I am planning to graduate in May 2020 as well. After that, I will be looking for a job in either Aflac or TSYS.
+            In my spare time, I love to go to the gym with couple friends. And I also love watching YouTube videos and listening to music in my free time.
+        </p>
         
         <h5 class="about-us-member">Dustin Holmes</h5>
-        <p> </p>
+        <p> I am Dustin. I love hunting geese. 🦆</p>
         
         <h5 class="about-us-member">Johnathan Stadtmueller</h5>
-        <p> </p>
+        <p> My name is Johnathan, and I like watching porns. 😍</p>
         
         <br><hr class="my-4"><br>
         <h2 id="about-us-heading-2" class="text-center">Team members</h2>

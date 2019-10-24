@@ -1401,7 +1401,7 @@ body.is-loading #banner>.inner {
 }
 
 h5.about-us-member {
-	color: #bbb;
+	color: rgb(136, 136, 136);
 	background-color: transparent;
 }
 
