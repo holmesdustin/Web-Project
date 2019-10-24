@@ -11,25 +11,33 @@
         <header>
             <p class="info">Updated on Oct 06, 2019 by <strong>Team Gao</strong></p>
         </header>
-        <h2 id="about-us-heading-1" class="text-center">We are Team Gao</h2>
-        <p> Team Gao was started for our Server Side Web Development class. In the class, we were tasked with creating a movie seraching website.
-        We have been friends and classmates for most of the time we have been at Columbus State University, and we all work very well together.
-        We hope to create the best site we can, and we would love your feedback. Read below for a little bit of info about each team member.</p>
+        <h2 id="about-us-heading-1" class="text-center">Our Goal</h2>
+        <p> Team Gao has one simple goal: to create the best movie searching experience. 
+            We have been working dilligently to deliver this to our users.
+            We highly encourage you to leave any feedback you may have, so that we can continue to better our services.</p>
         
-        <h5 class="about-us-member">Caleb Corbin</h5>
-        <p> What's popping? My name is Caleb, and I am a senior in the Games Programming track here at Columbus State University.
+        <h2 id="about-us-heading-1" class="text-center">Who is Team Gao?</h2>
+        <p>Team Gao was started for our Server Side Web Development group project. We were tasked with creating a movie seraching website powered by the OMDb API.
+           Team Gao consists of four members of the Columbus State University Computer Science department: Caleb Corbin, Yujing Gao, Dustin Holmes, and Johnathan Stadtmueller.
+           We have been friends and classmates for most of the time that we have been at Columbus State University.
+           We believe that we work well together and hope that this website is a good representation of such.
+           Read below for a little bit more information about each individual team member.</p>
+ 
+        
+        <br><h5 id="about-us-description">Caleb Corbin</h5>
+        <p>What's up guys? My name is Caleb, and I am a senior in the Games Programming track here at Columbus State University.
          I am also working on the Web Development certificate, hence why I am in this class.
          I should be graduating in May 2020, and I am hoping to begin my career after college doing Web Development in Colorado.
-         My biggest interests outside of Computer Science are playing music, hiking, camping, landscape photography, and travelling.</p>
+         My biggest interests aside from technology are playing guitar, singing, writing songs, hiking, camping, landscape photography, and travelling.</p>
 
-        <h5 class="about-us-member">Yujing Gao</h5>
-        <p> </p>
+        <br><h5 id="about-us-description">Yujing Gao</h5>
+        <p> Studying abroad in the United States</p>
         
-        <h5 class="about-us-member">Dustin Holmes</h5>
-        <p> </p>
+        <br><h5 id="about-us-description">Dustin Holmes</h5>
+        <p>Plays drums</p>
         
-        <h5 class="about-us-member">Johnathan Stadtmueller</h5>
-        <p> </p>
+        <br><h5 id="about-us-description">Johnathan Stadtmueller</h5>
+        <p>Wants to tech English in CHina after college</p>
         
         <br><hr class="my-4"><br>
         <h2 id="about-us-heading-2" class="text-center">Team members</h2>
