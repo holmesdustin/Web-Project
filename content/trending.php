@@ -8,9 +8,9 @@
 <div>
     <div class="row container-fluid relative justify-content-center">
         <div class="col-xs-12 col-sm-12 col-lg-12">
-            <br>
+            <br />
             <hr class="my-4">
-            <br>
+            <br />
             <h2 class="junbotron text-center" style="background-color: transparent;">Fun Facts About Halloween</h2>
         </div>
         <div class="col-xs-12 col-sm-12 col-lg-9">
@@ -61,9 +61,9 @@
 
     <div class="row container-fluid relative">
         <div class="col-xs-12 col-sm-12 col-lg-12">
-            <br>
+            <br />
             <hr class="my-4">
-            <br>
+            <br />
             <h2 class="junbotron text-center" style="background-color: transparent;">Trending Halloween Movies</h2>
         </div>
         <div class="col-xs-12 col-sm-6 col-lg-3">
@@ -74,9 +74,9 @@
                         <p class="card-text">Fifteen years after murdering his sister on Halloween night 1963, Michael Myers escapes from a mental hospital and returns to the small town of Haddonfield, Illinois to kill again.</p>
                 </div>
             </div>
-            <br>
+            <br />
             <hr class="my-4">
-            <br>
+            <br />
         </div>
 
         <div class="col-xs-12 col-sm-6 col-lg-3">
@@ -87,9 +87,9 @@
                         <p class="card-text">A curious youngster moves to Salem, where he struggles to fit in before awakening a trio of diabolical witches that were executed in the 17th century.</p>
                 </div>
             </div>
-            <br>
+            <br />
             <hr class="my-4">
-            <br>
+            <br />
         </div>
 
         <div class="col-xs-12 col-sm-6 col-lg-3">
@@ -100,9 +100,9 @@
                         <p class="card-text">Dracula, who operates a high-end resort away from the human world, goes into overprotective mode when a boy discovers the resort and falls for the count's teenaged daughter.</p>
                 </div>
             </div>
-            <br>
+            <br />
             <hr class="my-4">
-            <br>
+            <br />
         </div>
 
         <div class="col-xs-12 col-sm-6 col-lg-3">
@@ -113,9 +113,9 @@
                         <p class="card-text">After learning she is a witch, a girl helps save a town full of other supernatural creatures.</p>
                 </div>
             </div>
-            <br>
+            <br />
             <hr class="my-4">
-            <br>
+            <br />
         </div>
 
     </div>
@@ -123,7 +123,7 @@
     <!-- Trending Video-->
     <div class="row container-fluid relative justify-content-center">
         <div class="col-xs-12 col-sm-12 col-lg-12">
-            <h2 class="junbotron text-center" style="background-color: transparent;">Coming Soon Trending Movie:<br><i>The Death of Geese</i></h2>
+            <h2 class="junbotron text-center" style="background-color: transparent;">Coming Soon Trending Movie:<br /><i>The Death of Geese</i></h2>
             <h4 class="junbotron text-center" style="background-color: transparent;">Director: Dustin Holmes</h4>
         </div>
         <div class="col-xs-12 col-sm-12 col-lg-8">
@@ -131,9 +131,9 @@
                 <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/y0IouxoVcCk" allowfullscreen></iframe>
 
             </div>
-            <br>
+            <br />
             <hr class="my-4">
-            <br>
+            <br />
         </div>
 
     </div>

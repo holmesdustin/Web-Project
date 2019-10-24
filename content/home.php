@@ -1,6 +1,6 @@
 <section id="banner">
 	<div class="inner">
-		<h1>Team Gao Movie Search Engine<br>
+		<h1>Team Gao Movie Search Engine<br />
 			Powered by OMDb</h1>
 
 		<div class="input-group md-form form-sm form-2 pl-0">
@@ -8,7 +8,7 @@
 			<button type="button" style="border-left-color: transparent;" id="button"><i class="fas fa-search fa-lg" aria-hidden="true"></i></button>
 		</div>
 
-		<br><br><br>
+		<br /><br /><br />
 		<h3 style="color: #9c9c9c;">
 			Supported By: &nbsp;&nbsp;<i class="fab fa-php"></i> &nbsp;&nbsp;&nbsp;<i class="fab fa-js-square"></i>&nbsp;&nbsp;&nbsp;
 			<i class="fab fa-bootstrap"></i>&nbsp;&nbsp;&nbsp;<i class="fab fa-css3-alt"></i>
@@ -17,7 +17,7 @@
 </section>
 
 <div id="result_loading" class="container relative" style="display: none;">
-	<br>
+	<br />
 	<hr class="my-4">
 	<div class="row justify-content-center">
 		<div class="col-2">
@@ -35,9 +35,9 @@
 		
 	</div>
 
-	<br>
+	<br />
 	<hr class="my-4">
-	<br>
+	<br />
 
 </div>
 
