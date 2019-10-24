@@ -36,7 +36,7 @@
 	</div>
 
 	<br />
-	<hr class="my-4">
+	<hr class="my-4" />
 	<br />
 
 </div>
