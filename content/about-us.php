@@ -31,9 +31,9 @@
          My biggest interests aside from technology are playing guitar, singing, writing songs, hiking, camping, landscape photography, and travelling.</p>
 
         <h5 class="about-us-member">Yujing Gao</h5>
-        <p class="about-us-description"> My name is Yujing. I am currently being a senior studying Computer Science - Applied Computing in Columbus State University.
-            I am planning to graduate in May 2020 as well. After that, I will be looking for a job in either Aflac or TSYS.
-            In my spare time, I love to go to the gym with couple friends. And I also love watching YouTube videos and listening to music in my free time.
+        <p class="about-us-description"> My name is Yujing. I am currently a senior studying Computer Science - Applied Computing at Columbus State University.
+            I am planning to graduate in May 2020 as well. After that, I will be looking for a job at either Aflac or TSYS.
+            In my spare time, I love to go to the gym with a couple of friends. And I also love watching YouTube videos and listening to music in my free time.
         </p>
         
         <h5 class="about-us-member">Dustin Holmes</h5>
@@ -44,6 +44,7 @@
 
         <br><hr class="my-4"><br>
         <h2 id="about-us-heading-2" class="text-center">Team members</h2>
+        <div class="row container-fluid relative">
             <div class="col-xs-12 col-sm-6 col-lg-3">
                 <div class="card shadow-lg text-center" style="border-radius: 20px; background-color: #3b3b3b;">
                     <img class="card-img-top" style="border-radius: 20px 20px 0px 0px;" src="https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Caleb Corbin BG">
@@ -61,7 +62,6 @@
                 <br>
             </div>
         
-        <div class="row container-fluid relative">
             <div class="col-xs-12 col-sm-6 col-lg-3">
                 <div class="card shadow-lg text-center" style="border-radius: 20px; background-color: #3b3b3b; ">
                     <img class="card-img-top" style="border-radius: 20px 20px 0px 0px;" src="https://cdn.pixabay.com/photo/2016/11/29/05/45/astronomy-1867616__340.jpg" alt="Yujing Gao BG">
