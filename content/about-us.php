@@ -24,22 +24,22 @@
            Read below for a little bit more information about each individual team member.</p>
  
         
-        <h5 class="about-us-member">😀Caleb Corbin</h5>
+        <h3 class="about-us-member">😀  Caleb Corbin</h3>
         <p class="about-us-description">What's up guys? My name is Caleb, and I am a senior in the Games Programming track here at Columbus State University.
          I am also working on the Web Development certificate, hence why I am in this class.
          I should be graduating in May 2020, and I am hoping to begin my career after college doing Web Development in Colorado.
          My biggest interests aside from technology are playing guitar, singing, writing songs, hiking, camping, landscape photography, and travelling.</p>
 
-        <h5 class="about-us-member">😁Yujing Gao</h5>
+        <h3 class="about-us-member">😁  Yujing Gao</h3>
         <p class="about-us-description"> My name is Yujing. I am currently a senior studying Computer Science - Applied Computing at Columbus State University.
             I am planning to graduate in May 2020 as well. After that, I will be looking for a job at either Aflac or TSYS.
             In my spare time, I love to go to the gym with a couple of friends. And I also love watching YouTube videos and listening to music in my free time.
         </p>
         
-        <h5 class="about-us-member">😆Dustin Holmes</h5>
+        <h3 class="about-us-member">😆  Dustin Holmes</h3>
         <p class="about-us-description"> I am Dustin. I love hunting geese. Plays drums🦆</p>
         
-        <h5 class="about-us-member">😍Johnathan Stadtmueller</h5>
+        <h3 class="about-us-member">😍  Johnathan Stadtmueller</h3>
         <p class="about-us-description"> My name is Johnathan, and I like watching "videos". Wants to tech English in CHina after college😍</p>
 
         <br><hr class="my-4"><br>
