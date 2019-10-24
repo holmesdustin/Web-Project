@@ -1432,6 +1432,6 @@ body.is-loading #banner>.inner {
 	display: inline-block;
 }
 
-iframe {
+#videoFrame {
 	border-radius: 20px;
 }
