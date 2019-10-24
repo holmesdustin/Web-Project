@@ -33,7 +33,7 @@
         <h3 class="about-us-member">😁  Yujing Gao</h3>
         <p class="about-us-description"> My name is Yujing. I am currently a senior studying Computer Science - Applied Computing at Columbus State University.
             I am planning to graduate in May 2020 as well. After that, I will be looking for a job at either Aflac or TSYS.
-            In my spare time, I love to go to the gym with a couple of friends. And I also love watching YouTube videos and listening to music in my free time.
+            In my spare time, I love to go to the gym with some of my friends. And I also love watching YouTube videos and listening to music in my free time.
         </p>
         
         <h3 class="about-us-member">😆  Dustin Holmes</h3>
