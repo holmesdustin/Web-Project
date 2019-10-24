@@ -12,7 +12,7 @@
             </div>
 
             <div class="col-xs-12 col-sm-6 col-lg-3">
-                <div class="card shadow-lg text-center" style="border-radius: 20px;">
+                <div class="card shadow-lg text-center" style="border-radius: 20px; height: 80%; width: auto;">
                     <img class="card-img-top" style="border-radius: 20px 20px 0px 0px;" src="https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Caleb Corbin BG">
                     <div class="card-body">
                         <h4 class="card-title">Caleb Corbin</h5>
@@ -29,7 +29,7 @@
             </div>
             
             <div class="col-xs-12 col-sm-6 col-lg-3">
-                <div class="card shadow-lg text-center" style="border-radius: 20px;">
+                <div class="card shadow-lg text-center" style="border-radius: 20px; height: 80%; width: auto;">
                     <img class="card-img-top" style="border-radius: 20px 20px 0px 0px;" src="https://cdn.pixabay.com/photo/2016/11/29/05/45/astronomy-1867616__340.jpg" alt="Yujing Gao BG">
                     <div class="card-body">
                         <h4 class="card-title">Yujing Gao</h5>
@@ -46,7 +46,7 @@
             </div>
 
             <div class="col-xs-12 col-sm-6 col-lg-3">
-                <div class="card shadow-lg text-center" style="border-radius: 20px;">
+                <div class="card shadow-lg text-center" style="border-radius: 20px; height: 80%; width: auto;">
                     <img class="card-img-top" style="border-radius: 20px 20px 0px 0px;" src="https://images.pexels.com/photos/949587/pexels-photo-949587.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Dustin Holmes BG">
                     <div class="card-body">
                         <h4 class="card-title">Dustin Holmes</h5>
@@ -63,7 +63,7 @@
             </div>
 
             <div class="col-xs-12 col-sm-6 col-lg-3">
-                <div class="card shadow-lg text-center" style="border-radius: 20px;">
+                <div class="card shadow-lg text-center" style="border-radius: 20px; height: 80%; width: auto;">
                     <img class="card-img-top" style="border-radius: 20px 20px 0px 0px;" src="https://media.istockphoto.com/photos/christmas-lights-defocused-background-bokeh-gold-blue-picture-id877684562?k=6&m=877684562&s=612x612&w=0&h=-WOtRrbuLnM_GlnDT7sw22w-8vZz8aPFasiVgxSG_eY=" alt="Johnathan Stadtmueller BG">
                     <div class="card-body">
                         <h4 class="card-title">J. Stadtmueller</h5>
