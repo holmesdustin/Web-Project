@@ -13,8 +13,8 @@
         </header>
         <h2 id="about-us-heading-1" class="text-center">Our Goal</h2>
         <p> Team Gao has one simple goal: to create the best movie searching experience. 
-            We have been working dilligently to deliver this to our users.
-            We highly encourage you to leave any feedback you may have, so that we can continue to better our services.</p>
+            We have been working dilligently to deliver this to our users, and
+            we highly encourage you to leave any feedback you may have so that we can continue to better our services.</p>
         
         <h2 id="about-us-heading-1" class="text-center">Who is Team Gao?</h2>
         <p>Team Gao was started for our Server Side Web Development group project. We were tasked with creating a movie seraching website powered by the OMDb API.
