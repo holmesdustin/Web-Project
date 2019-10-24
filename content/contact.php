@@ -127,7 +127,7 @@
 
             <div class="col-xs-12 col-sm-12 col-lg-12">
                 <div class="card shadow-lg" style="border-radius: 20px;">
-                    <div class="card-header">
+                    <div class="card-header" style="border-radius: 20px 20px 0px 0px;">
                         <i class="fas fa-quote-left"></i>
                     </div>
                     <div class="card-body">
