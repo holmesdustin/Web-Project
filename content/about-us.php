@@ -42,6 +42,8 @@
         <h5 class="about-us-member">Johnathan Stadtmueller</h5>
         <p class="about-us-description"> My name is Johnathan, and I like watching porns. Wants to tech English in CHina after college😍</p>
 
+        <br><hr class="my-4"><br>
+        <h2 id="about-us-heading-2" class="text-center">Team members</h2>
             <div class="col-xs-12 col-sm-6 col-lg-3">
                 <div class="card shadow-lg text-center" style="border-radius: 20px; background-color: #3b3b3b;">
                     <img class="card-img-top" style="border-radius: 20px 20px 0px 0px;" src="https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Caleb Corbin BG">
@@ -59,8 +61,6 @@
                 <br>
             </div>
         
-        <br><hr class="my-4"><br>
-        <h2 id="about-us-heading-2" class="text-center">Team members</h2>
         <div class="row container-fluid relative">
             <div class="col-xs-12 col-sm-6 col-lg-3">
                 <div class="card shadow-lg text-center" style="border-radius: 20px; background-color: #3b3b3b; ">
