@@ -15,7 +15,7 @@
                 <div class="card shadow-lg text-center" style="border-radius: 20px; height: 80%; width: auto;">
                     <img class="card-img-top" style="border-radius: 20px 20px 0px 0px;" src="https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Caleb Corbin BG">
                     <div class="card-body">
-                        <h4 class="card-title">Caleb Corbin</h5>
+                        <h4 class="card-title">Caleb Corbin</h4>
                             <p class="card-text">Content Creation and Website Design<br>Team Gao 2019</p>
                             <a href="https://twitter.com/dawgsfan97" class="icon fa-twitter fa-2x"><span class="label">Twitter</span></a>&nbsp; &nbsp;
                             <a href="https://www.facebook.com/caleb.corbin.754" class="icon fa-facebook fa-2x"><span class="label">Facebook</span></a>&nbsp; &nbsp;
@@ -32,7 +32,7 @@
                 <div class="card shadow-lg text-center" style="border-radius: 20px; height: 80%; width: auto;">
                     <img class="card-img-top" style="border-radius: 20px 20px 0px 0px;" src="https://cdn.pixabay.com/photo/2016/11/29/05/45/astronomy-1867616__340.jpg" alt="Yujing Gao BG">
                     <div class="card-body">
-                        <h4 class="card-title">Yujing Gao</h5>
+                        <h4 class="card-title">Yujing Gao</h4>
                             <p class="card-text">PHP Programmer and Code Technician<br>Team Gao 2019</p>
                             <a href="#" class="icon fa-twitter fa-2x"><span class="label">Twitter</span></a>&nbsp; &nbsp;
                             <a href="#" class="icon fa-facebook fa-2x"><span class="label">Facebook</span></a>&nbsp; &nbsp;
@@ -49,7 +49,7 @@
                 <div class="card shadow-lg text-center" style="border-radius: 20px; height: 80%; width: auto;">
                     <img class="card-img-top" style="border-radius: 20px 20px 0px 0px;" src="https://images.pexels.com/photos/949587/pexels-photo-949587.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Dustin Holmes BG">
                     <div class="card-body">
-                        <h4 class="card-title">Dustin Holmes</h5>
+                        <h4 class="card-title">Dustin Holmes</h4>
                             <p class="card-text">Team Leader and Project Organizer<br>Team Gao 2019</p>
                             <a href="#" class="icon fa-twitter fa-2x"><span class="label">Twitter</span></a>&nbsp; &nbsp;
                             <a href="#" class="icon fa-facebook fa-2x"><span class="label">Facebook</span></a>&nbsp; &nbsp;
@@ -66,7 +66,7 @@
                 <div class="card shadow-lg text-center" style="border-radius: 20px; height: 80%; width: auto;">
                     <img class="card-img-top" style="border-radius: 20px 20px 0px 0px;" src="https://media.istockphoto.com/photos/christmas-lights-defocused-background-bokeh-gold-blue-picture-id877684562?k=6&m=877684562&s=612x612&w=0&h=-WOtRrbuLnM_GlnDT7sw22w-8vZz8aPFasiVgxSG_eY=" alt="Johnathan Stadtmueller BG">
                     <div class="card-body">
-                        <h4 class="card-title">J. Stadtmueller</h5>
+                        <h4 class="card-title">J. Stadtmueller</h4>
                             <p class="card-text">Visual Designer and Layout Creation<br>Team Gao 2019</p>
                             <a href="#" class="icon fa-twitter fa-2x"><span class="label">Twitter</span></a>&nbsp; &nbsp;
                             <a href="#" class="icon fa-facebook fa-2x"><span class="label">Facebook</span></a>&nbsp; &nbsp;
