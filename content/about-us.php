@@ -9,7 +9,7 @@
 <section id="main" style="color: white;">
     <div class="inner">
         <header>
-            <p class="info">Updated on Oct 06, 2019 by <strong>Team Gao</strong></p>
+            <p class="info">Updated on Oct 24, 2019 by <strong>Team Gao</strong></p>
         </header>
         <h2 id="about-us-heading-1" class="text-center">Our Goal</h2>
         <p class="about-us-description"> Team Gao has one simple goal: to create the best movie searching experience. 

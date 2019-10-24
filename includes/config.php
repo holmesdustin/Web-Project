@@ -20,7 +20,7 @@ function config($key = '')
         ],
         'template_path' => 'template',
         'content_path' => 'content',
-        'version' => 'October 20th, 2019',
+        'version' => 'October 29th, 2019',
         'api_key' => '2b352ccb',
     ];
     return isset($config[$key]) ? $config[$key] : null;
