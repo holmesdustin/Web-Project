@@ -22,16 +22,13 @@
          I should be graduating in May 2020, and I am hoping to begin my career after college doing Web Development in Colorado.
          My biggest interests outside of Computer Science are playing music, hiking, camping, landscape photography, and travelling.</p>
 
-        <br><h5 id="about-us-description">Yujing Gao</h5>
+        <h5 class="about-us-member">Yujing Gao</h5>
         <p> </p>
         
-        <br><h5 id="about-us-description">Dustin Holmes</h5>
+        <h5 class="about-us-member">Dustin Holmes</h5>
         <p> </p>
         
-        <br><h5 id="about-us-description">Johnathan Stadtmueller</h5>
-        <p> </p>
-        
-        <br><h5 id="about-us-description">We are Team Gao</h5>
+        <h5 class="about-us-member">Johnathan Stadtmueller</h5>
         <p> </p>
         
         <br><hr class="my-4"><br>

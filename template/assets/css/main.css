@@ -1399,6 +1399,10 @@ body.is-loading #banner>.inner {
 	text-align: justify;
 	background-color: #1c1c1c;
 }
+.about-us-member {
+	color: #bbb;
+	background-color: transparent;
+}
 
 #trendingBG {
 	width: 100%;
