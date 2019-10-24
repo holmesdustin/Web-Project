@@ -22,7 +22,7 @@ var pJS = function(tag_id, params){
       number: {
         value: 100,
         density: {
-          enable: true,
+          enable: false,
           value_area: 800
         }
       },
