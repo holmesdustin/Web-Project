@@ -10,7 +10,6 @@
             <div class="col-xs-12 col-sm-12 col-lg-12">
                 <h3 class="junbotron" style="background-color: white">Contact Team Members:</h3>
             </div>
-            <div class="col-xs-12 col-sm-6 col-lg-3">
 
             <div class="col-xs-12 col-sm-6 col-lg-3">
                 <div class="card shadow-lg text-center" style="border-radius: 20px;">
@@ -28,7 +27,8 @@
                 <hr class="my-4">
                 <br>
             </div>
-
+            
+            <div class="col-xs-12 col-sm-6 col-lg-3">
                 <div class="card shadow-lg text-center" style="border-radius: 20px;">
                     <img class="card-img-top" style="border-radius: 20px 20px 0px 0px;" src="https://cdn.pixabay.com/photo/2016/11/29/05/45/astronomy-1867616__340.jpg" alt="Yujing Gao BG">
                     <div class="card-body">
