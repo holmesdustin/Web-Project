@@ -68,10 +68,10 @@
                     <div class="card-body">
                         <h4 class="card-title" style="color:white">Caleb Corbin</h5>
                             <p class="card-text">Vice-President<br>Team Gao 2019</p>
-                            <a href="#" class="icon fa-twitter fa-2x"><span class="label">Twitter</span></a>&nbsp; &nbsp;
-                            <a href="#" class="icon fa-facebook fa-2x"><span class="label">Facebook</span></a>&nbsp; &nbsp;
-                            <a href="#" class="icon fa-instagram fa-2x"><span class="label">Instagram</span></a>&nbsp; &nbsp;
-                            <a href="#" class="icon fa-github fa-2x"><span class="label">Github</span></a>&nbsp; &nbsp;
+                            <a href="https://twitter.com/dawgsfan97" class="icon fa-twitter fa-2x"><span class="label">Twitter</span></a>&nbsp; &nbsp;
+                            <a href="https://www.facebook.com/caleb.corbin.754" class="icon fa-facebook fa-2x"><span class="label">Facebook</span></a>&nbsp; &nbsp;
+                            <a href="https://www.instagram.com/corbin_caleb/" class="icon fa-instagram fa-2x"><span class="label">Instagram</span></a>&nbsp; &nbsp;
+                            <a href="https://github.com/dawgsfan97" class="icon fa-github fa-2x"><span class="label">Github</span></a>&nbsp; &nbsp;
                     </div>
                 </div>
                 <br>
