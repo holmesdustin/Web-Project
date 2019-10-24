@@ -1398,6 +1398,7 @@ body.is-loading #banner>.inner {
 .about-us-description {
 	text-align: justify;
 	background-color: #1c1c1c;
+	opacity: 0.9;
 }
 
 h5.about-us-member {
