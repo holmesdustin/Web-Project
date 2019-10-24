@@ -34,7 +34,7 @@ function searchByKeyword($keyword)
 
         for ($x = 0; $x < $result_num; $x++) {
             //echo $x % 4 == 0 ? '<div class="col-xs-12 col-sm-12 col-lg-12"><br><hr class="my-4"><br></div>' : ''; // add break lines 
-            echo '<div class="col-xs-12 col-sm-6 col-lg-3">';
+            echo '<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">';
             echo '<div class="card shadow text-center" style="width: 100%; height: 90%; border-radius: 20px;">';
             getDetailsByID($response["Search"][$x]["imdbID"]);
             echo '</div>';
