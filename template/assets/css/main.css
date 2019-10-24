@@ -1395,7 +1395,7 @@ body.is-loading #banner>.inner {
 	background-color: transparent;
 }
 
-#about-us-description {
+.about-us-description {
 	text-align: justify;
 	background-color: #1c1c1c;
 }

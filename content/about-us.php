@@ -12,12 +12,12 @@
             <p class="info">Updated on Oct 06, 2019 by <strong>Team Gao</strong></p>
         </header>
         <h2 id="about-us-heading-1" class="text-center">Our Goal</h2>
-        <p> Team Gao has one simple goal: to create the best movie searching experience. 
+        <p class="about-us-description"> Team Gao has one simple goal: to create the best movie searching experience. 
             We have been working dilligently to deliver this to our users, and
             we highly encourage you to leave any feedback you may have so that we can continue to better our service.</p>
         
         <h2 id="about-us-heading-1" class="text-center">Who is Team Gao?</h2>
-        <p>Team Gao was started for our Server Side Web Development group project. We were tasked with creating a movie seraching website powered by the OMDb API.
+        <p class="about-us-description">Team Gao was started for our Server Side Web Development group project. We were tasked with creating a movie seraching website powered by the OMDb API.
            Team Gao consists of four members of the Columbus State University Computer Science department: Caleb Corbin, Yujing Gao, Dustin Holmes, and Johnathan Stadtmueller.
            We have been friends and classmates for most of the time that we have been at Columbus State University.
            We believe that we work well together and hope that this website is a good representation of such.
@@ -25,22 +25,22 @@
  
         
         <h5 class="about-us-member">Caleb Corbin</h5>
-        <p>What's up guys? My name is Caleb, and I am a senior in the Games Programming track here at Columbus State University.
+        <p class="about-us-description">What's up guys? My name is Caleb, and I am a senior in the Games Programming track here at Columbus State University.
          I am also working on the Web Development certificate, hence why I am in this class.
          I should be graduating in May 2020, and I am hoping to begin my career after college doing Web Development in Colorado.
          My biggest interests aside from technology are playing guitar, singing, writing songs, hiking, camping, landscape photography, and travelling.</p>
 
         <h5 class="about-us-member">Yujing Gao</h5>
-        <p> My name is Yujing. I am currently being a senior studying Computer Science - Applied Computing in Columbus State University.
+        <p class="about-us-description"> My name is Yujing. I am currently being a senior studying Computer Science - Applied Computing in Columbus State University.
             I am planning to graduate in May 2020 as well. After that, I will be looking for a job in either Aflac or TSYS.
             In my spare time, I love to go to the gym with couple friends. And I also love watching YouTube videos and listening to music in my free time.
         </p>
         
         <h5 class="about-us-member">Dustin Holmes</h5>
-        <p> I am Dustin. I love hunting geese. Plays drums🦆</p>
+        <p class="about-us-description"> I am Dustin. I love hunting geese. Plays drums🦆</p>
         
         <h5 class="about-us-member">Johnathan Stadtmueller</h5>
-        <p> My name is Johnathan, and I like watching porns. Wants to tech English in CHina after college😍</p>
+        <p class="about-us-description"> My name is Johnathan, and I like watching porns. Wants to tech English in CHina after college😍</p>
         
         <br><hr class="my-4"><br>
         <h2 id="about-us-heading-2" class="text-center">Team members</h2>
