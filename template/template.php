@@ -108,14 +108,16 @@
         });
 
         $(window).scroll(function() {
-            var hT = $('#inputKey').offset().top,
-                hH = $('#inputKey').outerHeight(),
+            if ($('#inputKey').length) {
+                var hT = $('#inputKey').offset().top,
+                    hH = $('#inputKey').outerHeight(),
 
-                wS = $(this).scrollTop();
-            if (wS > hT + hH) {
-                $("#back-to-top").show(0);
-            } else {
-                $("#back-to-top").hide(0);
+                    wS = $(this).scrollTop();
+                if (wS > hT + hH) {
+                    $("#back-to-top").show(0);
+                } else {
+                    $("#back-to-top").hide(0);
+                }
             }
         });
     </script>
