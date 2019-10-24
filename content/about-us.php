@@ -24,7 +24,7 @@
            Read below for a little bit more information about each individual team member.</p>
  
         
-        <br><h5 id="about-us-description">Caleb Corbin</h5>
+        <h5 class="about-us-member">Caleb Corbin</h5>
         <p>What's up guys? My name is Caleb, and I am a senior in the Games Programming track here at Columbus State University.
          I am also working on the Web Development certificate, hence why I am in this class.
          I should be graduating in May 2020, and I am hoping to begin my career after college doing Web Development in Colorado.
