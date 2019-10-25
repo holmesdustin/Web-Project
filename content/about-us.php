@@ -52,7 +52,7 @@
                     <img class="card-img-top" style="border-radius: 20px 20px 0px 0px;" src="/template/assets/images/card_bg_caleb.jpeg" alt="Caleb Corbin BG" />
                     <div class="card-body">
                         <h4 class="card-title" style="color:white">Caleb Corbin</h4>
-                        <p class="card-text">Content Creation and Website Design<br />Team Gao 2019</p>
+                        <p class="card-text">Content Creator and Website Designer<br /><br />Team Gao 2019</p>
                         <a href="https://twitter.com/dawgsfan97" class="icon fa-twitter fa-2x"><span class="label">Twitter</span></a>&nbsp; &nbsp;
                         <a href="https://www.facebook.com/caleb.corbin.754" class="icon fa-facebook fa-2x"><span class="label">Facebook</span></a>&nbsp; &nbsp;
                         <a href="https://www.instagram.com/corbin_caleb/" class="icon fa-instagram fa-2x"><span class="label">Instagram</span></a>&nbsp; &nbsp;
@@ -69,7 +69,7 @@
                     <img class="card-img-top" style="border-radius: 20px 20px 0px 0px;" src="/template/assets/images/card_bg_yujing.jpg" alt="Yujing Gao BG" />
                     <div class="card-body">
                         <h4 class="card-title" style="color:white">Yujing Gao</h4>
-                        <p class="card-text">PHP Programmer and Code Technician<br />Team Gao 2019</p>
+                        <p class="card-text">PHP Programmer and Cotent Optimizer<br /><br />Team Gao 2019</p>
                         <a href="https://twitter.com/gao_yujing" class="icon fa-twitter fa-2x"><span class="label">Twitter</span></a>&nbsp; &nbsp;
                         <a href="https://www.facebook.com/yujing.gao.16" class="icon fa-facebook fa-2x"><span class="label">Facebook</span></a>&nbsp; &nbsp;
                         <a href="https://www.instagram.com/jcl_is_the_best_language/" class="icon fa-instagram fa-2x"><span class="label">Instagram</span></a>&nbsp; &nbsp;
@@ -86,7 +86,7 @@
                     <img class="card-img-top" style="border-radius: 20px 20px 0px 0px;" src="/template/assets/images/card_bg_dustin.jpeg" alt="Dustin Holmes BG" />
                     <div class="card-body">
                         <h4 class="card-title" style="color:white">Dustin Holmes</h4>
-                        <p class="card-text">Team Leader and Project Organizer<br />Team Gao 2019</p>
+                        <p class="card-text">Team Leader and Project Organizer<br /><br />Team Gao 2019</p>
                         <a href="#" class="icon fa-twitter fa-2x"><span class="label">Twitter</span></a> &nbsp; &nbsp;
                         <a href="#" class="icon fa-facebook fa-2x"><span class="label">Facebook</span></a> &nbsp; &nbsp;
                         <a href="#" class="icon fa-instagram fa-2x"><span class="label">Instagram</span></a> &nbsp; &nbsp;
@@ -103,7 +103,7 @@
                     <img class="card-img-top" style="border-radius: 20px 20px 0px 0px;" src="/template/assets/images/card_bg_johnathan.jpg" alt="Johnathan Stadtmueller BG" />
                     <div class="card-body">
                         <h4 class="card-title" style="color:white">J. Stadtmueller</h4>
-                        <p class="card-text">Visual Designer and Layout Creation<br />Team Gao 2019</p>
+                        <p class="card-text">Visual Designer and Layout Planner<br /><br />Team Gao 2019</p>
                         <a href="#" class="icon fa-twitter fa-2x"><span class="label">Twitter</span></a>&nbsp; &nbsp;
                         <a href="#" class="icon fa-facebook fa-2x"><span class="label">Facebook</span></a>&nbsp; &nbsp;
                         <a href="#" class="icon fa-instagram fa-2x"><span class="label">Instagram</span></a>&nbsp; &nbsp;
