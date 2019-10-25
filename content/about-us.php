@@ -45,7 +45,7 @@
 
         <br />
         <hr class="my-4" /><br />
-        <h2 id="about-us-heading-2" class="text-center">Team members</h2>
+        <h2 id="about-us-heading-2" class="text-center">Team Members</h2>
         <div class="row container-fluid relative">
             <div class="col-xs-12 col-sm-6 col-lg-3">
                 <div class="card shadow-lg text-center" style="border-radius: 20px; background-color: #3b3b3b; height: 80%; width: auto;">
