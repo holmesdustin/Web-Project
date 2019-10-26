@@ -41,7 +41,7 @@
             I will graduate in 2020 and plan to work anywhere with good pay!</p>
 
         <h3 class="about-us-member">😍 Johnathan Stadtmueller</h3>
-        <p class="about-us-description"> My name is Johnathan, and I like watching "videos". Wants to tech English in CHina after college😍</p>
+        <p class="about-us-description"> My name is Johnathan, and I wants to tech English in China 🇨🇳 after college.</p>
 
         <br />
         <hr class="my-4" /><br />
@@ -69,7 +69,7 @@
                     <img class="card-img-top" style="border-radius: 20px 20px 0px 0px;" src="/template/assets/images/card_bg_yujing.jpg" alt="Yujing Gao BG" />
                     <div class="card-body">
                         <h4 class="card-title" style="color:white">Yujing Gao</h4>
-                        <p class="card-text">PHP Programmer and Cotent Optimizer<br /><br />&copy;Team Gao 2019</p>
+                        <p class="card-text">PHP Programmer and Content Optimizer<br /><br />&copy;Team Gao 2019</p>
                         <a href="https://twitter.com/gao_yujing" class="icon fa-twitter fa-2x"><span class="label">Twitter</span></a>&nbsp; &nbsp;
                         <a href="https://www.facebook.com/yujing.gao.16" class="icon fa-facebook fa-2x"><span class="label">Facebook</span></a>&nbsp; &nbsp;
                         <a href="https://www.instagram.com/jcl_is_the_best_language/" class="icon fa-instagram fa-2x"><span class="label">Instagram</span></a>&nbsp; &nbsp;
