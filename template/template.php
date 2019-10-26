@@ -71,6 +71,7 @@
     <script>
         $("#button").click(function() {
             $("#result_showed").hide();
+            $("#darkModeSection").hide();
             $("#result_loading").show();
             $('html, body').animate({
                 scrollTop: $("#result_loading").offset().top
@@ -88,9 +89,10 @@
                     $("#result_showed").ready(function() { //when the page is ready
                         $("#result_loading").hide(200); //hide loading spinner
                         $("#result_showed").show(0); //show the result
+                        $("#darkModeSection").show(0);
                         $('html, body').animate({
                             scrollTop: $("#result_loading").offset().top
-                        }, 1000);
+                        }, 500);
                     });
 
                 },
@@ -120,6 +122,24 @@
                 }
             }
         });
+
+        $('#customSwitch1').change(function() {
+            if ($(this).is(':checked')) {
+                $(".custom-control-label").text("Dark Mode Turns On");
+                $("#result_showed").css("background-color", "#1c1c1c");
+                $("#darkModeSection").css("background-color", "#1c1c1c");
+                $(".card").css("background-color", "#3b3b3b");
+                $(".card").css("color", "#e3e3e3");
+                $(".card-title").css("color", "white");
+            } else {
+                $(".custom-control-label").text("Dark Mode Turns Off");
+                $("#result_showed").css("background-color", "white");
+                $("#darkModeSection").css("background-color", "white");
+                $(".card").css("background-color", "white");
+                $(".card").css("color", "#444");
+                $(".card-title").css("color", "#555");
+            }
+        });
     </script>
 
 
@@ -137,6 +157,7 @@
                 if (firstName === "" || lastName === "" || email === "" || message === "") {
                     alert("Please provide all information that we need.");
                 } else {
+                    $("#buttonContact").html('<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>Sending...');
                     $.ajax({
                         type: 'post',
                         url: '../includes/mailHandler.php',
@@ -153,9 +174,11 @@
                             $("#lastNameContact").val('');
                             $("#emailContact").val('');
                             $("#messageContact").val('');
+                            $("#buttonContact").html('Send Message');
                         },
                         error: function() {
                             alert("Failed to reach server. Please try again.");
+                            $("#buttonContact").html('Send Message');
                         }
                     });
 
@@ -188,6 +211,7 @@
 
         });
     </script>
+
 </body>
 
 </html>

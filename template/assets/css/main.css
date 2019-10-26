@@ -1211,3 +1211,11 @@ h3.about-us-member {
 #videoFrame {
 	border-radius: 20px;
 }
+
+#darkModeSection {
+	display: none;
+}
+
+.btn {
+	border: white solid 1px;
+}

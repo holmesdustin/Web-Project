@@ -25,7 +25,6 @@ function searchByKeyword($keyword)
     );
     $output = curl_exec($handle);
     $response = json_decode($output, true);
-    echo '<div class="col-xs-12 col-sm-12 col-lg-12"><br><hr class="my-4"><br></div>'; // add a line to seperate search bar and result content
     if ($response['Response'] == 'False') {
         echo '<div class="col-xs-12 col-sm-12 col-lg-12"><h4 class="text-center"><i class="fas fa-sad-cry fa-lg"></i>&nbsp;Sorry, we couldn\'t find any result on the keyword: \'' . $originalKeyword . '\'.</h4></div>';
         echo '<div class="col-xs-12 col-sm-12 col-lg-12"><hr class="my-4"><br></div>'; // add a line to seperate search bar and result content
@@ -43,7 +42,7 @@ function searchByKeyword($keyword)
             echo '</div>';
         }
 
-        echo '<div class="col-xs-12 col-sm-12 col-lg-12"><p class="text-center">You\'ve reached the end of results.</p><br></div>';
+        echo '<div class="col-xs-12 col-sm-12 col-lg-12"><p class="text-center" style="color: #888;">You\'ve reached the end of results.</p><br></div>';
     }
 
     curl_close($handle);

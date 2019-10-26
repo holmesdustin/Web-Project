@@ -30,15 +30,27 @@
 			<div class="spinner"></div>
 		</div>
 		<div class="col-12">
-		<h2 class="text-center">Loading Results...</h2>
+			<h2 class="text-center">Loading Results...</h2>
 		</div>
-		
+
 	</div>
 
 	<br />
 	<hr class="my-4" />
 	<br />
 
+</div>
+
+<div class="container-fluid relative row" id="darkModeSection">
+	<div class="col-xs-12 col-sm-12 col-lg-12"><br />
+		<div class="d-flex justify-content-center ">
+			<div class="custom-control custom-switch ">
+				<input type="checkbox" class="custom-control-input" id="customSwitch1">
+				<label class="custom-control-label" for="customSwitch1">Dark Mode Turns Off</label>
+			</div>
+		</div>
+		<hr class="my-4"><br />
+	</div>
 </div>
 
 <div id="result_showed" class="container-fluid relative row">
