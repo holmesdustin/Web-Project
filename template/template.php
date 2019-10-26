@@ -86,6 +86,15 @@
                 dataType: "HTML",
                 success: function(result) {
                     $("#result_showed").html(result); //load the page 
+                    $("#result_showed").ready(function() { //when the page is ready
+                        $("#result_loading").hide(200); //hide loading spinner
+                        $("#result_showed").show(0); //show the result
+                        $("#darkModeSection").show(0);
+                        $('html, body').animate({
+                            scrollTop: $("#result_loading").offset().top
+                        }, 500);
+                    });
+
                     if ($("customSwitch1").is(':checked')) {
                         //dark mode on
                         $("#result_showed").css("background-color", "#1c1c1c");
@@ -104,14 +113,6 @@
                         $(".modal-content").css("background-color", "white");
                         $(".modal-content").css("color", "#444")
                     }
-                    $("#result_showed").ready(function() { //when the page is ready
-                        $("#result_loading").hide(200); //hide loading spinner
-                        $("#result_showed").show(0); //show the result
-                        $("#darkModeSection").show(0);
-                        $('html, body').animate({
-                            scrollTop: $("#result_loading").offset().top
-                        }, 500);
-                    });
 
                 },
                 error: function() {
