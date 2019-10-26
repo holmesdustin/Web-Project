@@ -142,3 +142,72 @@
         </div>
     </div>
 </section>
+
+<script>
+    $("#buttonContact").click(function() {
+        var recaptcha = $("#g-recaptcha-response").val();
+        if (recaptcha === "") {
+            event.preventDefault();
+            alert("Please check the reCAPTCHA");
+        } else {
+            var firstName = $("#firstNameContact").val();
+            var lastName = $("#lastNameContact").val();
+            var email = $("#emailContact").val();
+            var message = $("#messageContact").val();
+            if (firstName === "" || lastName === "" || email === "" || message === "") {
+                alert("Please provide all information that we need.");
+            } else {
+                $("#buttonContact").html('<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true" style="vertical-align: middle;"></span>&nbsp;&nbsp;Sending...');
+                $.ajax({
+                    type: 'post',
+                    url: '../includes/mailHandler.php',
+                    data: {
+                        "firstName": firstName,
+                        "lastName": lastName,
+                        "email": email,
+                        "message": message
+                    },
+                    dataType: "text",
+                    success: function(result) {
+                        alert(result);
+                        $("#firstNameContact").val('');
+                        $("#lastNameContact").val('');
+                        $("#emailContact").val('');
+                        $("#messageContact").val('');
+                        $("#buttonContact").html('Send Message');
+                    },
+                    error: function() {
+                        alert("Failed to reach server. Please try again.");
+                        $("#buttonContact").html('Send Message');
+                    }
+                });
+
+            }
+        }
+        return false;
+    });
+</script>
+<script>
+    $(function() {
+        function rescaleCaptcha() {
+            var width = $('.g-recaptcha').parent().width();
+            var scale;
+            if (width < 302) {
+                scale = width / 302;
+            } else {
+                scale = 1.0;
+            }
+
+            $('.g-recaptcha').css('transform', 'scale(' + scale + ')');
+            $('.g-recaptcha').css('-webkit-transform', 'scale(' + scale + ')');
+            $('.g-recaptcha').css('transform-origin', '0 0');
+            $('.g-recaptcha').css('-webkit-transform-origin', '0 0');
+        }
+
+        rescaleCaptcha();
+        $(window).resize(function() {
+            rescaleCaptcha();
+        });
+
+    });
+</script>
