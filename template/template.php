@@ -85,7 +85,7 @@
                 },
                 dataType: "HTML",
                 success: function(result) {
-                    $("#result_showed").html(result); //load the page 
+                    $("#result_showed").html(result); //load the page                     
                     $("#result_showed").ready(function() { //when the page is ready
                         $("#result_loading").hide(200); //hide loading spinner
                         $("#result_showed").show(0); //show the result
@@ -94,31 +94,12 @@
                             scrollTop: $("#result_loading").offset().top
                         }, 500);
                     });
-
-                    if ($("customSwitch1").is(':checked')) {
-                        //dark mode on
-                        $("#result_showed").css("background-color", "#1c1c1c");
-                        $("#darkModeSection").css("background-color", "#1c1c1c");
-                        $(".card").css("background-color", "#3b3b3b");
-                        $(".card").css("color", "#e3e3e3");
-                        $(".card-title").css("color", "white");
-                        $(".modal-content").css("background-color", "#3b3b3b");
-                        $(".modal-content").css("color", "white");
-                    } else {
-                        $("#result_showed").css("background-color", "white");
-                        $("#darkModeSection").css("background-color", "white");
-                        $(".card").css("background-color", "white");
-                        $(".card").css("color", "#444");
-                        $(".card-title").css("color", "#555");
-                        $(".modal-content").css("background-color", "white");
-                        $(".modal-content").css("color", "#444")
-                    }
-
                 },
                 error: function() {
                     alert("Failed to get result");
                 }
             });
+            
             return false;
         });
 
@@ -129,6 +110,24 @@
         });
 
         $(window).scroll(function() {
+            if ($('#customSwitch1').is(':checked')) {
+                $("#result_showed").css("background-color", "#1c1c1c");
+                $("#darkModeSection").css("background-color", "#1c1c1c");
+                $(".card").css("background-color", "#3b3b3b");
+                $(".card").css("color", "#e3e3e3");
+                $(".card-title").css("color", "white");
+                $(".modal-content").css("background-color", "#3b3b3b");
+                $(".modal-content").css("color", "white");
+            } else {
+                $("#result_showed").css("background-color", "white");
+                $("#darkModeSection").css("background-color", "white");
+                $(".card").css("background-color", "white");
+                $(".card").css("color", "#444");
+                $(".card-title").css("color", "#555");
+                $(".modal-content").css("background-color", "white");
+                $(".modal-content").css("color", "#444");
+            }
+
             if ($('#inputKey').length) {
                 var hT = $('#inputKey').offset().top,
                     hH = $('#inputKey').outerHeight(),
@@ -162,7 +161,7 @@
                 $(".card").css("color", "#444");
                 $(".card-title").css("color", "#555");
                 $(".modal-content").css("background-color", "white");
-                $(".modal-content").css("color", "#444")
+                $(".modal-content").css("color", "#444");
             }
         });
     </script>
