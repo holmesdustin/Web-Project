@@ -88,7 +88,6 @@
                     $("#result_showed").html(result); //load the page 
                     if ($("customSwitch1").is(':checked')) {
                         //dark mode on
-                        $(".custom-control-label").text("Dark Mode Turns On");
                         $("#result_showed").css("background-color", "#1c1c1c");
                         $("#darkModeSection").css("background-color", "#1c1c1c");
                         $(".card").css("background-color", "#3b3b3b");
@@ -97,8 +96,6 @@
                         $(".modal-content").css("background-color", "#3b3b3b");
                         $(".modal-content").css("color", "white");
                     } else {
-                        //dark mode off
-                        $(".custom-control-label").text("Dark Mode Turns Off");
                         $("#result_showed").css("background-color", "white");
                         $("#darkModeSection").css("background-color", "white");
                         $(".card").css("background-color", "white");
