@@ -163,7 +163,7 @@
                 if (firstName === "" || lastName === "" || email === "" || message === "") {
                     alert("Please provide all information that we need.");
                 } else {
-                    $("#buttonContact").html('<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>Sending...');
+                    $("#buttonContact").html('<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true" style="vertical-align: middle;"></span>&nbsp;&nbsp;Sending...');
                     $.ajax({
                         type: 'post',
                         url: '../includes/mailHandler.php',
