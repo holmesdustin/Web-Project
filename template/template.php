@@ -10,6 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="template/assets/css/main.css" />
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -57,7 +58,7 @@
 
     <!-- Scripts -->
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="template/assets/js/jquery.min.js"></script>
@@ -103,67 +104,7 @@
             return false;
         });
 
-        $("#back-to-top").click(function() {
-            $('html, body').animate({
-                scrollTop: $("#banner").offset().top
-            }, 1000);
-        });
-
-        $(window).scroll(function() {
-            if ($('#customSwitch1').is(':checked')) {
-                $("#result_showed").css("background-color", "#1c1c1c");
-                $("#darkModeSection").css("background-color", "#1c1c1c");
-                $(".card").css("background-color", "#3b3b3b");
-                $(".card").css("color", "#e3e3e3");
-                $(".card-title").css("color", "white");
-                $(".modal-content").css("background-color", "#3b3b3b");
-                $(".modal-content").css("color", "white");
-            } else {
-                $("#result_showed").css("background-color", "white");
-                $("#darkModeSection").css("background-color", "white");
-                $(".card").css("background-color", "white");
-                $(".card").css("color", "#444");
-                $(".card-title").css("color", "#555");
-                $(".modal-content").css("background-color", "white");
-                $(".modal-content").css("color", "#444");
-            }
-
-            if ($('#inputKey').length) {
-                var hT = $('#inputKey').offset().top,
-                    hH = $('#inputKey').outerHeight(),
-
-                    wS = $(this).scrollTop();
-                if (wS > hT + hH) {
-                    $("#back-to-top").show(0);
-                } else {
-                    $("#back-to-top").hide(0);
-                }
-            }
-        });
-
-        $('#customSwitch1').change(function() {
-            if ($(this).is(':checked')) {
-                //dark mode on
-                $(".custom-control-label").text("Dark Mode Turns On");
-                $("#result_showed").css("background-color", "#1c1c1c");
-                $("#darkModeSection").css("background-color", "#1c1c1c");
-                $(".card").css("background-color", "#3b3b3b");
-                $(".card").css("color", "#e3e3e3");
-                $(".card-title").css("color", "white");
-                $(".modal-content").css("background-color", "#3b3b3b");
-                $(".modal-content").css("color", "white");
-            } else {
-                //dark mode off
-                $(".custom-control-label").text("Dark Mode Turns Off");
-                $("#result_showed").css("background-color", "white");
-                $("#darkModeSection").css("background-color", "white");
-                $(".card").css("background-color", "white");
-                $(".card").css("color", "#444");
-                $(".card-title").css("color", "#555");
-                $(".modal-content").css("background-color", "white");
-                $(".modal-content").css("color", "#444");
-            }
-        });
+       
     </script>
 
 
