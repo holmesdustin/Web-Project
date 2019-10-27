@@ -132,8 +132,8 @@
                     </div>
                     <div class="card-body">
                         <blockquote class="blockquote mb-0">
-                            <p>Never hesitate to contact us!</p>
-                            <footer class="blockquote-footer">Team Gao</footer>
+                            <p>I think there is a profound and enduring beauty in simplicity; in clarity, in efficiency. True simplicity is derived from so much more than just the absence of clutter and ornamentation. It’s about bringing order to complexity.</p>
+                            <footer class="blockquote-footer">Jonathan Ive - Apple's Former Chief Design Officer</footer>
                         </blockquote>
                     </div>
                 </div>
