@@ -1205,3 +1205,15 @@ h3.about-us-member {
 .btn {
 	border: white solid 1px;
 }
+
+
+#trendingBanner {
+	background-image: url("../images/trendingBannerBG.jpg");
+	background-position: center;
+	background-size: cover;
+	background-color: #1c1c1c;
+	color: rgba(255, 255, 255, 0.75);
+	text-align: center;
+	cursor: default;
+	padding: 10em 4em 9em 4em;
+}
