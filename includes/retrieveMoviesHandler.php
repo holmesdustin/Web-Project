@@ -11,8 +11,6 @@ function searchByKeyword($keyword)
 {
     $originalKeyword = $keyword;
     require('config.php');
-    //$keyword = trim($keyword); //Strip whitespace (or other characters) from the beginning and end of a string
-    //$keyword = str_replace(" ", "+", $keyword);
     $keyword = parseKeyword($keyword);
     $url = "http://www.omdbapi.com/?apikey=" . config('omdb_api_key') . "&s=" . $keyword;
     $handle = curl_init();
@@ -32,8 +30,7 @@ function searchByKeyword($keyword)
     } else {
         $result_num = sizeof($response["Search"]);
 
-        for ($x = 0; $x < $result_num; $x++) {
-            //echo $x % 4 == 0 ? '<div class="col-xs-12 col-sm-12 col-lg-12"><br><hr class="my-4"><br></div>' : ''; // add break lines 
+        for ($x = 0; $x < $result_num; $x++) { 
             echo '<div class="col-xs-12 col-sm-6 col-lg-4 col-xl-3">';
             echo '<div class="card shadow text-center" style="width: 100%; height: 90%; border-radius: 20px;">';
             getDetailsByID($response["Search"][$x]["imdbID"]);
