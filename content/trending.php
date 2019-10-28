@@ -1,5 +1,5 @@
 <div id="trendingBG"></div>
-<section class="otherPageBanner">
+<section id="banner">
     <div class="inner">
         <h1 id="spiderFont"><i class="fas fa-ghost"></i>&nbsp;TRENDING&nbsp;<i class="fas fa-spider"></i></h1>
     </div>

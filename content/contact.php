@@ -1,4 +1,4 @@
-<section class="otherPageBanner">
+<section id="banner">
     <div class="inner">
         <h1>Contact Us</h1>
     </div>
