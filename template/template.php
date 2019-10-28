@@ -50,6 +50,7 @@
         <br><br>
         <div class="copyright">
             <a href="https://github.com/holmesdustin/Web-Project"><i class="fab fa-github fa-2x"></i></a>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
             <br><br>
             &copy;<?php echo date('Y'); ?> <?php site_name(); ?>.<br><?php site_version(); ?>
 
@@ -58,8 +59,6 @@
 
     <!-- Scripts -->
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="template/assets/js/jquery.min.js"></script>
     <script src="template/assets/js/jquery.scrolly.min.js"></script>
@@ -68,47 +67,6 @@
     <script src="template/assets/js/main.js"></script>
     <script src="template/assets/js/particles.js"></script>
     <script src="template/assets/js/app.js"></script>
-
-    <script>
-        $("#button").click(function() {
-            $("#result_showed").hide();
-            $("#darkModeSection").hide();
-            $("#result_loading").show();
-            $('html, body').animate({
-                scrollTop: $("#result_loading").offset().top
-            }, 1000);
-            var keyword = $("#inputKey").val();
-            $.ajax({
-                type: 'post',
-                url: '../includes/functions.php',
-                data: {
-                    "search": keyword
-                },
-                dataType: "HTML",
-                success: function(result) {
-                    $("#result_showed").html(result); //load the page                     
-                    $("#result_showed").ready(function() { //when the page is ready
-                        $("#result_loading").hide(200); //hide loading spinner
-                        $("#result_showed").show(0); //show the result
-                        $("#darkModeSection").show(0);
-                        $('html, body').animate({
-                            scrollTop: $("#result_loading").offset().top
-                        }, 500);
-                    });
-                },
-                error: function() {
-                    alert("Failed to get result");
-                }
-            });
-            
-            return false;
-        });
-
-       
-    </script>
-
-
-    
 
 </body>
 

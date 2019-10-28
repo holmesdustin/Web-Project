@@ -57,6 +57,43 @@
 
 </div>
 <a id="back-to-top" href="#" class="back-to-top" role="button"><i class="fas fa-chevron-circle-up fa-3x"></i></a>
+
+<script>
+	$("#button").click(function() {
+		$("#result_showed").hide();
+		$("#darkModeSection").hide();
+		$("#result_loading").show();
+		$('html, body').animate({
+			scrollTop: $("#result_loading").offset().top
+		}, 1000);
+		var keyword = $("#inputKey").val();
+		$.ajax({
+			type: 'post',
+			url: '../includes/retrieveMoviesHandler.php',
+			data: {
+				"search": keyword
+			},
+			dataType: "HTML",
+			success: function(result) {
+				$("#result_showed").html(result); //load the page                     
+				$("#result_showed").ready(function() { //when the page is ready
+					$("#result_loading").hide(200); //hide loading spinner
+					$("#result_showed").show(0); //show the result
+					$("#darkModeSection").show(0);
+					$('html, body').animate({
+						scrollTop: $("#result_loading").offset().top
+					}, 500);
+				});
+			},
+			error: function() {
+				alert("Failed to get result");
+			}
+		});
+
+		return false;
+	});
+</script>
+
 <script>
 	var input = document.getElementById("inputKey");
 	input.addEventListener("keyup", function(event) {
