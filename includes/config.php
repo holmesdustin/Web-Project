@@ -22,7 +22,16 @@ function config($key = '')
         'content_path' => 'content',
         'version' => 'October 29th, 2019',
         'omdb_api_key' => '2b352ccb',
-        'reCAPTCHA_api_key' => '6LfcwL4UAAAAAI9nT6jzJ_iWIoJVboMJdJtHQQhF'
+        'reCAPTCHA_api_key' => '6LfcwL4UAAAAAI9nT6jzJ_iWIoJVboMJdJtHQQhF',
+        'phpMailerConfig' => [
+            'host' => 'smtp.gmail.com',
+            'username' => 'noreply.teamgao@gmail.com',
+            'password' => 'P@ssw0rdtoor',
+            'smtpSecure' => 'tls',
+            'port' => 587,
+            'fromAddress' => 'noreply.teamgao@gmail.com',
+            'fromName' => 'NoReply-TeamGao'
+        ]
     ];
     return isset($config[$key]) ? $config[$key] : null;
 }
