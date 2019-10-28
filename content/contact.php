@@ -107,8 +107,8 @@
                             <br />
                         </div>
                         <div class="form-row">
-                            <div class="col-md-12 mb-3 ">
-                                <div class="g-recaptcha" data-sitekey="6LfcwL4UAAAAAI9nT6jzJ_iWIoJVboMJdJtHQQhF"></div>
+                            <div class="col-md-12 mb-3 "> 
+                                <div class="g-recaptcha" data-sitekey=<?php recaptcha_api_key(); ?>></div>
                             </div>
                         </div>
                         <div class="form-row">
