@@ -1207,12 +1207,11 @@ h3.about-us-member {
 }
 
 
-#trendingBanner {
+.otherPageBanner {
 	background-image: url("../images/trendingBannerBG.png");
 	background-position: center;
 	background-size: cover;
-	background-color: #1c1c1c;
-	color: rgba(255, 255, 255, 0.75);
+	color: rgb(255, 255, 255);
 	text-align: center;
 	cursor: default;
 	padding: 10em 4em 9em 4em;

@@ -1,5 +1,5 @@
 <div id="particles-js"></div>
-<section id="banner">
+<section class="otherPageBanner">
     <div class="inner">
         <h1>About Us</h1>
     </div>
