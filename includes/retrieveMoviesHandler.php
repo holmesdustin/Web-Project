@@ -32,11 +32,13 @@ function searchByKeyword($keyword)
 
         for ($x = 0; $x < $result_num; $x++) { 
             echo '<div class="col-xs-12 col-sm-6 col-lg-4 col-xl-3">';
-            echo '<div class="card shadow text-center" style="width: 100%; height: 90%; border-radius: 20px;">';
+            echo '<div class="card shadow text-center" style="border-radius: 20px; height: 90%;">';
             getDetailsByID($response["Search"][$x]["imdbID"]);
             echo '</div>';
+            echo '<div style="height: 10%;">';
+            echo '<br><hr class="my-4" ><br>';
             echo '</div>';
-            echo '<br><hr class="my-4"><br>';
+            echo '</div>';
             echo '</div>';
         }
 
@@ -80,13 +82,14 @@ function getDetailsByID($id)
     );
     $output = curl_exec($handle);
     $response = json_decode($output, true);
-    echo '<img class="card-img-top img-fluid" style="height: 70%; width: auto; border-radius: 20px 20px 0px 0px;" src="' . ($response["Poster"] == 'N/A' ? '../template/assets/images/nopicture.JPG' : $response["Poster"]) . '" alt="Poster of Movie">';
-    echo '<div class="card-body">';
-    echo '<h5 class="card-title">' . $response["Title"] . ' - ' . $response["Year"] . '</h5>';
+    echo '<img class="card-img-top img-fluid" style="height: 60%; border-radius: 20px 20px 0px 0px;" src="' . ($response["Poster"] == 'N/A' ? '../template/assets/images/nopicture.JPG' : $response["Poster"]) . '" alt="Poster of Movie">';
+    echo '<div class="card-body" style="height: 40%;">';
+    echo '<h5 class="card-title my-0" style="height: 15%;">' . $response["Title"] . ' - ' . $response["Year"] . '</h5>';
     $plot = $response["Plot"];
 
-    echo '<p class="card-text">' . formatPlot($plot) . '</p>';
+    echo '<p class="card-text my-0" style= "height: 65%; text-align: justify;">' . formatPlot($plot) . '</p>';
     echoDetailModal($response);
+    echo '</div>';
 }
 
 /**
@@ -105,7 +108,7 @@ function echoDetailModal($response)
     $actors = $response['Actors'];
     $country = $response['Country'];
     $genre = $response['Genre'];
-
+    echo '<div style="height: 20%;">';
     echo '<button type="button" class="btn btn-dark btn-lg" data-toggle="modal" data-target="#modalForID' . $imdbID . '">Read More</button>';
     echo '<div class="modal fade" id="modalForID' . $imdbID . '" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
@@ -135,6 +138,7 @@ function echoDetailModal($response)
       </div>
     </div>
   </div>';
+  echo '</div>';
 }
 /**
  * Make the plot length consistent to beatify the card
@@ -144,9 +148,15 @@ function echoDetailModal($response)
 function formatPlot($plot)
 {
     $maxCharacter = 160;
-    while (strlen($plot) < $maxCharacter) {
-        $plot = $plot . ' ';
+    if (strlen($plot) >= $maxCharacter) {
+        return substr($plot, 0, $maxCharacter) . '...';
     }
-    $plotBrief = strlen($plot) > $maxCharacter ? substr($plot, 0, $maxCharacter) . ' ...' : $plot;
-    return $plotBrief;
+    else{
+        $diff = $maxCharacter - strlen($plot) + 3;
+        for ($i=0; $i < $diff; $i++){
+            $plot = $plot . ' &numsp;';
+        }
+        return $plot;
+    }
+   
 }
