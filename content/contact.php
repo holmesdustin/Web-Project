@@ -126,7 +126,7 @@
             </div>
 
             <div class="col-xs-12 col-sm-12 col-lg-12">
-                <img src="/template/assets/images/trump.png" width="25%" height="auto"/>
+                <img src="/template/assets/images/trump.png" width="25%" height="auto" style="margin-left: 15px;"/>
             </div>
 
             <div class="col-xs-12 col-sm-12 col-lg-12">
