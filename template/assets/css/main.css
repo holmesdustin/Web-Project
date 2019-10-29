@@ -1134,6 +1134,7 @@ body.is-loading #banner>.inner {
 
 #spiderFont {
 	font-family: spider;
+	color: #ffb846;
 	-moz-transition: color 1s ease-out;
 	-webkit-transition: color 1s ease-out;
 	-ms-transition: color 1s ease-out;
@@ -1191,6 +1192,7 @@ h3.about-us-member {
 	width: 100%;
 	margin-bottom: -5px;
 	background-size: contain;
+	filter: brightness(0.7);
 }
 
 .g-recaptcha {
