@@ -66,7 +66,7 @@
             <br />
             <h2 class="junbotron text-center trendingTitle" style="background-color: transparent;">Trending Halloween Movies</h2>
         </div>
-        <div id="result_showed" class="container-fluid relative row" style="display: flex; background-color: rgb(28, 28, 28);">
+        <div id="result_showed" class="container-fluid relative row" style="display: flex;">
             <div class="col-xs-12 col-sm-6 col-lg-4 col-xl-3">
                 <div class="card shadow text-center" style="border-radius: 20px; height: 90%; background-color: rgb(59, 59, 59); color: rgb(227, 227, 227);"><img class="card-img-top img-fluid" style="height: 60%; border-radius: 20px 20px 0px 0px;" src="https://m.media-amazon.com/images/M/MV5BNzk1OGU2NmMtNTdhZC00NjdlLWE5YTMtZTQ0MGExZTQzOGQyXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg" alt="Poster of Movie">
                     <div class="card-body" style="height: 40%;">
