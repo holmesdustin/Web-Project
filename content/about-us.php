@@ -92,7 +92,7 @@
                         <p class="card-text">Team Leader and Project Organizer<br /><br />&copy;Team Gao 2019</p>
                         <a href="#" class="icon fa-twitter fa-2x"><span class="label">Twitter</span></a> &nbsp; &nbsp;
                         <a href="#" class="icon fa-facebook fa-2x"><span class="label">Facebook</span></a> &nbsp; &nbsp;
-                        <a href="#" class="icon fa-instagram fa-2x"><span class="label">Instagram</span></a> &nbsp; &nbsp;
+                        <a href="https://www.instagram.com/dustin_holmes97/" class="icon fa-instagram fa-2x"><span class="label">Instagram</span></a> &nbsp; &nbsp;
                         <a href="#" class="icon fa-github fa-2x"><span class="label">Github</span></a> &nbsp; &nbsp;
                     </div>
                 </div>
