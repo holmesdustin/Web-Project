@@ -44,7 +44,8 @@
             I will graduate in 2020 and plan to work anywhere with good pay!</p>
 
         <h3 class="about-us-member">😍 Johnathan Stadtmueller</h3>
-        <p class="about-us-description"> My name is Johnathan, and I wants to teach English in China 🇨🇳 after college.</p>
+        <p class="about-us-description"> My name is Johnathan, and I wants to teach English in China 🇨🇳 or Japan 🇯🇵 when I graudate.
+            Don't let Dustin fool you, I taught him every vape trick he knows! I am slated to graduate in 2020.</p>
 
         <br />
         <hr class="my-4" /><br />
@@ -107,10 +108,10 @@
                     <div class="card-body">
                         <h4 class="card-title" style="color:white">J. Stadtmueller</h4>
                         <p class="card-text">Visual Designer and Layout Planner<br /><br />&copy;Team Gao 2019</p>
-                        <a href="#" class="icon fa-twitter fa-2x"><span class="label">Twitter</span></a>&nbsp; &nbsp;
-                        <a href="#" class="icon fa-facebook fa-2x"><span class="label">Facebook</span></a>&nbsp; &nbsp;
-                        <a href="#" class="icon fa-instagram fa-2x"><span class="label">Instagram</span></a>&nbsp; &nbsp;
-                        <a href="#" class="icon fa-github fa-2x"><span class="label">Github</span></a>&nbsp; &nbsp;
+                        <a href="https://twitter.com/Leafyboss" class="icon fa-twitter fa-2x"><span class="label">Twitter</span></a>&nbsp; &nbsp;
+                        <a href="https://www.facebook.com/johnathan.stadtmueller" class="icon fa-facebook fa-2x"><span class="label">Facebook</span></a>&nbsp; &nbsp;
+                        <a href="https://www.instagram.com/pebblestad/" class="icon fa-instagram fa-2x"><span class="label">Instagram</span></a>&nbsp; &nbsp;
+                        <a href="https://github.com/pebblestad" class="icon fa-github fa-2x"><span class="label">Github</span></a>&nbsp; &nbsp;
                     </div>
                 </div>
                 <br />
