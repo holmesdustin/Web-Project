@@ -30,7 +30,7 @@ function searchByKeyword($keyword)
     } else {
         $result_num = sizeof($response["Search"]);
 
-        for ($x = 0; $x < $result_num; $x++) { 
+        for ($x = 0; $x < $result_num; $x++) {
             echo '<div class="col-xs-12 col-sm-6 col-lg-4 col-xl-3">';
             echo '<div class="card shadow text-center" style="border-radius: 20px; height: 90%;">';
             getDetailsByID($response["Search"][$x]["imdbID"]);
@@ -138,7 +138,7 @@ function echoDetailModal($response)
       </div>
     </div>
   </div>';
-  echo '</div>';
+    echo '</div>';
 }
 /**
  * Make the plot length consistent to beatify the card
@@ -150,13 +150,11 @@ function formatPlot($plot)
     $maxCharacter = 160;
     if (strlen($plot) >= $maxCharacter) {
         return substr($plot, 0, $maxCharacter) . '...';
-    }
-    else{
+    } else {
         $diff = $maxCharacter - strlen($plot) + 3;
-        for ($i=0; $i < $diff; $i++){
+        for ($i = 0; $i < $diff; $i++) {
             $plot = $plot . ' &numsp;';
         }
         return $plot;
     }
-   
 }

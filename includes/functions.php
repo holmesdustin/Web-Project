@@ -3,7 +3,7 @@
 /**
  * Get reCAPTCHA API KEY
  */
-function recaptcha_api_key() 
+function recaptcha_api_key()
 {
     echo config('reCAPTCHA_api_key');
 }
