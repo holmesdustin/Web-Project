@@ -1133,17 +1133,17 @@ body.is-loading #banner>.inner {
 }
 
 #spiderFont {
-	font-family: spider;
-	color: #ffb846;
-	-moz-transition: color 1s ease-out;
-	-webkit-transition: color 1s ease-out;
-	-ms-transition: color 1s ease-out;
-	transition: color 1s ease-out;
-	vertical-align: text-top;
+	-moz-transition: color 1s ease-out, text-align-last 1s ease-out, font-family 1s ease-out;
+	-webkit-transition: color 1s ease-out, text-align-last 1s ease-out, font-family 1s ease-out;
+	-ms-transition: color 1s ease-out, text-align-last 1s ease-out, font-family 1s ease-out;
+	transition: color 1s ease-out, text-align-last 1s ease-out, font-family 1s ease-out;
+	vertical-align: color 1s ease-out, text-align-last 1s ease-out, font-family 1s ease-out;
 }
 
 #spiderFont:hover {
 	color: rgb(255, 117, 24);
+	text-align-last: justify;
+	font-family: spider;
 }
 
 #about-us-heading-1,
