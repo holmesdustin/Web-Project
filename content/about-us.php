@@ -13,8 +13,8 @@
         </header>
         <h2 id="about-us-heading-1" class="text-center">Our Goal</h2>
         <p class="about-us-description"> Team Gao has one simple goal: to create the best movie searching experience.
-            We truly believe that a good website should be fully accessible to all users no matter if they have visual impairments or use out-of-date devices. 
-            That faith leads us to carefully polish each styling detail and maximally optimize the website run-time performance. 
+            We truly believe that a good website should be fully accessible to all users no matter if they have visual impairments or use out-of-date devices.
+            That faith leads us to carefully polish each styling detail and maximally optimize the website run-time performance.
             Our team have been monitoring the website JavaScript performance, removing thousands lines of unused CSS code, as well as massively compress the size of images to make it much more responsive and user-friendly.
             We have been working dilligently to deliver the best experience to our users, and
             we highly encourage you to leave any feedback you may have so that we can continue to better our service.</p>
@@ -90,10 +90,10 @@
                     <div class="card-body">
                         <h4 class="card-title" style="color:white">Dustin Holmes</h4>
                         <p class="card-text">Team Leader and Project Organizer<br /><br />&copy;Team Gao 2019</p>
-                        <a href="#" class="icon fa-twitter fa-2x"><span class="label">Twitter</span></a> &nbsp; &nbsp;
-                        <a href="#" class="icon fa-facebook fa-2x"><span class="label">Facebook</span></a> &nbsp; &nbsp;
+                        <a href="https://twitter.com/realDonaldTrump?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" class="icon fa-twitter fa-2x"><span class="label">Twitter</span></a> &nbsp; &nbsp;
+                        <a href="https://www.facebook.com/dustin.holmes.75" class="icon fa-facebook fa-2x"><span class="label">Facebook</span></a> &nbsp; &nbsp;
                         <a href="https://www.instagram.com/dustin_holmes97/" class="icon fa-instagram fa-2x"><span class="label">Instagram</span></a> &nbsp; &nbsp;
-                        <a href="#" class="icon fa-github fa-2x"><span class="label">Github</span></a> &nbsp; &nbsp;
+                        <a href="https://github.com/holmesdustin" class="icon fa-github fa-2x"><span class="label">Github</span></a> &nbsp; &nbsp;
                     </div>
                 </div>
                 <br />
