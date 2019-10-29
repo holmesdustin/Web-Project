@@ -1168,11 +1168,14 @@ h3.about-us-member {
 	background-image: url("../images/halloweenBG.jpg");
 	background-size: contain;
 	background-repeat: repeat;
-	filter: opacity(0.8);
+	filter: brightness(0.1) grayscale(1);
 	position: fixed;
 	z-index: -1;
 }
 
+.trendingTitle {
+	color: #ffb846!important;
+}
 .back-to-top {
 	cursor: pointer;
 	color: rgba(0, 255, 208, 0.541);
