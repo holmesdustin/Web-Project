@@ -44,7 +44,7 @@
             I will graduate in 2020 and plan to work anywhere with good pay!</p>
 
         <h3 class="about-us-member">😍 Johnathan Stadtmueller</h3>
-        <p class="about-us-description"> My name is Johnathan, and I wants to teach English in China 🇨🇳 or Japan 🇯🇵 when I graudate.
+        <p class="about-us-description"> My name is Johnathan, and I want to teach English in China 🇨🇳 or Japan 🇯🇵 when I graudate.
             Don't let Dustin fool you, I taught him every vape trick he knows! I am slated to graduate in 2020.</p>
 
         <br />
