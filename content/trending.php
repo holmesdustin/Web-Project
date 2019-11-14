@@ -342,7 +342,7 @@
     </div>
 
     <!-- Trending Video-->
-    <div class="row container-fluid relative justify-content-center">
+    <div class="row container-fluid relative justify-content-center"> 
         <div class="col-xs-12 col-sm-12 col-lg-12">
             <h2 class="junbotron text-center trendingTitle" style="background-color: transparent;">Coming Soon Trending Movie:<br /><i>The Death of Geese</i></h2>
             <h4 class="junbotron text-center trendingTitle" style="background-color: transparent;">Director: Dustin Holmes</h4>
