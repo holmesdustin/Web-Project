@@ -1,7 +1,7 @@
 <div id="trendingBG"></div>
 <section id="banner">
     <div class="inner">
-        <h1 id="spiderFont"><i class="fas fa-ghost"></i>&nbsp;TRENDING&nbsp;<i class="fas fa-spider"></i></h1>
+        <h1 id="spiderFont"><i class="fas fa-candy-cane"></i>&nbsp;TRENDING&nbsp;<i class="fas fa-gift"></i></h1>
     </div>
 </section>
 
@@ -11,7 +11,7 @@
             <br />
             <hr class="my-4" />
             <br />
-            <h2 class="junbotron text-center trendingTitle" style="background-color: transparent;">Fun Facts About Halloween</h2>
+            <h2 class="junbotron text-center trendingTitle" style="background-color: transparent;">Fun Facts About Christmas</h2>
         </div>
         <div class="col-xs-12 col-sm-12 col-lg-9">
             <div class="bd-example">
