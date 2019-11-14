@@ -23,21 +23,21 @@
                     </ol>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="/template/assets/images/carouse_bg1.jpg" class="d-block w-100" style="border-radius: 20px;" alt="..." />
+                            <img src="/template/assets/images/carouse_bg1.jpg" class="d-block w-100" style="border-radius: 20px;opacity:.5;" alt="..." />
                             <div class="carousel-caption d-none d-md-block">
                                 <h3 class="junbotron" style="color: white;">Today's Halloween is a cultural mashup.</h3>
                                 <p>The Halloween holiday we've all come to know and love is a combination of several different celebrations from different cultures and religions at different times in history. The ancient Celtic people celebrated Samhain, marking the end of harvest season and a time when the boundary between the worlds of the living and the dead became blurred and ghosts visited the earth. After the Roman Empire conquered the Celtic peoples, their festivals of Feralia, a day in late October when the Romans honored the passing of the dead, and a day to honor Pomona, the Roman goddess of fruit and trees, were combined with Samhain.</p>
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <img src="/template/assets/images/carouse_bg2.jpg" class="d-block w-100" style="border-radius: 20px;" alt="..." />
+                            <img src="/template/assets/images/carouse_bg2.jpg" class="d-block w-100" style="border-radius: 20px;opacity:.5" alt="..." />
                             <div class="carousel-caption d-none d-md-block">
                                 <h3 class="junbotron" style="color: white;">Dressing up in costumes was once a way to hide from ghosts.</h3>
                                 <p>The tradition originated as a way for the Celtic and other European people to hide from the spirits who returned at this time of year. People wore masks when they left their homes after dark so the ghosts would think they were fellow spirits. To keep the ghosts out of their houses, people would place bowls of food outside to make them happy.</p>
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <img src="/template/assets/images/carouse_bg3.jpg" class="d-block w-100" style="border-radius: 20px;" alt="..." />
+                            <img src="/template/assets/images/carouse_bg3.jpg" class="d-block w-100" style="border-radius: 20px;opacity:.5" alt="..." />
                             <div class="carousel-caption d-none d-md-block">
                                 <h3 class="junbotron" style="color: white;">Jack-o-lanterns were originally carved into turnips.</h3>
                                 <p>In a traditional Celtic story, a man named Jack tricked the Devil, so after Jack died the Devil made him roam the night with only a burning coal to light his way. Jack put the piece of coal in a carved-out turnip, a common vegetable there, and became known as Jack of the Lantern. Irish and Scottish people would carve their own versions of Jack's lantern with scary faces and place them near windows or doors to frighten away Jack or other evil spirits. When immigrants brought the tradition to America, the native pumpkin was more available than turnips, and today's jack-o-lanterns were born.</p>
