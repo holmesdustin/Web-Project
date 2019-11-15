@@ -1142,7 +1142,7 @@ body.is-loading #banner>.inner {
 }
 
 #spiderFont:hover {
-	color: #c54245;
+	color: #EA4630;
 	-webkit-transform: scale(1.3) rotateZ(-20deg);
 	transform: scale(1.3) rotateZ(-20deg);
 }
@@ -1167,7 +1167,7 @@ h3.about-us-member {
 #trendingBG {
 	width: 100%;
 	height: 100%;
-	background-image: url("../images/halloweenBG.jpg");
+	background-image: url("../images/christmasBG.jpg");
 	background-size: contain;
 	background-repeat: repeat;
 	position: fixed;
@@ -1175,7 +1175,7 @@ h3.about-us-member {
 }
 
 .trendingTitle {
-	color: #c54245 !important;
+	color: #BB2528 !important;
 }
 
 .back-to-top {

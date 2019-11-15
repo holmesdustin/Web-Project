@@ -1,7 +1,7 @@
 <div id="trendingBG"></div>
 <section id="banner">
     <div class="inner">
-        <h1 id="spiderFont"><i class="fas fa-candy-cane"></i>&nbsp;TRENDING&nbsp;<i class="fas fa-gift"></i></h1>
+        <h1 id="spiderFont"><i class="fas fa-candy-cane"></i>&nbsp;Trending&nbsp;<i class="fas fa-gift"></i></h1>
     </div>
 </section>
 
@@ -67,7 +67,10 @@
             <h2 class="junbotron text-center trendingTitle" style="background-color: transparent;">Trending Christmas Movies</h2>
         </div>
         
-        <div id="result_showed" class="container-fluid relative row" style="display: flex; background-color: white;"><div class="col-xs-12 col-sm-6 col-lg-4 col-xl-3"><div class="card shadow text-center" style="border-radius: 20px; height: 90%; background-color: white; color: rgb(68, 68, 68);"><img class="card-img-top img-fluid" style="height: 60%; border-radius: 20px 20px 0px 0px;" src="https://m.media-amazon.com/images/M/MV5BNWE4OTNiM2ItMjY4Ni00ZTViLWFiZmEtZGEyNGY2ZmNlMzIyXkEyXkFqcGdeQXVyMDU5NDcxNw@@._V1_SX300.jpg" alt="Poster of Movie"><div class="card-body" style="height: 40%;"><h5 class="card-title my-0" style="height: 15%; color: rgb(85, 85, 85);">The Nightmare Before Christmas - 1993</h5><p class="card-text my-0" style="height: 65%; text-align: justify;">Jack Skellington, king of Halloween Town, discovers Christmas Town, but his attempts to bring Christmas to his home causes confusion.                                                            </p><div style="height: 20%;"><button type="button" class="btn btn-dark btn-lg" data-toggle="modal" data-target="#modalForIDtt0107688">Read More</button><div class="modal fade" id="modalForIDtt0107688" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div id="result_showed" class="container-fluid relative row" style="display: flex;">
+        <div class="col-xs-12 col-sm-6 col-lg-4 col-xl-3">
+            <div class="card shadow text-center" style="border-radius: 20px; height: 90%; background-color: white; color: rgb(68, 68, 68);">
+                <img class="card-img-top img-fluid" style="height: 60%; border-radius: 20px 20px 0px 0px;" src="https://m.media-amazon.com/images/M/MV5BNWE4OTNiM2ItMjY4Ni00ZTViLWFiZmEtZGEyNGY2ZmNlMzIyXkEyXkFqcGdeQXVyMDU5NDcxNw@@._V1_SX300.jpg" alt="Poster of Movie"><div class="card-body" style="height: 40%;"><h5 class="card-title my-0" style="height: 15%; color: rgb(85, 85, 85);">The Nightmare Before Christmas - 1993</h5><p class="card-text my-0" style="height: 65%; text-align: justify;">Jack Skellington, king of Halloween Town, discovers Christmas Town, but his attempts to bring Christmas to his home causes confusion.                                                            </p><div style="height: 20%;"><button type="button" class="btn btn-dark btn-lg" data-toggle="modal" data-target="#modalForIDtt0107688">Read More</button><div class="modal fade" id="modalForIDtt0107688" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
       <div class="modal-content" style="background-color: white; color: rgb(68, 68, 68);">
         <div class="modal-header">
@@ -283,81 +286,11 @@
         </div>
       </div>
     </div>
-  </div></div></div></div><div style="height: 10%;"><br><hr class="my-4"><br></div></div><div class="col-xs-12 col-sm-6 col-lg-4 col-xl-3"><div class="card shadow text-center" style="border-radius: 20px; height: 90%; background-color: white; color: rgb(68, 68, 68);"><img class="card-img-top img-fluid" style="height: 60%; border-radius: 20px 20px 0px 0px;" src="https://m.media-amazon.com/images/M/MV5BN2Y0NWRkNWItZWEwNi00MDNlLWJmZDYtNTkwYzI5Nzg4MjVjXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg" alt="Poster of Movie"><div class="card-body" style="height: 40%;"><h5 class="card-title my-0" style="height: 15%; color: rgb(85, 85, 85);">The Muppet Christmas Carol - 1992</h5><p class="card-text my-0" style="height: 65%; text-align: justify;">The Muppet characters tell their version of the classic tale of an old and bitter miser's redemption on Christmas Eve.                                                                                          </p><div style="height: 20%;"><button type="button" class="btn btn-dark btn-lg" data-toggle="modal" data-target="#modalForIDtt0104940">Read More</button><div class="modal fade" id="modalForIDtt0104940" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-      <div class="modal-content" style="background-color: white; color: rgb(68, 68, 68);">
-        <div class="modal-header">
-          <h5 class="modal-title text-center">The Muppet Christmas Carol</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">×</span>
-          </button>
-        </div>
-        <div class="modal-body">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-12 text-left mb-2"><b>Released: &nbsp;</b>11 Dec 1992</div>
-                    <div class="col-12 text-left mb-2"><b>Rated: &nbsp;</b>G</div>
-                    <div class="col-12 text-left mb-2"><b>Genre: &nbsp;</b>Comedy, Drama, Family, Fantasy, Musical</div>
-                    <div class="col-12 text-left mb-2"><b>Director: &nbsp;</b>Brian Henson</div>
-                    <div class="col-12 text-left mb-2"><b>Actors: &nbsp;</b>Michael Caine, Dave Goelz, Steve Whitmire, Jerry Nelson</div>
-                    <div class="col-12 text-left mb-2"><b>Country: &nbsp;</b>USA, UK</div>
-                    <div class="col-12 text-left mb-2"><b>Plot: &nbsp;</b>The Muppet characters tell their version of the classic tale of an old and bitter miser's redemption on Christmas Eve.</div>
-                </div>
-            </div>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        </div>
-      </div>
-    </div>
-  </div></div></div></div><div style="height: 10%;"><br><hr class="my-4"><br></div></div><div class="col-xs-12 col-sm-6 col-lg-4 col-xl-3"><div class="card shadow text-center" style="border-radius: 20px; height: 90%; background-color: white; color: rgb(68, 68, 68);"><img class="card-img-top img-fluid" style="height: 60%; border-radius: 20px 20px 0px 0px;" src="https://m.media-amazon.com/images/M/MV5BNzBiMjVlYmYtYmE3NS00MGExLTg4MjUtYmY2Y2U0MWQ0MzQ3XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_SX300.jpg" alt="Poster of Movie"><div class="card-body" style="height: 40%;"><h5 class="card-title my-0" style="height: 15%; color: rgb(85, 85, 85);">How the Grinch Stole Christmas! - 1966</h5><p class="card-text my-0" style="height: 65%; text-align: justify;">A grumpy hermit hatches a plan to steal Christmas from the Whos of Whoville.                                                                                                                                                                              </p><div style="height: 20%;"><button type="button" class="btn btn-dark btn-lg" data-toggle="modal" data-target="#modalForIDtt0060345">Read More</button><div class="modal fade" id="modalForIDtt0060345" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-      <div class="modal-content" style="background-color: white; color: rgb(68, 68, 68);">
-        <div class="modal-header">
-          <h5 class="modal-title text-center">How the Grinch Stole Christmas!</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">×</span>
-          </button>
-        </div>
-        <div class="modal-body">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-12 text-left mb-2"><b>Released: &nbsp;</b>18 Dec 1966</div>
-                    <div class="col-12 text-left mb-2"><b>Rated: &nbsp;</b>Not Rated</div>
-                    <div class="col-12 text-left mb-2"><b>Genre: &nbsp;</b>Animation, Short, Family, Fantasy</div>
-                    <div class="col-12 text-left mb-2"><b>Director: &nbsp;</b>Chuck Jones, Ben Washam(co-director)</div>
-                    <div class="col-12 text-left mb-2"><b>Actors: &nbsp;</b>Boris Karloff</div>
-                    <div class="col-12 text-left mb-2"><b>Country: &nbsp;</b>USA</div>
-                    <div class="col-12 text-left mb-2"><b>Plot: &nbsp;</b>A grumpy hermit hatches a plan to steal Christmas from the Whos of Whoville.</div>
-                </div>
-            </div>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        </div>
-      </div>
-    </div>
-  </div></div></div></div><div style="height: 10%;"><br><hr class="my-4"><br></div></div><div class="col-xs-12 col-sm-12 col-lg-12"><p class="text-center" style="color: #888;">You've reached the end of results.</p><br></div></div>
+  </div></div></div></div><div style="height: 10%;"><br><hr class="my-4"><br></div></div>
+ </div>
 
     </div>
 
-    <!-- Trending Video-->
-    <div class="row container-fluid relative justify-content-center"> 
-        <div class="col-xs-12 col-sm-12 col-lg-12">
-            <h2 class="junbotron text-center trendingTitle" style="background-color: transparent;">Coming Soon Trending Movie:<br /><i>The Death of Geese</i></h2>
-            <h4 class="junbotron text-center trendingTitle" style="background-color: transparent;">Director: Dustin Holmes</h4>
-        </div>
-        <div class="col-xs-12 col-sm-12 col-lg-8">
-            <div id="videoFrame" class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/y0IouxoVcCk" allowfullscreen></iframe>
-
-            </div>
-            <br />
-            <hr class="my-4" />
-            <br />
-        </div>
-
-    </div>
 </div>
 
 <div id="pumpkinFrame">
