@@ -1139,6 +1139,7 @@ body.is-loading #banner>.inner {
 	font-family: candy;
 	-webkit-transition: color 1s ease-out;
 	transition: all 1s ease-out;
+    font-weight: 100;
 }
 
 #spiderFont:hover {
