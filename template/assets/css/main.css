@@ -1131,8 +1131,8 @@ body.is-loading #banner>.inner {
 }
 
 @font-face {
-	src: url("../fonts/spider-man-font.ttf");
-	font-family: spider;
+	src: url("../fonts/candy.ttf");
+	font-family: candy;
 }
 
 #spiderFont {
@@ -1142,6 +1142,7 @@ body.is-loading #banner>.inner {
 }
 
 #spiderFont:hover {
+    font-family: candy;
 	color: #EA4630;
 	-webkit-transform: scale(1.3) rotateZ(-20deg);
 	transform: scale(1.3) rotateZ(-20deg);
@@ -1175,7 +1176,7 @@ h3.about-us-member {
 }
 
 .trendingTitle {
-	color: #BB2528 !important;
+	color: #EA4630 !important;
 }
 
 .back-to-top {
