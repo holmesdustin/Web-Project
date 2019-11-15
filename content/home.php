@@ -1,7 +1,10 @@
 <section id="banner">
 	<div class="inner">
 		<h1>Team Gao Movie Search Engine<br />
-			Powered by OMDb</h1>
+			<a href="" class="typewrite" data-period="2000" data-type='[ "Redefine the Style.", "Find Best Movies.", "Check Accurate Weather.", "Best Team Work." ]'>
+                <span class="wrap"></span>
+            </a>
+        </h1>
 
 		<div class="input-group md-form form-sm form-2 pl-0">
 			<input class="form-control" style="font-size:unset; border-right-color: transparent;" id="inputKey" type="text" placeholder="Search Movies by Title, Keyword..." aria-label="Search" />
@@ -185,3 +188,4 @@
 		}
 	});
 </script>
+<script src="template/assets/js/typewriter.js"></script>
