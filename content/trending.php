@@ -1,7 +1,7 @@
 <div id="trendingBG"></div>
 <section id="banner">
     <div class="inner">
-        <h1 id="spiderFont"><i class="fas fa-candy-cane"></i>&nbsp;Trending&nbsp;<i class="fas fa-gift"></i></h1>
+        <h1 id="spiderFont"><i class="fas fa-candy-cane"></i>&nbsp;TRENDING&nbsp;<i class="fas fa-gift"></i></h1>
     </div>
 </section>
 
