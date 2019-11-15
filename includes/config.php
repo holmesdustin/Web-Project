@@ -20,7 +20,7 @@ function config($key = '')
         ],
         'template_path' => 'template',
         'content_path' => 'content',
-        'version' => 'October 29th, 2019',
+        'version' => 'November 19th, 2019',
         'omdb_api_key' => '2b352ccb',
         'reCAPTCHA_api_key' => '6LfcwL4UAAAAAI9nT6jzJ_iWIoJVboMJdJtHQQhF',
         'phpMailerConfig' => [
