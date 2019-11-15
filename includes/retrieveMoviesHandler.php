@@ -87,7 +87,7 @@ function getDetailsByID($id)
     echo '<h5 class="card-title my-0" style="height: 15%;">' . $response["Title"] . ' - ' . $response["Year"] . '</h5>';
     $plot = $response["Plot"];
 
-    echo '<p class="card-text my-0" style= "height: 65%; text-align: justify;">' . formatPlot($plot) . '</p>';
+    echo '<p class="card-text my-0" style= "height: 65%;">' . formatPlot($plot) . '</p>';
     echoDetailModal($response);
     echo '</div>';
 }
