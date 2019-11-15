@@ -1234,7 +1234,7 @@ h3.about-us-member {
 	animation-iteration-count: infinite;
 }
 
-.typewrite { color:#fff; text-decoration: none;}
+a.typewrite { color:#fff; text-decoration: none;}
 
 @keyframes shake {
 	0% {
