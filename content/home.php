@@ -2,7 +2,7 @@
 	<div class="inner">
 		<h1 style="margin-bottom: 0;">Team Gao Movie Search Engine </h1>
         <h1>
-			<a href="" class="typewrite" data-period="2000" data-type='[ "Redefine the Best", "Find Favorite Movies", "Check Accurate Weather", "Best Team Work" ]'>
+			<a href="" class="typewrite" data-period="2000" data-type='[ "Redefine the Best", "Find Favorite Movies", "Check the Weather", "Amazing Team Work" ]'>
                 <span class="wrap"></span>
             </a>
         </h1>
