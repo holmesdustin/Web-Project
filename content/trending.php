@@ -11,7 +11,7 @@
             <br />
             <hr class="my-4" />
             <br />
-            <h2 class="junbotron text-center trendingTitle" style="background-color: transparent;">Fun Facts About Christmas</h2>
+            <h2 class="junbotron text-center trendingTitle" style="background-color: transparent;">0 Fun Facts About Christmas</h2>
         </div>
         <div class="col-xs-12 col-sm-12 col-lg-9">
             <div class="bd-example">
@@ -64,7 +64,7 @@
             <br />
             <hr class="my-4" />
             <br />
-            <h2 class="junbotron text-center trendingTitle" style="background-color: transparent;">Trending Christmas Movies</h2>
+            <h2 class="junbotron text-center trendingTitle" style="background-color: transparent;">1 Trending Christmas Movies</h2>
         </div>
         
         <div id="result_showed" class="container-fluid relative row" style="display: flex;">

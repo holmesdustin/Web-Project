@@ -1135,6 +1135,12 @@ body.is-loading #banner>.inner {
 	font-family: candy;
 }
 
+@font-face {
+	src: url("../fonts/MerryChristmasFlake.ttf");
+	font-family: merry-christmas;
+}
+
+
 #spiderFont {
 	font-family: candy;
 	-webkit-transition: color 1s ease-out;
@@ -1177,6 +1183,7 @@ h3.about-us-member {
 
 .trendingTitle {
 	color: #EA4630 !important;
+    font-family: merry-christmas;
 }
 
 .back-to-top {
