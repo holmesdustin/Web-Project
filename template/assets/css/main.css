@@ -1184,6 +1184,16 @@ h3.about-us-member {
 .trendingTitle {
 	color: #EA4630 !important;
     font-family: merry-christmas;
+    font-weight: 100;
+    font-size: 4em;
+}
+
+@media screen and (max-width: 600px) {
+
+	.trendingTitle {
+		font-size: 2em;
+	}
+
 }
 
 .back-to-top {
