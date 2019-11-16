@@ -33,7 +33,7 @@
             I should be graduating in May 2020, and I am hoping to begin my career after college doing Web Development in Colorado.
             My biggest interests aside from technology are playing guitar, singing, writing songs, hiking, camping, landscape photography, and travelling.</p>
 
-        <h3 class="about-us-member">😁 Yujing Gao</h3>
+        <h3 class="about-us-member">😁 Yujing Gao (高宇靖)</h3>
         <p class="about-us-description"> My name is Yujing. I am currently a senior studying Computer Science - Applied Computing at Columbus State University.
             I am planning to graduate in May 2020 as well. After that, I will be looking for a job at either Aflac or TSYS.
             In my spare time, I love to go to the gym with some of my friends. And I also love watching YouTube videos and listening to music in my free time.
@@ -43,7 +43,7 @@
         <p class="about-us-description"> I am Dustin. I love hunting geese 🦆. I play drums. I'm a vape God! and I taught Gao all he knows.
             I will graduate in 2020 and plan to work anywhere with good pay!</p>
 
-        <h3 class="about-us-member">😍 Johnathan Stadtmueller</h3>
+        <h3 class="about-us-member">😍 Johnathan Stadtmueller (施懿轩)</h3>
         <p class="about-us-description"> My name is Johnathan, and I want to teach English in China 🇨🇳 or Japan 🇯🇵 when I graudate.
             Don't let Dustin fool you, I taught him every vape trick he knows! I am slated to graduate in 2020.</p>
 
