@@ -1243,6 +1243,14 @@ a.typewrite {
     text-decoration: none;
 }
 
+.carousel{
+    background: linear-gradient(#ffcccc, #ff6b6b);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 130%;
+}
+
 @keyframes shake {
 	0% {
 		transform: translate(1px, 1px) rotate(0deg);

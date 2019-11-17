@@ -25,22 +25,22 @@
                         <div class="carousel-item active">
                             <img src="/template/assets/images/carouse_bg1.jpg" class="d-block w-100" style="border-radius: 20px;" alt="..." />
                             <div class="carousel-caption d-none d-md-block">
-                                <h3 class="junbotron" style="color: white; font-size: 35px;">December 25 was originally a pagan celebration</h3>
-                                <p style="color: white; font-size: 130%;">Nobody knows when Jesus of Nazareth was born and nobody celebrated his birthday for hundreds of years. December 25 was co-opted from pagan rites connected with the winter solstice.</p>
+                                <h3 class="junbotron carousel">December 25 was originally a pagan celebration</h3>
+                                <p class="carousel">Nobody knows when Jesus of Nazareth was born and nobody celebrated his birthday for hundreds of years. December 25 was co-opted from pagan rites connected with the winter solstice.</p>
                             </div>
                         </div>
                         <div class="carousel-item">
                             <img src="/template/assets/images/carouse_bg2.jpg" class="d-block w-100" style="border-radius: 20px;" alt="..." />
                             <div class="carousel-caption d-none d-md-block">
-                                <h3 class="junbotron" style="color: white; font-size: 35px;">The nativity story resulted in several wars</h3>
-                                <p style="color: white; font-size: 130%;">In the first few centuries of the Christian era, controversy over whether or not Jesus was divine at birth created political and social unrest that frequently burst out into full-scale warfare.</p>
+                                <h3 class="junbotron carousel" style="color: white; font-size: 35px;">The nativity story resulted in several wars</h3>
+                                <p class="carousel">In the first few centuries of the Christian era, controversy over whether or not Jesus was divine at birth created political and social unrest that frequently burst out into full-scale warfare.</p>
                             </div>
                         </div>
                         <div class="carousel-item">
                             <img src="/template/assets/images/carouse_bg3.jpg" class="d-block w-100" style="border-radius: 20px;" alt="..." />
                             <div class="carousel-caption d-none d-md-block">
-                                <h3 class="junbotron" style="color: white; font-size: 35px;">The Christmas Tree is a manufactured tradition</h3>
-                                <p style="color: white; font-size: 130%;">Victorian intellectuals (like Clement Moore) invented the tradition as part of a social movement to consciously reform Christmas away from its tradition of raucous drinking.</p>
+                                <h3 class="junbotron carousel" style="color: white; font-size: 35px;">The Christmas Tree is a manufactured tradition</h3>
+                                <p class="carousel">Victorian intellectuals (like Clement Moore) invented the tradition as part of a social movement to consciously reform Christmas away from its tradition of raucous drinking.</p>
                             </div>
                         </div>
                     </div>
