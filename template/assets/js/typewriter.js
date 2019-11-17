@@ -51,6 +51,6 @@ var TxtType = function(el, toRotate, period) {
         // INJECT CSS
         var css = document.createElement("style");
         css.type = "text/css";
-        css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid linear-gradient(#c2e59c, #64b3f4)}";
+        css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #64b3f4}";
         document.body.appendChild(css);
     };
