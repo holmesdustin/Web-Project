@@ -1244,7 +1244,7 @@ a.typewrite {
 }
 
 .carousel{
-    background: linear-gradient(#ffcccc, #ff6b6b);
+    background: linear-gradient(#c6ffdd, #fbd786, #f7797d);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
