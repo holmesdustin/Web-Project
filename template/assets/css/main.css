@@ -1235,7 +1235,10 @@ h3.about-us-member {
 }
 
 a.typewrite { 
-    color:#ffffd4; 
+    background: linear-gradient(#c2e59c, #64b3f4);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-style: italic;
     text-decoration: none;
 }
