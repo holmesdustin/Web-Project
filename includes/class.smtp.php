@@ -157,7 +157,7 @@ class SMTP
     protected $smtp_transaction_id_patterns = array(
         'exim' => '/[0-9]{3} OK id=(.*)/',
         'sendmail' => '/[0-9]{3} 2.0.0 (.*) Message/',
-        'postfix' => '/[0-9]{3} 2.0.0 Ok: queued as (.*)/'
+        'postfix' => '/[0-9]{3} 2.0.0 Ok: queued as (.*)/',
     );
 
     /**
@@ -180,7 +180,7 @@ class SMTP
         'error' => '',
         'detail' => '',
         'smtp_code' => '',
-        'smtp_code_ex' => ''
+        'smtp_code_ex' => '',
     );
 
     /**
@@ -733,7 +733,7 @@ class SMTP
     public function hello($host = '')
     {
         //Try extended hello first (RFC 2821)
-        return (boolean)($this->sendHello('EHLO', $host) or $this->sendHello('HELO', $host));
+        return (boolean) ($this->sendHello('EHLO', $host) or $this->sendHello('HELO', $host));
     }
 
     /**
@@ -912,7 +912,7 @@ class SMTP
 
         $this->edebug('SERVER -> CLIENT: ' . $this->last_reply, self::DEBUG_SERVER);
 
-        if (!in_array($code, (array)$expect)) {
+        if (!in_array($code, (array) $expect)) {
             $this->setError(
                 "$command command failed",
                 $detail,
@@ -1157,7 +1157,7 @@ class SMTP
             'error' => $message,
             'detail' => $detail,
             'smtp_code' => $smtp_code,
-            'smtp_code_ex' => $smtp_code_ex
+            'smtp_code_ex' => $smtp_code_ex,
         );
     }
 

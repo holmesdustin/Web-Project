@@ -1,6 +1,6 @@
 <section id="banner">
     <div class="inner">
-        <h1 style="margin-bottom: 0;">Team Gao Movie Search Engine </h1>
+        <h1 style="margin-bottom: 0;">Team Gao Movie Search Engine</h1>
         <h1>
             <a href="" class="typewrite" data-period="2000"
                 data-type='[ "Aesthetic UI Design", "Innovative Algorithm", "Advanced Movie Search", "It Tells Weather", "Find Trending Movies", "Best Team Work :)"]'>

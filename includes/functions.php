@@ -16,7 +16,6 @@ function site_name()
     echo config('name');
 }
 
-
 /**
  * Displays site url provided in conig.
  */

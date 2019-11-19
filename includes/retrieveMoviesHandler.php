@@ -2,7 +2,8 @@
 
 if (isset($_POST["search"])) {
     searchByKeyword($_POST["search"]);
-};
+}
+;
 
 /**
  * This Function is used to get search result from a specific URL
@@ -10,7 +11,7 @@ if (isset($_POST["search"])) {
 function searchByKeyword($keyword)
 {
     $originalKeyword = $keyword;
-    require('config.php');
+    require 'config.php';
     $keyword = parseKeyword($keyword);
     $url = "http://www.omdbapi.com/?apikey=" . config('omdb_api_key') . "&s=" . $keyword;
     $handle = curl_init();
@@ -19,7 +20,7 @@ function searchByKeyword($keyword)
         $handle,
         array(
             CURLOPT_URL => $url,
-            CURLOPT_RETURNTRANSFER => true
+            CURLOPT_RETURNTRANSFER => true,
         )
     );
     $output = curl_exec($handle);
@@ -67,7 +68,7 @@ function parseKeyword($keyword)
 
 /*
  * This function is used for more detail about the movie by searching its imdbID
-*/
+ */
 function getDetailsByID($id)
 {
     $url = "http://www.omdbapi.com/?apikey=" . config('omdb_api_key') . "&i=" . $id;
@@ -77,7 +78,7 @@ function getDetailsByID($id)
         $handle,
         array(
             CURLOPT_URL => $url,
-            CURLOPT_RETURNTRANSFER => true
+            CURLOPT_RETURNTRANSFER => true,
         )
     );
     $output = curl_exec($handle);
@@ -93,7 +94,7 @@ function getDetailsByID($id)
 }
 
 /**
- * This function is used for echoing the detail modal 
+ * This function is used for echoing the detail modal
  *
  * @return void
  */
