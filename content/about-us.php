@@ -35,9 +35,9 @@
 
         <h3 class="about-us-member">😀 Caleb Corbin</h3>
         <p class="about-us-description">What's up everyone? My name is Caleb, and I should be 
-            graduating in May 2020, and I am hoping to further my career in Web Development
-            after graduation. My biggest interests aside from technology are playing guitar, 
-            singing, writing songs, hiking, camping, landscape photography, and travelling.</p>
+            graduating in May 2020.After graduation, I am hoping to further my career in Web Development. 
+            My biggest interests aside from technology are playing guitar, singing, writing songs, hiking, 
+            and travelling.</p>
 
         <h3 class="about-us-member">😁 Yujing Gao (高宇靖)</h3>
         <p class="about-us-description"> My name is Yujing. I am currently a senior studying Computer Science - Applied
