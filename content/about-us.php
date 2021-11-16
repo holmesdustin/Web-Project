@@ -34,13 +34,10 @@
 
 
         <h3 class="about-us-member">😀 Caleb Corbin</h3>
-        <p class="about-us-description">What's up guys? My name is Caleb, and I am a senior in the Games Programming
-            track here at Columbus State University.
-            I am also working on the Web Development certificate, hence why I am in this class.
-            I should be graduating in May 2020, and I am hoping to begin my career after college doing Web Development
-            in Colorado.
-            My biggest interests aside from technology are playing guitar, singing, writing songs, hiking, camping,
-            landscape photography, and travelling.</p>
+        <p class="about-us-description">What's up everyone? My name is Caleb, and I should be 
+            graduating in May 2020, and I am hoping to further my career in Web Development
+            after graduation. My biggest interests aside from technology are playing guitar, 
+            singing, writing songs, hiking, camping, landscape photography, and travelling.</p>
 
         <h3 class="about-us-member">😁 Yujing Gao (高宇靖)</h3>
         <p class="about-us-description"> My name is Yujing. I am currently a senior studying Computer Science - Applied
@@ -52,14 +49,14 @@
         </p>
 
         <h3 class="about-us-member">😆 Dustin Holmes</h3>
-        <p class="about-us-description"> I am Dustin. I love hunting geese 🦆. I play drums. I'm a vape God! and I
+        <p class="about-us-description"> I am Dustin. I love hunting geese 🦆. I play drums. I
             taught Gao all he knows.
             I will graduate in 2020 and plan to work anywhere with good pay!</p>
 
         <h3 class="about-us-member">😍 Johnathan Stadtmueller (施懿轩)</h3>
         <p class="about-us-description"> My name is Johnathan, and I want to teach English in China 🇨🇳 or Japan 🇯🇵
             when I graudate.
-            Don't let Dustin fool you, I taught him every vape trick he knows! I am slated to graduate in 2020.</p>
+            I am slated to graduate in 2020.</p>
 
         <br />
         <hr class="my-4" /><br />
@@ -73,12 +70,6 @@
                     <div class="card-body">
                         <h4 class="card-title" style="color:white">Caleb Corbin</h4>
                         <p class="card-text">Content Creator and Website Designer<br /><br />&copy;Team Gao 2019</p>
-                        <a href="https://twitter.com/dawgsfan97" class="icon fa-twitter fa-2x"><span
-                                class="label">Twitter</span></a>&nbsp; &nbsp;
-                        <a href="https://www.facebook.com/caleb.corbin.754" class="icon fa-facebook fa-2x"><span
-                                class="label">Facebook</span></a>&nbsp; &nbsp;
-                        <a href="https://www.instagram.com/corbin_caleb/" class="icon fa-instagram fa-2x"><span
-                                class="label">Instagram</span></a>&nbsp; &nbsp;
                         <a href="https://github.com/dawgsfan97" class="icon fa-github fa-2x"><span
                                 class="label">Github</span></a>&nbsp; &nbsp;
                     </div>
