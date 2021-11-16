@@ -18,12 +18,6 @@
                     <div class="card-body">
                         <h4 class="card-title">Caleb Corbin</h4>
                         <p class="card-text">Content Creator and Website Designer<br /><br />&copy;Team Gao 2019</p>
-                        <a href="https://twitter.com/dawgsfan97" class="icon fa-twitter fa-2x"><span
-                                class="label">Twitter</span></a>&nbsp; &nbsp;
-                        <a href="https://www.facebook.com/caleb.corbin.754" class="icon fa-facebook fa-2x"><span
-                                class="label">Facebook</span></a>&nbsp; &nbsp;
-                        <a href="https://www.instagram.com/corbin_caleb/" class="icon fa-instagram fa-2x"><span
-                                class="label">Instagram</span></a>&nbsp; &nbsp;
                         <a href="https://github.com/dawgsfan97" class="icon fa-github fa-2x"><span
                                 class="label">Github</span></a>&nbsp; &nbsp;
                     </div>
@@ -148,10 +142,6 @@
                 <br />
                 <hr class="my-4" />
                 <br />
-            </div>
-
-            <div class="col-xs-12 col-sm-12 col-lg-12 trump">
-                <img src="/template/assets/images/trump.png" width="25%" height="auto" style="margin-left: 15px;" />
             </div>
 
             <div class="col-xs-12 col-sm-12 col-lg-12">
